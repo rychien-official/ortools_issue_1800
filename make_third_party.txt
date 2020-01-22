@@ -1,0 +1,1971 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.4.3
+** Copyright (c) 2019 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community>cd c:\gitrepo\or-tools
+
+c:\GitRepo\or-tools>tools\make third_party
+Makefile:57: Makefile.local: No such file or directory
+del Makefile.local
+Could Not Find c:\GitRepo\or-tools\Makefile.local
+tools\win\mkdir.exe -p dependencies\\install
+tools\win\mkdir.exe -p dependencies\\install\\bin
+tools\win\mkdir.exe -p dependencies\\install\\lib
+tools\win\mkdir.exe -p dependencies\\install\\lib\\coin
+tools\win\mkdir.exe -p dependencies\\install\\include
+tools\win\mkdir.exe -p dependencies\\install\\include\\coin
+tools\win\wget.exe --quiet -P dependencies\\archives http://zlib.net/zlib1211.zip
+tools\win\unzip.exe -q -d dependencies\\sources dependencies\\archives\\zlib1211.zip
+tools\win\touch.exe dependencies\\sources\\zlib-1.2.11\\zlib.h
+copy dependencies\\sources\\zlib-1.2.11\\zlib.h dependencies\\install\\include\\zlib.h
+        1 file(s) copied.
+copy dependencies\\sources\\zlib-1.2.11\\zconf.h dependencies\\install\\include\\zconf.h
+        1 file(s) copied.
+cd dependencies\\sources\\zlib-1.2.11 && set MAKEFLAGS= && nmake -f win32\\Makefile.msc zlib.lib
+
+Microsoft (R) Program Maintenance Utility Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\adler32.c
+adler32.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\compress.c
+compress.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\crc32.c
+crc32.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\deflate.c
+deflate.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\gzclose.c
+gzclose.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\gzlib.c
+gzlib.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\gzread.c
+gzread.c
+.\gzread.c(319): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+.\gzread.c(400): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+.\gzread.c(472): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\gzwrite.c
+gzwrite.c
+.\gzwrite.c(212): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+.\gzwrite.c(232): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+.\gzwrite.c(371): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\infback.c
+infback.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\inflate.c
+inflate.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\inftrees.c
+inftrees.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\inffast.c
+inffast.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\trees.c
+trees.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\uncompr.c
+uncompr.c
+        cl -c -D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -nologo -MD -W3 -O2 -Oy- -Zi -Fd"zlib"  .\zutil.c
+zutil.c
+        lib -nologo -out:zlib.lib adler32.obj compress.obj crc32.obj deflate.obj gzclose.obj gzlib.obj gzread.obj  gzwrite.obj infback.obj inflate.obj inftrees.obj inffast.obj trees.obj uncompr.obj zutil.obj
+copy dependencies\\sources\\zlib-1.2.11\\zlib.lib dependencies\\install\\lib
+        1 file(s) copied.
+tools\win\wget.exe --quiet -P dependencies\archives --no-check-certificate https://github.com/gflags/gflags/archive/v2.2.2.zip
+cd dependencies/archives && rename v2.2.2.zip gflags-2.2.2.zip
+tools\win\unzip.exe -q -d dependencies/sources dependencies\archives\gflags-2.2.2.zip
+tools\win\touch.exe dependencies\sources\gflags-2.2.2\INSTALL.md
+cd dependencies\sources\gflags-2.2.2 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- The CXX compiler identification is MSVC 19.24.28315.0
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check size of __int32
+-- Check size of __int32 - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - not found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/gflags-2.2.2/build_cmake
+Scanning dependencies of target gflags_static
+[ 10%] Building CXX object CMakeFiles/gflags_static.dir/src/gflags.cc.obj
+gflags.cc
+[ 20%] Building CXX object CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.obj
+gflags_reporting.cc
+[ 30%] Building CXX object CMakeFiles/gflags_static.dir/src/gflags_completions.cc.obj
+gflags_completions.cc
+[ 40%] Building CXX object CMakeFiles/gflags_static.dir/src/windows_port.cc.obj
+windows_port.cc
+[ 50%] Linking CXX static library lib\gflags_static.lib
+[ 50%] Built target gflags_static
+Scanning dependencies of target gflags_nothreads_static
+[ 60%] Building CXX object CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.obj
+gflags.cc
+[ 70%] Building CXX object CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.obj
+gflags_reporting.cc
+[ 80%] Building CXX object CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.obj
+gflags_completions.cc
+[ 90%] Building CXX object CMakeFiles/gflags_nothreads_static.dir/src/windows_port.cc.obj
+windows_port.cc
+[100%] Linking CXX static library lib\gflags_nothreads_static.lib
+[100%] Built target gflags_nothreads_static
+[ 50%] Built target gflags_static
+[100%] Built target gflags_nothreads_static
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/gflags_static.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/gflags_nothreads_static.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_declare.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_completions.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_gflags.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-config.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-config-version.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-targets-release.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-nonamespace-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake
+-- Register:   Added HKEY_CURRENT_USER\Software\Kitware\CMake\Packages\gflags\1e73f50176d47481e8ac3cd72d0b58e8
+tools\win\wget.exe --quiet -P dependencies\archives --no-check-certificate https://github.com/google/glog/archive/v0.4.0.zip
+cd dependencies/archives && rename v0.4.0.zip glog-0.4.0.zip
+tools\win\unzip.exe -q -d dependencies/sources dependencies\archives\glog-0.4.0.zip
+tools\win\touch.exe dependencies\sources\glog-0.4.0\CMakeLists.txt
+cd dependencies\sources\glog-0.4.0 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_PREFIX_PATH=..\..\install \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- The C compiler identification is MSVC 19.24.28315.0
+-- The CXX compiler identification is MSVC 19.24.28315.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for gflags namespace
+-- Looking for gflags namespace - gflags
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - not found
+-- Looking for execinfo.h
+-- Looking for execinfo.h - not found
+-- Looking for glob.h
+-- Looking for glob.h - not found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for libunwind.h
+-- Looking for libunwind.h - not found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for pwd.h
+-- Looking for pwd.h - not found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for strings.h
+-- Looking for strings.h - not found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/syscall.h
+-- Looking for sys/syscall.h - not found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sys/utsname.h
+-- Looking for sys/utsname.h - not found
+-- Looking for syscall.h
+-- Looking for syscall.h - not found
+-- Looking for syslog.h
+-- Looking for syslog.h - not found
+-- Looking for ucontext.h
+-- Looking for ucontext.h - not found
+-- Looking for unistd.h
+-- Looking for unistd.h - not found
+-- Looking for unwind.h
+-- Looking for unwind.h - not found
+-- Looking for C++ include ext/hash_map
+-- Looking for C++ include ext/hash_map - not found
+-- Looking for C++ include ext/hash_set
+-- Looking for C++ include ext/hash_set - not found
+-- Looking for C++ include ext/slist
+-- Looking for C++ include ext/slist - not found
+-- Looking for C++ include tr1/unordered_map
+-- Looking for C++ include tr1/unordered_map - not found
+-- Looking for C++ include tr1/unordered_set
+-- Looking for C++ include tr1/unordered_set - not found
+-- Looking for C++ include unordered_map
+-- Looking for C++ include unordered_map - found
+-- Looking for C++ include unordered_set
+-- Looking for C++ include unordered_set - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned __int16
+-- Check size of unsigned __int16 - done
+-- Check size of u_int16_t
+-- Check size of u_int16_t - failed
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Looking for dladdr
+-- Looking for dladdr - not found
+-- Looking for fcntl
+-- Looking for fcntl - not found
+-- Looking for pread
+-- Looking for pread - not found
+-- Looking for pwrite
+-- Looking for pwrite - not found
+-- Looking for sigaction
+-- Looking for sigaction - not found
+-- Looking for sigaltstack
+-- Looking for sigaltstack - not found
+-- Performing Test HAVE_NO_DEPRECATED
+-- Performing Test HAVE_NO_DEPRECATED - Failed
+-- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS
+-- Performing Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for get_static_proc_name in unwind
+-- Looking for get_static_proc_name in unwind - not found
+-- Looking for UnDecorateSymbolName in dbghelp
+-- Looking for UnDecorateSymbolName in dbghelp - found
+-- Performing Test HAVE___ATTRIBUTE__
+-- Performing Test HAVE___ATTRIBUTE__ - Failed
+-- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT
+-- Performing Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT - Failed
+-- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN
+-- Performing Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN - Failed
+-- Performing Test HAVE___BUILTIN_EXPECT
+-- Performing Test HAVE___BUILTIN_EXPECT - Failed
+-- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP
+-- Performing Test HAVE___SYNC_VAL_COMPARE_AND_SWAP - Failed
+-- Performing Test HAVE_RWLOCK
+-- Performing Test HAVE_RWLOCK - Failed
+-- Performing Test HAVE___DECLSPEC
+-- Performing Test HAVE___DECLSPEC - Success
+-- Performing Test STL_NO_NAMESPACE
+-- Performing Test STL_NO_NAMESPACE - Failed
+-- Performing Test STL_STD_NAMESPACE
+-- Performing Test STL_STD_NAMESPACE - Success
+-- Performing Test HAVE_USING_OPERATOR
+-- Performing Test HAVE_USING_OPERATOR - Success
+-- Performing Test HAVE_NAMESPACES
+-- Performing Test HAVE_NAMESPACES - Success
+-- Performing Test HAVE_GCC_TLS
+-- Performing Test HAVE_GCC_TLS - Failed
+-- Performing Test HAVE_MSVC_TLS
+-- Performing Test HAVE_MSVC_TLS - Success
+-- Performing Test HAVE_CXX11_TLS
+-- Performing Test HAVE_CXX11_TLS - Success
+-- Performing Test HAVE_ALIGNED_STORAGE
+-- Performing Test HAVE_ALIGNED_STORAGE - Success
+-- Performing Test HAVE_SYMBOLIZE
+-- Performing Test HAVE_SYMBOLIZE - Success
+-- Performing Test HAVE_LOCALTIME_R
+-- Performing Test HAVE_LOCALTIME_R - Failed
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/glog-0.4.0/build_cmake
+Scanning dependencies of target glog
+[ 11%] Building CXX object CMakeFiles/glog.dir/src/demangle.cc.obj
+demangle.cc
+[ 22%] Building CXX object CMakeFiles/glog.dir/src/logging.cc.obj
+logging.cc
+[ 33%] Building CXX object CMakeFiles/glog.dir/src/raw_logging.cc.obj
+raw_logging.cc
+[ 44%] Building CXX object CMakeFiles/glog.dir/src/symbolize.cc.obj
+symbolize.cc
+[ 55%] Building CXX object CMakeFiles/glog.dir/src/utilities.cc.obj
+utilities.cc
+[ 66%] Building CXX object CMakeFiles/glog.dir/src/vlog_is_on.cc.obj
+vlog_is_on.cc
+[ 77%] Building CXX object CMakeFiles/glog.dir/src/signalhandler.cc.obj
+signalhandler.cc
+[ 88%] Building CXX object CMakeFiles/glog.dir/src/windows/port.cc.obj
+port.cc
+[100%] Linking CXX static library glog.lib
+[100%] Built target glog
+[100%] Built target glog
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/glog.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/glog/logging.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/glog/raw_logging.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/glog/stl_logging.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/glog/vlog_is_on.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/glog/log_severity.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-config.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-config-version.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-targets-release.cmake
+tools\win\wget.exe --quiet -P dependencies\archives --no-check-certificate https://github.com/google/protobuf/archive/v3.10.0.zip
+tools\win\unzip.exe -q -d dependencies\sources dependencies\archives\v3.10.0.zip
+md dependencies\sources\protobuf-3.10.0\cmake\build
+tools\win\sed.exe -i -e '/\"\/MD\"/d' dependencies\sources\protobuf-3.10.0\cmake\CMakeLists.txt
+cd dependencies\sources\protobuf-3.10.0\cmake\build && "C:\Program Files\CMake\bin\cmake.EXE" -G "Visual Studio 16 2019" -A x64 -Dprotobuf_BUILD_TESTS=OFF ..
+-- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.17134.
+-- The C compiler identification is MSVC 19.24.28315.0
+-- The CXX compiler identification is MSVC 19.24.28315.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+--
+-- 3.10.0.0
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/build
+cd dependencies\sources\protobuf-3.10.0\cmake\build && msbuild protobuf.sln /t:Build /p:Configuration=Release;LinkIncremental=false
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "-m" switch.
+Build started 1/22/2020 8:44:59 AM.
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protobuf.sln" on node 1 (Build target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|x64".
+ValidateProjects:
+  The project "INSTALL" is not selected for building in solution configuration "Release|x64".
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protobuf.sln" (1) is building "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\
+cmake\build\ALL_BUILD.vcxproj.metaproj" (2) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\ZERO_CHECK.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ZERO_CHECK\".
+  Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ZERO_CHECK.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\libprotobuf.vcxproj.metaproj" (4) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf.vcxproj.metaproj" (4) is building "c:\GitRepo\or-tools\dependencies\sources\
+protobuf-3.10.0\cmake\build\libprotobuf.vcxproj" (5) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "libprotobuf.dir\Release\".
+  Creating directory "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\Release\".
+  Creating directory "libprotobuf.dir\Release\libprotobuf.tlog\".
+InitializeBuildStatus:
+  Creating "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/CMakeLists.txt
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\CL.exe /c /I"C:\GitRepo\or-tools\dependencies\sources\protob
+  uf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D ND
+  EBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotobuf.di
+  r\Release\\" /Fd"libprotobuf.dir\Release\libprotobuf.pdb" /Gd /TP /wd4018 /wd4065 /wd4146 /wd4244 /wd4251 /wd4267 /wd4305 /wd4307 /wd4309 /wd4334 /wd4355 /wd4506 /w
+  d4800 /wd4996 /errorReport:queue  /bigobj "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\any_lite.cc" "C:\GitRepo\or-tools\dependenci
+  es\sources\protobuf-3.10.0\src\google\protobuf\arena.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\extension_set.cc" "C:\GitRepo
+  \or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\generated_enum_util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\prot
+  obuf\generated_message_table_driven_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\generated_message_util.cc" "C:\GitRepo\or
+  -tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\implicit_weak_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\proto
+  buf\io\coded_stream.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\io_win32.cc" "C:\GitRepo\or-tools\dependencies\sources\prot
+  obuf-3.10.0\src\google\protobuf\io\strtod.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\zero_copy_stream.cc" "C:\GitRepo\or-t
+  ools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\zero_copy_stream_impl.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\prot
+  obuf\io\zero_copy_stream_impl_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\message_lite.cc" "C:\GitRepo\or-tools\dependenc
+  ies\sources\protobuf-3.10.0\src\google\protobuf\parse_context.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\repeated_field.cc" "
+  C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\bytestream.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\goog
+  le\protobuf\stubs\common.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\int128.cc" "C:\GitRepo\or-tools\dependencies\source
+  s\protobuf-3.10.0\src\google\protobuf\stubs\status.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\statusor.cc" "C:\GitRepo\
+  or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\stringpiece.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobu
+  f\stubs\stringprintf.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\structurally_valid.cc" "C:\GitRepo\or-tools\dependencie
+  s\sources\protobuf-3.10.0\src\google\protobuf\stubs\strutil.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\time.cc" "C:\Git
+  Repo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\wire_format_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\pro
+  tobuf\any.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\any.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src
+  \google\protobuf\api.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\importer.cc" "C:\GitRepo\or-tools\dependencies\so
+  urces\protobuf-3.10.0\src\google\protobuf\compiler\parser.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\descriptor.cc" "C:\GitRe
+  po\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\descriptor.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf
+  \descriptor_database.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\duration.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\pro
+  tobuf-3.10.0\src\google\protobuf\dynamic_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\empty.pb.cc" "C:\GitRepo\or-tools
+  \dependencies\sources\protobuf-3.10.0\src\google\protobuf\extension_set_heavy.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\fiel
+  d_mask.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\generated_message_reflection.cc" "C:\GitRepo\or-tools\dependencies\sourc
+  es\protobuf-3.10.0\src\google\protobuf\generated_message_table_driven.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\gzip_stre
+  am.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\printer.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\go
+  ogle\protobuf\io\tokenizer.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\map_field.cc" "C:\GitRepo\or-tools\dependencies\sources
+  \protobuf-3.10.0\src\google\protobuf\message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\reflection_ops.cc" "C:\GitRepo\or-too
+  ls\dependencies\sources\protobuf-3.10.0\src\google\protobuf\service.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\source_context
+  .pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\struct.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\go
+  ogle\protobuf\stubs\mathlimits.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\substitute.cc" "C:\GitRepo\or-tools\dependenc
+  ies\sources\protobuf-3.10.0\src\google\protobuf\text_format.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\timestamp.pb.cc" "C:\G
+  itRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\type.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\u
+  nknown_field_set.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\delimited_message_util.cc" "C:\GitRepo\or-tools\dependencies
+  \sources\protobuf-3.10.0\src\google\protobuf\util\field_comparator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\field_mask
+  _util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\datapiece.cc" "C:\GitRepo\or-tools\dependencies\sources\protob
+  uf-3.10.0\src\google\protobuf\util\internal\default_value_objectwriter.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\intern
+  al\error_listener.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\field_mask_utility.cc" "C:\GitRepo\or-tools\depend
+  encies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\json_escaping.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\uti
+  l\internal\json_objectwriter.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\json_stream_parser.cc" "C:\GitRepo\or-t
+  ools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\object_writer.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\p
+  rotobuf\util\internal\proto_writer.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\protostream_objectsource.cc" "C:\
+  GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\protostream_objectwriter.cc" "C:\GitRepo\or-tools\dependencies\sources\proto
+  buf-3.10.0\src\google\protobuf\util\internal\type_info.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\type_info_tes
+  t_helper.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\internal\utility.cc" "C:\GitRepo\or-tools\dependencies\sources\proto
+  buf-3.10.0\src\google\protobuf\util\json_util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\message_differencer.cc" "C:\Git
+  Repo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\util\time_util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\proto
+  buf\util\type_resolver_util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\wire_format.cc" "C:\GitRepo\or-tools\dependencies\sour
+  ces\protobuf-3.10.0\src\google\protobuf\wrappers.pb.cc"
+  any_lite.cc
+  arena.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_table_driven_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+  any.cc
+  any.pb.cc
+  api.pb.cc
+  importer.cc
+  parser.cc
+  descriptor.cc
+  descriptor.pb.cc
+  descriptor_database.cc
+  duration.pb.cc
+  dynamic_message.cc
+  empty.pb.cc
+  extension_set_heavy.cc
+  field_mask.pb.cc
+  generated_message_reflection.cc
+  generated_message_table_driven.cc
+  gzip_stream.cc
+  printer.cc
+  tokenizer.cc
+  map_field.cc
+  message.cc
+  reflection_ops.cc
+  service.cc
+  source_context.pb.cc
+  struct.pb.cc
+  mathlimits.cc
+  substitute.cc
+  text_format.cc
+  timestamp.pb.cc
+  type.pb.cc
+  unknown_field_set.cc
+  delimited_message_util.cc
+  field_comparator.cc
+  field_mask_util.cc
+  datapiece.cc
+  default_value_objectwriter.cc
+  error_listener.cc
+  field_mask_utility.cc
+  json_escaping.cc
+  json_objectwriter.cc
+  json_stream_parser.cc
+  object_writer.cc
+  proto_writer.cc
+  protostream_objectsource.cc
+  protostream_objectwriter.cc
+  type_info.cc
+  type_info_test_helper.cc
+  utility.cc
+  json_util.cc
+  message_differencer.cc
+  time_util.cc
+  type_resolver_util.cc
+  wire_format.cc
+  wrappers.pb.cc
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\\\"Release\\\"" /
+  l"0x0409" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /fo"libp
+  rotobuf.dir\Release\version.res" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\version.rc"
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\Lib.exe /OUT:"C:\GitRepo\or-tools\dependencies\sources\proto
+  buf-3.10.0\cmake\build\Release\libprotobuf.lib" /NOLOGO /MACHINE:X64  /ignore:4221 libprotobuf.dir\Release\version.res
+  libprotobuf.dir\Release\any_lite.obj
+  libprotobuf.dir\Release\arena.obj
+  libprotobuf.dir\Release\extension_set.obj
+  libprotobuf.dir\Release\generated_enum_util.obj
+  libprotobuf.dir\Release\generated_message_table_driven_lite.obj
+  libprotobuf.dir\Release\generated_message_util.obj
+  libprotobuf.dir\Release\implicit_weak_message.obj
+  libprotobuf.dir\Release\coded_stream.obj
+  libprotobuf.dir\Release\io_win32.obj
+  libprotobuf.dir\Release\strtod.obj
+  libprotobuf.dir\Release\zero_copy_stream.obj
+  libprotobuf.dir\Release\zero_copy_stream_impl.obj
+  libprotobuf.dir\Release\zero_copy_stream_impl_lite.obj
+  libprotobuf.dir\Release\message_lite.obj
+  libprotobuf.dir\Release\parse_context.obj
+  libprotobuf.dir\Release\repeated_field.obj
+  libprotobuf.dir\Release\bytestream.obj
+  libprotobuf.dir\Release\common.obj
+  libprotobuf.dir\Release\int128.obj
+  libprotobuf.dir\Release\status.obj
+  libprotobuf.dir\Release\statusor.obj
+  libprotobuf.dir\Release\stringpiece.obj
+  libprotobuf.dir\Release\stringprintf.obj
+  libprotobuf.dir\Release\structurally_valid.obj
+  libprotobuf.dir\Release\strutil.obj
+  libprotobuf.dir\Release\time.obj
+  libprotobuf.dir\Release\wire_format_lite.obj
+  libprotobuf.dir\Release\any.obj
+  libprotobuf.dir\Release\any.pb.obj
+  libprotobuf.dir\Release\api.pb.obj
+  libprotobuf.dir\Release\importer.obj
+  libprotobuf.dir\Release\parser.obj
+  libprotobuf.dir\Release\descriptor.obj
+  libprotobuf.dir\Release\descriptor.pb.obj
+  libprotobuf.dir\Release\descriptor_database.obj
+  libprotobuf.dir\Release\duration.pb.obj
+  libprotobuf.dir\Release\dynamic_message.obj
+  libprotobuf.dir\Release\empty.pb.obj
+  libprotobuf.dir\Release\extension_set_heavy.obj
+  libprotobuf.dir\Release\field_mask.pb.obj
+  libprotobuf.dir\Release\generated_message_reflection.obj
+  libprotobuf.dir\Release\generated_message_table_driven.obj
+  libprotobuf.dir\Release\gzip_stream.obj
+  libprotobuf.dir\Release\printer.obj
+  libprotobuf.dir\Release\tokenizer.obj
+  libprotobuf.dir\Release\map_field.obj
+  libprotobuf.dir\Release\message.obj
+  libprotobuf.dir\Release\reflection_ops.obj
+  libprotobuf.dir\Release\service.obj
+  libprotobuf.dir\Release\source_context.pb.obj
+  libprotobuf.dir\Release\struct.pb.obj
+  libprotobuf.dir\Release\mathlimits.obj
+  libprotobuf.dir\Release\substitute.obj
+  libprotobuf.dir\Release\text_format.obj
+  libprotobuf.dir\Release\timestamp.pb.obj
+  libprotobuf.dir\Release\type.pb.obj
+  libprotobuf.dir\Release\unknown_field_set.obj
+  libprotobuf.dir\Release\delimited_message_util.obj
+  libprotobuf.dir\Release\field_comparator.obj
+  libprotobuf.dir\Release\field_mask_util.obj
+  libprotobuf.dir\Release\datapiece.obj
+  libprotobuf.dir\Release\default_value_objectwriter.obj
+  libprotobuf.dir\Release\error_listener.obj
+  libprotobuf.dir\Release\field_mask_utility.obj
+  libprotobuf.dir\Release\json_escaping.obj
+  libprotobuf.dir\Release\json_objectwriter.obj
+  libprotobuf.dir\Release\json_stream_parser.obj
+  libprotobuf.dir\Release\object_writer.obj
+  libprotobuf.dir\Release\proto_writer.obj
+  libprotobuf.dir\Release\protostream_objectsource.obj
+  libprotobuf.dir\Release\protostream_objectwriter.obj
+  libprotobuf.dir\Release\type_info.obj
+  libprotobuf.dir\Release\type_info_test_helper.obj
+  libprotobuf.dir\Release\utility.obj
+  libprotobuf.dir\Release\json_util.obj
+  libprotobuf.dir\Release\message_differencer.obj
+  libprotobuf.dir\Release\time_util.obj
+  libprotobuf.dir\Release\type_resolver_util.obj
+  libprotobuf.dir\Release\wire_format.obj
+  libprotobuf.dir\Release\wrappers.pb.obj
+  libprotobuf.vcxproj -> C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotobuf.lib
+FinalizeBuildStatus:
+  Deleting file "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild".
+  Touching "libprotobuf.dir\Release\libprotobuf.tlog\libprotobuf.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf.vcxproj.metaproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\libprotobuf-lite.vcxproj.metaproj" (6) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf-lite.vcxproj.metaproj" (6) is building "c:\GitRepo\or-tools\dependencies\sou
+rces\protobuf-3.10.0\cmake\build\libprotobuf-lite.vcxproj" (7) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "libprotobuf-lite.dir\Release\".
+  Creating directory "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\".
+InitializeBuildStatus:
+  Creating "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/CMakeLists.txt
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\CL.exe /c /I"C:\GitRepo\or-tools\dependencies\sources\protob
+  uf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D ND
+  EBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotobuf-li
+  te.dir\Release\\" /Fd"libprotobuf-lite.dir\Release\libprotobuf-lite.pdb" /Gd /TP /wd4018 /wd4065 /wd4146 /wd4244 /wd4251 /wd4267 /wd4305 /wd4307 /wd4309 /wd4334 /wd
+  4355 /wd4506 /wd4800 /wd4996 /errorReport:queue  /bigobj "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\any_lite.cc" "C:\GitRepo\or-t
+  ools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\arena.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\extension_set.
+  cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\generated_enum_util.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\
+  src\google\protobuf\generated_message_table_driven_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\generated_message_util.cc"
+   "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\implicit_weak_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\s
+  rc\google\protobuf\io\coded_stream.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\io_win32.cc" "C:\GitRepo\or-tools\dependenci
+  es\sources\protobuf-3.10.0\src\google\protobuf\io\strtod.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\zero_copy_stream.cc" "
+  C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\io\zero_copy_stream_impl.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\
+  src\google\protobuf\io\zero_copy_stream_impl_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\message_lite.cc" "C:\GitRepo\or-
+  tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\parse_context.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\repea
+  ted_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\bytestream.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-
+  3.10.0\src\google\protobuf\stubs\common.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\int128.cc" "C:\GitRepo\or-tools\depe
+  ndencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\status.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\statusor.c
+  c" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\stringpiece.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src
+  \google\protobuf\stubs\stringprintf.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\structurally_valid.cc" "C:\GitRepo\or-to
+  ols\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\strutil.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\stubs\t
+  ime.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\wire_format_lite.cc"
+  any_lite.cc
+  arena.cc
+  extension_set.cc
+  generated_enum_util.cc
+  generated_message_table_driven_lite.cc
+  generated_message_util.cc
+  implicit_weak_message.cc
+  coded_stream.cc
+  io_win32.cc
+  strtod.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  message_lite.cc
+  parse_context.cc
+  repeated_field.cc
+  bytestream.cc
+  common.cc
+  int128.cc
+  status.cc
+  statusor.cc
+  stringpiece.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  time.cc
+  wire_format_lite.cc
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\\\"Release\\\"" /
+  l"0x0409" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /fo"libp
+  rotobuf-lite.dir\Release\version.res" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\version.rc"
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\Lib.exe /OUT:"C:\GitRepo\or-tools\dependencies\sources\proto
+  buf-3.10.0\cmake\build\Release\libprotobuf-lite.lib" /NOLOGO /MACHINE:X64  /ignore:4221 "libprotobuf-lite.dir\Release\version.res"
+  "libprotobuf-lite.dir\Release\any_lite.obj"
+  "libprotobuf-lite.dir\Release\arena.obj"
+  "libprotobuf-lite.dir\Release\extension_set.obj"
+  "libprotobuf-lite.dir\Release\generated_enum_util.obj"
+  "libprotobuf-lite.dir\Release\generated_message_table_driven_lite.obj"
+  "libprotobuf-lite.dir\Release\generated_message_util.obj"
+  "libprotobuf-lite.dir\Release\implicit_weak_message.obj"
+  "libprotobuf-lite.dir\Release\coded_stream.obj"
+  "libprotobuf-lite.dir\Release\io_win32.obj"
+  "libprotobuf-lite.dir\Release\strtod.obj"
+  "libprotobuf-lite.dir\Release\zero_copy_stream.obj"
+  "libprotobuf-lite.dir\Release\zero_copy_stream_impl.obj"
+  "libprotobuf-lite.dir\Release\zero_copy_stream_impl_lite.obj"
+  "libprotobuf-lite.dir\Release\message_lite.obj"
+  "libprotobuf-lite.dir\Release\parse_context.obj"
+  "libprotobuf-lite.dir\Release\repeated_field.obj"
+  "libprotobuf-lite.dir\Release\bytestream.obj"
+  "libprotobuf-lite.dir\Release\common.obj"
+  "libprotobuf-lite.dir\Release\int128.obj"
+  "libprotobuf-lite.dir\Release\status.obj"
+  "libprotobuf-lite.dir\Release\statusor.obj"
+  "libprotobuf-lite.dir\Release\stringpiece.obj"
+  "libprotobuf-lite.dir\Release\stringprintf.obj"
+  "libprotobuf-lite.dir\Release\structurally_valid.obj"
+  "libprotobuf-lite.dir\Release\strutil.obj"
+  "libprotobuf-lite.dir\Release\time.obj"
+  "libprotobuf-lite.dir\Release\wire_format_lite.obj"
+  libprotobuf-lite.vcxproj -> C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotobuf-lite.lib
+FinalizeBuildStatus:
+  Deleting file "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\unsuccessfulbuild".
+  Touching "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\libprotobuf-lite.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf-lite.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotobuf-lite.vcxproj.metaproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\libprotoc.vcxproj.metaproj" (8) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotoc.vcxproj.metaproj" (8) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\libprotoc.vcxproj" (9) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "libprotoc.dir\Release\".
+  Creating directory "libprotoc.dir\Release\libprotoc.tlog\".
+InitializeBuildStatus:
+  Creating "libprotoc.dir\Release\libprotoc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/CMakeLists.txt
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\CL.exe /c /I"C:\GitRepo\or-tools\dependencies\sources\protob
+  uf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D ND
+  EBUG /D LIBPROTOC_EXPORTS /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /
+  GR /Fo"libprotoc.dir\Release\\" /Fd"libprotoc.dir\Release\libprotoc.pdb" /Gd /TP /wd4018 /wd4065 /wd4146 /wd4244 /wd4251 /wd4267 /wd4305 /wd4307 /wd4309 /wd4334 /wd
+  4355 /wd4506 /wd4800 /wd4996 /errorReport:queue  /bigobj "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\code_generator.cc" "
+  C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\command_line_interface.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-
+  3.10.0\src\google\protobuf\compiler\cpp\cpp_enum.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_enum_field.cc" "
+  C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_extension.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.
+  0\src\google\protobuf\compiler\cpp\cpp_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_file.cc" "C:\GitRepo
+  \or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_generator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\goog
+  le\protobuf\compiler\cpp\cpp_helpers.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_map_field.cc" "C:\GitRepo\or
+  -tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\pr
+  otobuf\compiler\cpp\cpp_message_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_padding_optimizer.cc" "C:\G
+  itRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_primitive_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.1
+  0.0\src\google\protobuf\compiler\cpp\cpp_service.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\cpp\cpp_string_field.cc"
+   "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_doc_comment.cc" "C:\GitRepo\or-tools\dependencies\sources\prot
+  obuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_enum.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp
+  _enum_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_field_base.cc" "C:\GitRepo\or-tools\dependencie
+  s\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_generator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\com
+  piler\csharp\csharp_helpers.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_map_field.cc" "C:\GitRepo\or-to
+  ols\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google
+  \protobuf\compiler\csharp\csharp_message_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_primitive_fi
+  eld.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_reflection_class.cc" "C:\GitRepo\or-tools\dependencies\
+  sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_repeated_enum_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\prot
+  obuf\compiler\csharp\csharp_repeated_message_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_repeated
+  _primitive_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_source_generator_base.cc" "C:\GitRepo\or-t
+  ools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\csharp\csharp_wrapper_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src
+  \google\protobuf\compiler\java\java_context.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_doc_comment.cc" "C:
+  \GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_enum.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src
+  \google\protobuf\compiler\java\java_enum_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_enum_field_lite.
+  cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_enum_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobu
+  f-3.10.0\src\google\protobuf\compiler\java\java_extension.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_exten
+  sion_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_field.cc" "C:\GitRepo\or-tools\dependencies\sources\p
+  rotobuf-3.10.0\src\google\protobuf\compiler\java\java_file.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_gene
+  rator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_generator_factory.cc" "C:\GitRepo\or-tools\dependencies\s
+  ources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_helpers.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\jav
+  a\java_map_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_map_field_lite.cc" "C:\GitRepo\or-tools\depend
+  encies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\comp
+  iler\java\java_message_builder.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_message_builder_lite.cc" "C:\Git
+  Repo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_message_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.
+  0\src\google\protobuf\compiler\java\java_message_field_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_mes
+  sage_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_name_resolver.cc" "C:\GitRepo\or-tools\dependencies\s
+  ources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_primitive_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\comp
+  iler\java\java_primitive_field_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_service.cc" "C:\GitRepo\or-
+  tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_shared_code_generator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.
+  0\src\google\protobuf\compiler\java\java_string_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\java\java_string_fi
+  eld_lite.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\js\js_generator.cc" "C:\GitRepo\or-tools\dependencies\sources\pr
+  otobuf-3.10.0\src\google\protobuf\compiler\js\well_known_types_embed.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\obje
+  ctivec\objectivec_enum.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_enum_field.cc" "C:\GitRepo\o
+  r-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_extension.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.1
+  0.0\src\google\protobuf\compiler\objectivec\objectivec_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\o
+  bjectivec_file.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_generator.cc" "C:\GitRepo\or-tools\d
+  ependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\goo
+  gle\protobuf\compiler\objectivec\objectivec_map_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectiv
+  ec_message.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_message_field.cc" "C:\GitRepo\or-tools\d
+  ependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\objectivec\objectivec_oneof.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\googl
+  e\protobuf\compiler\objectivec\objectivec_primitive_field.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\php\php_generat
+  or.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\plugin.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\s
+  rc\google\protobuf\compiler\plugin.pb.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\python\python_generator.cc" "C:\Git
+  Repo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\ruby\ruby_generator.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\sr
+  c\google\protobuf\compiler\subprocess.cc" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\zip_writer.cc"
+  code_generator.cc
+  command_line_interface.cc
+  cpp_enum.cc
+  cpp_enum_field.cc
+  cpp_extension.cc
+  cpp_field.cc
+  cpp_file.cc
+  cpp_generator.cc
+  cpp_helpers.cc
+  cpp_map_field.cc
+  cpp_message.cc
+  cpp_message_field.cc
+  cpp_padding_optimizer.cc
+  cpp_primitive_field.cc
+  cpp_service.cc
+  cpp_string_field.cc
+  csharp_doc_comment.cc
+  csharp_enum.cc
+  csharp_enum_field.cc
+  csharp_field_base.cc
+  csharp_generator.cc
+  csharp_helpers.cc
+  csharp_map_field.cc
+  csharp_message.cc
+  csharp_message_field.cc
+  csharp_primitive_field.cc
+  csharp_reflection_class.cc
+  csharp_repeated_enum_field.cc
+  csharp_repeated_message_field.cc
+  csharp_repeated_primitive_field.cc
+  csharp_source_generator_base.cc
+  csharp_wrapper_field.cc
+  java_context.cc
+  java_doc_comment.cc
+  java_enum.cc
+  java_enum_field.cc
+  java_enum_field_lite.cc
+  java_enum_lite.cc
+  java_extension.cc
+  java_extension_lite.cc
+  java_field.cc
+  java_file.cc
+  java_generator.cc
+  java_generator_factory.cc
+  java_helpers.cc
+  java_map_field.cc
+  java_map_field_lite.cc
+  java_message.cc
+  java_message_builder.cc
+  java_message_builder_lite.cc
+  java_message_field.cc
+  java_message_field_lite.cc
+  java_message_lite.cc
+  java_name_resolver.cc
+  java_primitive_field.cc
+  java_primitive_field_lite.cc
+  java_service.cc
+  java_shared_code_generator.cc
+  java_string_field.cc
+  java_string_field_lite.cc
+  js_generator.cc
+  well_known_types_embed.cc
+  objectivec_enum.cc
+  objectivec_enum_field.cc
+  objectivec_extension.cc
+  objectivec_field.cc
+  objectivec_file.cc
+  objectivec_generator.cc
+  objectivec_helpers.cc
+  objectivec_map_field.cc
+  objectivec_message.cc
+  objectivec_message_field.cc
+  objectivec_oneof.cc
+  objectivec_primitive_field.cc
+  php_generator.cc
+  plugin.cc
+  plugin.pb.cc
+  python_generator.cc
+  ruby_generator.cc
+  subprocess.cc
+  zip_writer.cc
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D LIBPROTOC_EXPORTS /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTD
+  IR=\\\"Release\\\"" /l"0x0409" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\
+  src" /nologo /fo"libprotoc.dir\Release\version.res" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\version.rc"
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\Lib.exe /OUT:"C:\GitRepo\or-tools\dependencies\sources\proto
+  buf-3.10.0\cmake\build\Release\libprotoc.lib" /NOLOGO /MACHINE:X64  /ignore:4221 libprotoc.dir\Release\version.res
+  libprotoc.dir\Release\code_generator.obj
+  libprotoc.dir\Release\command_line_interface.obj
+  libprotoc.dir\Release\cpp_enum.obj
+  libprotoc.dir\Release\cpp_enum_field.obj
+  libprotoc.dir\Release\cpp_extension.obj
+  libprotoc.dir\Release\cpp_field.obj
+  libprotoc.dir\Release\cpp_file.obj
+  libprotoc.dir\Release\cpp_generator.obj
+  libprotoc.dir\Release\cpp_helpers.obj
+  libprotoc.dir\Release\cpp_map_field.obj
+  libprotoc.dir\Release\cpp_message.obj
+  libprotoc.dir\Release\cpp_message_field.obj
+  libprotoc.dir\Release\cpp_padding_optimizer.obj
+  libprotoc.dir\Release\cpp_primitive_field.obj
+  libprotoc.dir\Release\cpp_service.obj
+  libprotoc.dir\Release\cpp_string_field.obj
+  libprotoc.dir\Release\csharp_doc_comment.obj
+  libprotoc.dir\Release\csharp_enum.obj
+  libprotoc.dir\Release\csharp_enum_field.obj
+  libprotoc.dir\Release\csharp_field_base.obj
+  libprotoc.dir\Release\csharp_generator.obj
+  libprotoc.dir\Release\csharp_helpers.obj
+  libprotoc.dir\Release\csharp_map_field.obj
+  libprotoc.dir\Release\csharp_message.obj
+  libprotoc.dir\Release\csharp_message_field.obj
+  libprotoc.dir\Release\csharp_primitive_field.obj
+  libprotoc.dir\Release\csharp_reflection_class.obj
+  libprotoc.dir\Release\csharp_repeated_enum_field.obj
+  libprotoc.dir\Release\csharp_repeated_message_field.obj
+  libprotoc.dir\Release\csharp_repeated_primitive_field.obj
+  libprotoc.dir\Release\csharp_source_generator_base.obj
+  libprotoc.dir\Release\csharp_wrapper_field.obj
+  libprotoc.dir\Release\java_context.obj
+  libprotoc.dir\Release\java_doc_comment.obj
+  libprotoc.dir\Release\java_enum.obj
+  libprotoc.dir\Release\java_enum_field.obj
+  libprotoc.dir\Release\java_enum_field_lite.obj
+  libprotoc.dir\Release\java_enum_lite.obj
+  libprotoc.dir\Release\java_extension.obj
+  libprotoc.dir\Release\java_extension_lite.obj
+  libprotoc.dir\Release\java_field.obj
+  libprotoc.dir\Release\java_file.obj
+  libprotoc.dir\Release\java_generator.obj
+  libprotoc.dir\Release\java_generator_factory.obj
+  libprotoc.dir\Release\java_helpers.obj
+  libprotoc.dir\Release\java_map_field.obj
+  libprotoc.dir\Release\java_map_field_lite.obj
+  libprotoc.dir\Release\java_message.obj
+  libprotoc.dir\Release\java_message_builder.obj
+  libprotoc.dir\Release\java_message_builder_lite.obj
+  libprotoc.dir\Release\java_message_field.obj
+  libprotoc.dir\Release\java_message_field_lite.obj
+  libprotoc.dir\Release\java_message_lite.obj
+  libprotoc.dir\Release\java_name_resolver.obj
+  libprotoc.dir\Release\java_primitive_field.obj
+  libprotoc.dir\Release\java_primitive_field_lite.obj
+  libprotoc.dir\Release\java_service.obj
+  libprotoc.dir\Release\java_shared_code_generator.obj
+  libprotoc.dir\Release\java_string_field.obj
+  libprotoc.dir\Release\java_string_field_lite.obj
+  libprotoc.dir\Release\js_generator.obj
+  libprotoc.dir\Release\well_known_types_embed.obj
+  libprotoc.dir\Release\objectivec_enum.obj
+  libprotoc.dir\Release\objectivec_enum_field.obj
+  libprotoc.dir\Release\objectivec_extension.obj
+  libprotoc.dir\Release\objectivec_field.obj
+  libprotoc.dir\Release\objectivec_file.obj
+  libprotoc.dir\Release\objectivec_generator.obj
+  libprotoc.dir\Release\objectivec_helpers.obj
+  libprotoc.dir\Release\objectivec_map_field.obj
+  libprotoc.dir\Release\objectivec_message.obj
+  libprotoc.dir\Release\objectivec_message_field.obj
+  libprotoc.dir\Release\objectivec_oneof.obj
+  libprotoc.dir\Release\objectivec_primitive_field.obj
+  libprotoc.dir\Release\php_generator.obj
+  libprotoc.dir\Release\plugin.obj
+  libprotoc.dir\Release\plugin.pb.obj
+  libprotoc.dir\Release\python_generator.obj
+  libprotoc.dir\Release\ruby_generator.obj
+  libprotoc.dir\Release\subprocess.obj
+  libprotoc.dir\Release\zip_writer.obj
+  libprotoc.vcxproj -> C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotoc.lib
+FinalizeBuildStatus:
+  Deleting file "libprotoc.dir\Release\libprotoc.tlog\unsuccessfulbuild".
+  Touching "libprotoc.dir\Release\libprotoc.tlog\libprotoc.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotoc.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\libprotoc.vcxproj.metaproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\protoc.vcxproj.metaproj" (10) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protoc.vcxproj.metaproj" (10) is building "c:\GitRepo\or-tools\dependencies\sources\prot
+obuf-3.10.0\cmake\build\protoc.vcxproj" (11) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "protoc.dir\Release\".
+  Creating directory "protoc.dir\Release\protoc.tlog\".
+InitializeBuildStatus:
+  Creating "protoc.dir\Release\protoc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/CMakeLists.txt
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\CL.exe /c /I"C:\GitRepo\or-tools\dependencies\sources\protob
+  uf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D ND
+  EBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"protoc.dir\Rel
+  ease\\" /Fd"protoc.dir\Release\vc142.pdb" /Gd /TP /wd4018 /wd4065 /wd4146 /wd4244 /wd4251 /wd4267 /wd4305 /wd4307 /wd4309 /wd4334 /wd4355 /wd4506 /wd4800 /wd4996 /e
+  rrorReport:queue  /bigobj "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src\google\protobuf\compiler\main.cc"
+  main.cc
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\\\"Release\\\"" /
+  l"0x0409" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build" /I"C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\src" /nologo /fo"prot
+  oc.dir\Release\version.res" "C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\version.rc"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GitRepo\or-tools\depend
+  encies\sources\protobuf-3.10.0\cmake\build\Release\protoc.exe" /INCREMENTAL:NO /NOLOGO Release\libprotoc.lib Release\libprotobuf.lib kernel32.lib user32.lib gdi32.l
+  ib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /P
+  DB:"C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/build/Release/protoc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GitRepo/
+  or-tools/dependencies/sources/protobuf-3.10.0/cmake/build/Release/protoc.lib" /MACHINE:X64  /machine:x64 protoc.dir\Release\version.res
+  protoc.dir\Release\main.obj
+  protoc.vcxproj -> C:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\Release\protoc.exe
+FinalizeBuildStatus:
+  Deleting file "protoc.dir\Release\protoc.tlog\unsuccessfulbuild".
+  Touching "protoc.dir\Release\protoc.tlog\protoc.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protoc.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protoc.vcxproj.metaproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\pr
+otobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj" (12) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ALL_BUILD\".
+  Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/GitRepo/or-tools/dependencies/sources/protobuf-3.10.0/cmake/CMakeLists.txt
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\ALL_BUILD.vcxproj.metaproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\protobuf-3.10.0\cmake\build\protobuf.sln" (Build target(s)).
+
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:50.61
+copy dependencies\sources\protobuf-3.10.0\cmake\build\Release\protoc.exe dependencies\install\bin
+        1 file(s) copied.
+copy dependencies\sources\protobuf-3.10.0\cmake\build\Release\*.lib dependencies\install\lib
+dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotobuf-lite.lib
+dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotobuf.lib
+dependencies\sources\protobuf-3.10.0\cmake\build\Release\libprotoc.lib
+        3 file(s) copied.
+cd dependencies\sources\protobuf-3.10.0\cmake\build && extract_includes.bat
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+copy dependencies\sources\protobuf-3.10.0\src\google\protobuf\*.proto dependencies\sources\protobuf-3.10.0\cmake\build\include\google\protobuf
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\any.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\any_test.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\api.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\descriptor.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\duration.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\empty.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\field_mask.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\map_lite_unittest.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\map_proto2_unittest.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\map_unittest.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\source_context.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\struct.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\test_messages_proto2.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\test_messages_proto3.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\timestamp.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\type.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_arena.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_custom_options.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_drop_unknown_fields.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_embed_optimize_for.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_empty.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_enormous_descriptor.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_import.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_import_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_import_public.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_import_public_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_lazy_dependencies.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_lazy_dependencies_custom_option.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_lazy_dependencies_enum.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_lite_imports_nonlite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_mset.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_mset_wire_format.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_no_arena.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_no_arena_import.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_no_arena_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_no_field_presence.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_no_generic_services.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_optimize_for.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_preserve_unknown_enum.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_preserve_unknown_enum2.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_proto3.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_proto3_arena.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_proto3_arena_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_proto3_lite.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\unittest_well_known_types.proto
+dependencies\sources\protobuf-3.10.0\src\google\protobuf\wrappers.proto
+       48 file(s) copied.
+cd dependencies\sources\protobuf-3.10.0\cmake\build && ..\..\..\..\..\tools\win\tar.exe cf include.tar include
+cd dependencies\install && ..\..\tools\win\tar.exe xvmf ..\sources\protobuf-3.10.0\cmake\build\include.tar
+include/
+include/google/
+include/google/protobuf/
+include/google/protobuf/any.h
+include/google/protobuf/any.pb.h
+include/google/protobuf/any.proto
+include/google/protobuf/any_test.proto
+include/google/protobuf/api.pb.h
+include/google/protobuf/api.proto
+include/google/protobuf/arena.h
+include/google/protobuf/arenastring.h
+include/google/protobuf/arena_impl.h
+include/google/protobuf/compiler/
+include/google/protobuf/compiler/code_generator.h
+include/google/protobuf/compiler/command_line_interface.h
+include/google/protobuf/compiler/cpp/
+include/google/protobuf/compiler/cpp/cpp_generator.h
+include/google/protobuf/compiler/csharp/
+include/google/protobuf/compiler/csharp/csharp_generator.h
+include/google/protobuf/compiler/csharp/csharp_names.h
+include/google/protobuf/compiler/importer.h
+include/google/protobuf/compiler/java/
+include/google/protobuf/compiler/java/java_generator.h
+include/google/protobuf/compiler/java/java_names.h
+include/google/protobuf/compiler/js/
+include/google/protobuf/compiler/js/js_generator.h
+include/google/protobuf/compiler/js/well_known_types_embed.h
+include/google/protobuf/compiler/objectivec/
+include/google/protobuf/compiler/objectivec/objectivec_generator.h
+include/google/protobuf/compiler/objectivec/objectivec_helpers.h
+include/google/protobuf/compiler/parser.h
+include/google/protobuf/compiler/php/
+include/google/protobuf/compiler/php/php_generator.h
+include/google/protobuf/compiler/plugin.h
+include/google/protobuf/compiler/plugin.pb.h
+include/google/protobuf/compiler/plugin.proto
+include/google/protobuf/compiler/python/
+include/google/protobuf/compiler/python/python_generator.h
+include/google/protobuf/compiler/ruby/
+include/google/protobuf/compiler/ruby/ruby_generator.h
+include/google/protobuf/descriptor.h
+include/google/protobuf/descriptor.pb.h
+include/google/protobuf/descriptor.proto
+include/google/protobuf/descriptor_database.h
+include/google/protobuf/duration.pb.h
+include/google/protobuf/duration.proto
+include/google/protobuf/dynamic_message.h
+include/google/protobuf/empty.pb.h
+include/google/protobuf/empty.proto
+include/google/protobuf/extension_set.h
+include/google/protobuf/extension_set_inl.h
+include/google/protobuf/field_mask.pb.h
+include/google/protobuf/field_mask.proto
+include/google/protobuf/generated_enum_reflection.h
+include/google/protobuf/generated_enum_util.h
+include/google/protobuf/generated_message_reflection.h
+include/google/protobuf/generated_message_table_driven.h
+include/google/protobuf/generated_message_util.h
+include/google/protobuf/has_bits.h
+include/google/protobuf/implicit_weak_message.h
+include/google/protobuf/inlined_string_field.h
+include/google/protobuf/io/
+include/google/protobuf/io/coded_stream.h
+include/google/protobuf/io/gzip_stream.h
+include/google/protobuf/io/io_win32.h
+include/google/protobuf/io/printer.h
+include/google/protobuf/io/strtod.h
+include/google/protobuf/io/tokenizer.h
+include/google/protobuf/io/zero_copy_stream.h
+include/google/protobuf/io/zero_copy_stream_impl.h
+include/google/protobuf/io/zero_copy_stream_impl_lite.h
+include/google/protobuf/map.h
+include/google/protobuf/map_entry.h
+include/google/protobuf/map_entry_lite.h
+include/google/protobuf/map_field.h
+include/google/protobuf/map_field_inl.h
+include/google/protobuf/map_field_lite.h
+include/google/protobuf/map_lite_unittest.proto
+include/google/protobuf/map_proto2_unittest.proto
+include/google/protobuf/map_type_handler.h
+include/google/protobuf/map_unittest.proto
+include/google/protobuf/message.h
+include/google/protobuf/message_lite.h
+include/google/protobuf/metadata.h
+include/google/protobuf/metadata_lite.h
+include/google/protobuf/parse_context.h
+include/google/protobuf/port.h
+include/google/protobuf/port_def.inc
+include/google/protobuf/port_undef.inc
+include/google/protobuf/reflection.h
+include/google/protobuf/reflection_ops.h
+include/google/protobuf/repeated_field.h
+include/google/protobuf/service.h
+include/google/protobuf/source_context.pb.h
+include/google/protobuf/source_context.proto
+include/google/protobuf/struct.pb.h
+include/google/protobuf/struct.proto
+include/google/protobuf/stubs/
+include/google/protobuf/stubs/bytestream.h
+include/google/protobuf/stubs/callback.h
+include/google/protobuf/stubs/casts.h
+include/google/protobuf/stubs/common.h
+include/google/protobuf/stubs/fastmem.h
+include/google/protobuf/stubs/hash.h
+include/google/protobuf/stubs/logging.h
+include/google/protobuf/stubs/macros.h
+include/google/protobuf/stubs/map_util.h
+include/google/protobuf/stubs/mutex.h
+include/google/protobuf/stubs/once.h
+include/google/protobuf/stubs/platform_macros.h
+include/google/protobuf/stubs/port.h
+include/google/protobuf/stubs/status.h
+include/google/protobuf/stubs/stl_util.h
+include/google/protobuf/stubs/stringpiece.h
+include/google/protobuf/stubs/strutil.h
+include/google/protobuf/stubs/template_util.h
+include/google/protobuf/test_messages_proto2.proto
+include/google/protobuf/test_messages_proto3.proto
+include/google/protobuf/text_format.h
+include/google/protobuf/timestamp.pb.h
+include/google/protobuf/timestamp.proto
+include/google/protobuf/type.pb.h
+include/google/protobuf/type.proto
+include/google/protobuf/unittest.proto
+include/google/protobuf/unittest_arena.proto
+include/google/protobuf/unittest_custom_options.proto
+include/google/protobuf/unittest_drop_unknown_fields.proto
+include/google/protobuf/unittest_embed_optimize_for.proto
+include/google/protobuf/unittest_empty.proto
+include/google/protobuf/unittest_enormous_descriptor.proto
+include/google/protobuf/unittest_import.proto
+include/google/protobuf/unittest_import_lite.proto
+include/google/protobuf/unittest_import_public.proto
+include/google/protobuf/unittest_import_public_lite.proto
+include/google/protobuf/unittest_lazy_dependencies.proto
+include/google/protobuf/unittest_lazy_dependencies_custom_option.proto
+include/google/protobuf/unittest_lazy_dependencies_enum.proto
+include/google/protobuf/unittest_lite.proto
+include/google/protobuf/unittest_lite_imports_nonlite.proto
+include/google/protobuf/unittest_mset.proto
+include/google/protobuf/unittest_mset_wire_format.proto
+include/google/protobuf/unittest_no_arena.proto
+include/google/protobuf/unittest_no_arena_import.proto
+include/google/protobuf/unittest_no_arena_lite.proto
+include/google/protobuf/unittest_no_field_presence.proto
+include/google/protobuf/unittest_no_generic_services.proto
+include/google/protobuf/unittest_optimize_for.proto
+include/google/protobuf/unittest_preserve_unknown_enum.proto
+include/google/protobuf/unittest_preserve_unknown_enum2.proto
+include/google/protobuf/unittest_proto3.proto
+include/google/protobuf/unittest_proto3_arena.proto
+include/google/protobuf/unittest_proto3_arena_lite.proto
+include/google/protobuf/unittest_proto3_lite.proto
+include/google/protobuf/unittest_well_known_types.proto
+include/google/protobuf/unknown_field_set.h
+include/google/protobuf/util/
+include/google/protobuf/util/delimited_message_util.h
+include/google/protobuf/util/field_comparator.h
+include/google/protobuf/util/field_mask_util.h
+include/google/protobuf/util/json_util.h
+include/google/protobuf/util/message_differencer.h
+include/google/protobuf/util/time_util.h
+include/google/protobuf/util/type_resolver.h
+include/google/protobuf/util/type_resolver_util.h
+include/google/protobuf/wire_format.h
+include/google/protobuf/wire_format_lite.h
+include/google/protobuf/wrappers.pb.h
+include/google/protobuf/wrappers.proto
+tools\win\rm.exe -rf dependencies/sources/abseil-cpp-bf29470
+git clone --quiet https://github.com/abseil/abseil-cpp.git dependencies\sources\abseil-cpp-bf29470
+cd dependencies\sources\abseil-cpp-bf29470 && git reset --hard bf29470
+Updating files: 100% (1063/1063), done.
+HEAD is now at bf29470 Export of internal Abseil changes. -- bdce7e57e9e886eff1114d0266781b443f7ec639 by Derek Mauro <dmauro@google.com>:
+cd dependencies\sources\abseil-cpp-bf29470 && git apply "c:\\GitRepo\\or-tools\patches\abseil-cpp-bf29470.patch"
+cd dependencies\sources\abseil-cpp-bf29470 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_PREFIX_PATH=..\..\install \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_SHARED_LIBS=OFF \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- The C compiler identification is MSVC 19.24.28315.0
+-- The CXX compiler identification is MSVC 19.24.28315.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.24.28314/bin/Hostx64/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- No CMAKE_CXX_STANDARD set, assuming 11
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/abseil-cpp-bf29470/build_cmake
+Scanning dependencies of target spinlock_wait
+[  1%] Building CXX object absl/base/CMakeFiles/spinlock_wait.dir/internal/spinlock_wait.cc.obj
+spinlock_wait.cc
+[  2%] Linking CXX static library absl_spinlock_wait.lib
+[  2%] Built target spinlock_wait
+Scanning dependencies of target dynamic_annotations
+[  3%] Building CXX object absl/base/CMakeFiles/dynamic_annotations.dir/dynamic_annotations.cc.obj
+dynamic_annotations.cc
+[  4%] Linking CXX static library absl_dynamic_annotations.lib
+[  4%] Built target dynamic_annotations
+Scanning dependencies of target base
+[  5%] Building CXX object absl/base/CMakeFiles/base.dir/internal/cycleclock.cc.obj
+cycleclock.cc
+[  6%] Building CXX object absl/base/CMakeFiles/base.dir/internal/raw_logging.cc.obj
+raw_logging.cc
+[  7%] Building CXX object absl/base/CMakeFiles/base.dir/internal/spinlock.cc.obj
+spinlock.cc
+[  8%] Building CXX object absl/base/CMakeFiles/base.dir/internal/sysinfo.cc.obj
+sysinfo.cc
+[  9%] Building CXX object absl/base/CMakeFiles/base.dir/internal/thread_identity.cc.obj
+thread_identity.cc
+[ 10%] Building CXX object absl/base/CMakeFiles/base.dir/internal/unscaledcycleclock.cc.obj
+unscaledcycleclock.cc
+[ 11%] Linking CXX static library absl_base.lib
+[ 11%] Built target base
+Scanning dependencies of target throw_delegate
+[ 11%] Building CXX object absl/base/CMakeFiles/throw_delegate.dir/internal/throw_delegate.cc.obj
+throw_delegate.cc
+[ 12%] Linking CXX static library absl_throw_delegate.lib
+[ 12%] Built target throw_delegate
+Scanning dependencies of target malloc_internal
+[ 13%] Building CXX object absl/base/CMakeFiles/malloc_internal.dir/internal/low_level_alloc.cc.obj
+low_level_alloc.cc
+[ 14%] Linking CXX static library absl_malloc_internal.lib
+[ 14%] Built target malloc_internal
+Scanning dependencies of target scoped_set_env
+[ 15%] Building CXX object absl/base/CMakeFiles/scoped_set_env.dir/internal/scoped_set_env.cc.obj
+scoped_set_env.cc
+[ 16%] Linking CXX static library absl_scoped_set_env.lib
+[ 16%] Built target scoped_set_env
+Scanning dependencies of target debugging_internal
+[ 16%] Building CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/address_is_readable.cc.obj
+address_is_readable.cc
+[ 17%] Building CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/elf_mem_image.cc.obj
+elf_mem_image.cc
+[ 18%] Building CXX object absl/debugging/CMakeFiles/debugging_internal.dir/internal/vdso_support.cc.obj
+vdso_support.cc
+[ 19%] Linking CXX static library absl_debugging_internal.lib
+[ 19%] Built target debugging_internal
+Scanning dependencies of target stacktrace
+[ 20%] Building CXX object absl/debugging/CMakeFiles/stacktrace.dir/stacktrace.cc.obj
+stacktrace.cc
+[ 20%] Linking CXX static library absl_stacktrace.lib
+[ 20%] Built target stacktrace
+Scanning dependencies of target demangle_internal
+[ 21%] Building CXX object absl/debugging/CMakeFiles/demangle_internal.dir/internal/demangle.cc.obj
+demangle.cc
+[ 22%] Linking CXX static library absl_demangle_internal.lib
+[ 22%] Built target demangle_internal
+Scanning dependencies of target symbolize
+[ 23%] Building CXX object absl/debugging/CMakeFiles/symbolize.dir/symbolize.cc.obj
+symbolize.cc
+[ 24%] Linking CXX static library absl_symbolize.lib
+[ 24%] Built target symbolize
+Scanning dependencies of target int128
+[ 25%] Building CXX object absl/numeric/CMakeFiles/int128.dir/int128.cc.obj
+int128.cc
+[ 26%] Linking CXX static library absl_int128.lib
+[ 26%] Built target int128
+Scanning dependencies of target graphcycles_internal
+[ 27%] Building CXX object absl/synchronization/CMakeFiles/graphcycles_internal.dir/internal/graphcycles.cc.obj
+graphcycles.cc
+[ 28%] Linking CXX static library absl_graphcycles_internal.lib
+[ 28%] Built target graphcycles_internal
+Scanning dependencies of target strings_internal
+[ 29%] Building CXX object absl/strings/CMakeFiles/strings_internal.dir/internal/ostringstream.cc.obj
+ostringstream.cc
+[ 30%] Building CXX object absl/strings/CMakeFiles/strings_internal.dir/internal/utf8.cc.obj
+utf8.cc
+[ 31%] Linking CXX static library absl_strings_internal.lib
+[ 31%] Built target strings_internal
+Scanning dependencies of target strings
+[ 32%] Building CXX object absl/strings/CMakeFiles/strings.dir/ascii.cc.obj
+ascii.cc
+[ 33%] Building CXX object absl/strings/CMakeFiles/strings.dir/charconv.cc.obj
+charconv.cc
+[ 34%] Building CXX object absl/strings/CMakeFiles/strings.dir/escaping.cc.obj
+escaping.cc
+[ 35%] Building CXX object absl/strings/CMakeFiles/strings.dir/internal/charconv_bigint.cc.obj
+charconv_bigint.cc
+[ 36%] Building CXX object absl/strings/CMakeFiles/strings.dir/internal/charconv_parse.cc.obj
+charconv_parse.cc
+[ 37%] Building CXX object absl/strings/CMakeFiles/strings.dir/internal/memutil.cc.obj
+memutil.cc
+[ 38%] Building CXX object absl/strings/CMakeFiles/strings.dir/match.cc.obj
+match.cc
+[ 39%] Building CXX object absl/strings/CMakeFiles/strings.dir/numbers.cc.obj
+numbers.cc
+[ 40%] Building CXX object absl/strings/CMakeFiles/strings.dir/str_cat.cc.obj
+str_cat.cc
+[ 40%] Building CXX object absl/strings/CMakeFiles/strings.dir/str_replace.cc.obj
+str_replace.cc
+[ 41%] Building CXX object absl/strings/CMakeFiles/strings.dir/str_split.cc.obj
+str_split.cc
+[ 42%] Building CXX object absl/strings/CMakeFiles/strings.dir/string_view.cc.obj
+string_view.cc
+[ 43%] Building CXX object absl/strings/CMakeFiles/strings.dir/substitute.cc.obj
+substitute.cc
+[ 44%] Linking CXX static library absl_strings.lib
+[ 44%] Built target strings
+Scanning dependencies of target civil_time
+[ 45%] Building CXX object absl/time/CMakeFiles/civil_time.dir/internal/cctz/src/civil_time_detail.cc.obj
+civil_time_detail.cc
+[ 46%] Linking CXX static library absl_civil_time.lib
+[ 46%] Built target civil_time
+Scanning dependencies of target time_zone
+[ 47%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_fixed.cc.obj
+time_zone_fixed.cc
+[ 48%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_format.cc.obj
+time_zone_format.cc
+[ 49%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_if.cc.obj
+time_zone_if.cc
+[ 50%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_impl.cc.obj
+time_zone_impl.cc
+[ 51%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_info.cc.obj
+time_zone_info.cc
+[ 52%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_libc.cc.obj
+time_zone_libc.cc
+[ 53%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_lookup.cc.obj
+time_zone_lookup.cc
+[ 54%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/time_zone_posix.cc.obj
+time_zone_posix.cc
+[ 55%] Building CXX object absl/time/CMakeFiles/time_zone.dir/internal/cctz/src/zone_info_source.cc.obj
+zone_info_source.cc
+[ 56%] Linking CXX static library absl_time_zone.lib
+[ 56%] Built target time_zone
+Scanning dependencies of target time
+[ 57%] Building CXX object absl/time/CMakeFiles/time.dir/civil_time.cc.obj
+civil_time.cc
+[ 58%] Building CXX object absl/time/CMakeFiles/time.dir/clock.cc.obj
+clock.cc
+[ 59%] Building CXX object absl/time/CMakeFiles/time.dir/duration.cc.obj
+duration.cc
+[ 60%] Building CXX object absl/time/CMakeFiles/time.dir/format.cc.obj
+format.cc
+[ 61%] Building CXX object absl/time/CMakeFiles/time.dir/time.cc.obj
+time.cc
+[ 62%] Linking CXX static library absl_time.lib
+[ 62%] Built target time
+Scanning dependencies of target synchronization
+[ 63%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/barrier.cc.obj
+barrier.cc
+[ 64%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/blocking_counter.cc.obj
+blocking_counter.cc
+[ 65%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/create_thread_identity.cc.obj
+create_thread_identity.cc
+[ 66%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/per_thread_sem.cc.obj
+per_thread_sem.cc
+[ 67%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/internal/waiter.cc.obj
+waiter.cc
+[ 68%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/notification.cc.obj
+notification.cc
+[ 69%] Building CXX object absl/synchronization/CMakeFiles/synchronization.dir/mutex.cc.obj
+mutex.cc
+[ 70%] Linking CXX static library absl_synchronization.lib
+[ 70%] Built target synchronization
+Scanning dependencies of target hashtablez_sampler
+[ 71%] Building CXX object absl/container/CMakeFiles/hashtablez_sampler.dir/internal/hashtablez_sampler.cc.obj
+hashtablez_sampler.cc
+[ 72%] Building CXX object absl/container/CMakeFiles/hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.obj
+hashtablez_sampler_force_weak_definition.cc
+[ 72%] Linking CXX static library absl_hashtablez_sampler.lib
+[ 72%] Built target hashtablez_sampler
+Scanning dependencies of target bad_optional_access
+[ 73%] Building CXX object absl/types/CMakeFiles/bad_optional_access.dir/bad_optional_access.cc.obj
+bad_optional_access.cc
+[ 74%] Linking CXX static library absl_bad_optional_access.lib
+[ 74%] Built target bad_optional_access
+Scanning dependencies of target optional
+[ 75%] Building CXX object absl/types/CMakeFiles/optional.dir/optional.cc.obj
+optional.cc
+[ 76%] Linking CXX static library absl_optional.lib
+[ 76%] Built target optional
+Scanning dependencies of target raw_hash_set
+[ 77%] Building CXX object absl/container/CMakeFiles/raw_hash_set.dir/internal/raw_hash_set.cc.obj
+raw_hash_set.cc
+[ 78%] Linking CXX static library absl_raw_hash_set.lib
+[ 78%] Built target raw_hash_set
+Scanning dependencies of target examine_stack
+[ 79%] Building CXX object absl/debugging/CMakeFiles/examine_stack.dir/internal/examine_stack.cc.obj
+examine_stack.cc
+[ 80%] Linking CXX static library absl_examine_stack.lib
+[ 80%] Built target examine_stack
+Scanning dependencies of target failure_signal_handler
+[ 81%] Building CXX object absl/debugging/CMakeFiles/failure_signal_handler.dir/failure_signal_handler.cc.obj
+failure_signal_handler.cc
+[ 82%] Linking CXX static library absl_failure_signal_handler.lib
+[ 82%] Built target failure_signal_handler
+Scanning dependencies of target leak_check
+[ 83%] Building CXX object absl/debugging/CMakeFiles/leak_check.dir/leak_check.cc.obj
+leak_check.cc
+[ 84%] Linking CXX static library absl_leak_check.lib
+[ 84%] Built target leak_check
+Scanning dependencies of target leak_check_disable
+[ 85%] Building CXX object absl/debugging/CMakeFiles/leak_check_disable.dir/leak_check_disable.cc.obj
+leak_check_disable.cc
+[ 86%] Linking CXX static library absl_leak_check_disable.lib
+[ 86%] Built target leak_check_disable
+Scanning dependencies of target city
+[ 87%] Building CXX object absl/hash/CMakeFiles/city.dir/internal/city.cc.obj
+city.cc
+[ 88%] Linking CXX static library absl_city.lib
+[ 88%] Built target city
+Scanning dependencies of target bad_variant_access
+[ 89%] Building CXX object absl/types/CMakeFiles/bad_variant_access.dir/bad_variant_access.cc.obj
+bad_variant_access.cc
+[ 90%] Linking CXX static library absl_bad_variant_access.lib
+[ 90%] Built target bad_variant_access
+Scanning dependencies of target hash
+[ 91%] Building CXX object absl/hash/CMakeFiles/hash.dir/internal/hash.cc.obj
+hash.cc
+[ 92%] Linking CXX static library absl_hash.lib
+[ 92%] Built target hash
+Scanning dependencies of target str_format_internal
+[ 93%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/arg.cc.obj
+arg.cc
+[ 94%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/bind.cc.obj
+bind.cc
+[ 95%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/extension.cc.obj
+extension.cc
+[ 96%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/float_conversion.cc.obj
+float_conversion.cc
+[ 97%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/output.cc.obj
+output.cc
+[ 98%] Building CXX object absl/strings/CMakeFiles/str_format_internal.dir/internal/str_format/parser.cc.obj
+parser.cc
+[ 99%] Linking CXX static library absl_str_format_internal.lib
+[ 99%] Built target str_format_internal
+Scanning dependencies of target bad_any_cast_impl
+[ 99%] Building CXX object absl/types/CMakeFiles/bad_any_cast_impl.dir/bad_any_cast.cc.obj
+bad_any_cast.cc
+[100%] Linking CXX static library absl_bad_any_cast_impl.lib
+[100%] Built target bad_any_cast_impl
+[  2%] Built target spinlock_wait
+[  4%] Built target dynamic_annotations
+[ 11%] Built target base
+[ 12%] Built target throw_delegate
+[ 14%] Built target malloc_internal
+[ 16%] Built target scoped_set_env
+[ 19%] Built target debugging_internal
+[ 20%] Built target stacktrace
+[ 22%] Built target demangle_internal
+[ 24%] Built target symbolize
+[ 26%] Built target int128
+[ 28%] Built target graphcycles_internal
+[ 31%] Built target strings_internal
+[ 44%] Built target strings
+[ 46%] Built target civil_time
+[ 56%] Built target time_zone
+[ 62%] Built target time
+[ 70%] Built target synchronization
+[ 72%] Built target hashtablez_sampler
+[ 74%] Built target bad_optional_access
+[ 76%] Built target optional
+[ 78%] Built target raw_hash_set
+[ 80%] Built target examine_stack
+[ 82%] Built target failure_signal_handler
+[ 84%] Built target leak_check
+[ 86%] Built target leak_check_disable
+[ 88%] Built target city
+[ 90%] Built target bad_variant_access
+[ 92%] Built target hash
+[ 99%] Built target str_format_internal
+[100%] Built target bad_any_cast_impl
+Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslTargets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslTargets-release.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslConfig.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm/algorithm.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm/container.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/attributes.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/call_once.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/casts.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/config.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/const_init.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/dynamic_annotations.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/atomic_hook.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/bits.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/cycleclock.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/direct_mmap.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/endian.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/exception_safety_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/exception_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/hide_ptr.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/identity.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/inline_variable.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/inline_variable_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/invoke.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/low_level_alloc.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/low_level_scheduling.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/per_thread_tls.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/pretty_function.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/raw_logging.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/scheduling_mode.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/scoped_set_env.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_akaros.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_linux.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_posix.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_wait.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_win32.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/sysinfo.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/thread_identity.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/throw_delegate.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/tsan_mutex_interface.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/unaligned_access.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/unscaledcycleclock.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/log_severity.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/macros.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/optimization.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/policy_checks.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/port.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/base/thread_annotations.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/fixed_array.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/flat_hash_map.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/flat_hash_set.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/inlined_vector.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/common.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/compressed_tuple.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/container_memory.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/counting_allocator.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtablez_sampler.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtable_debug.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtable_debug_hooks.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_function_defaults.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_generator_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_policy_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_policy_traits.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/have_sse.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/inlined_vector.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/layout.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/node_hash_policy.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/raw_hash_map.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/raw_hash_set.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/test_instance_tracker.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/tracked.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_constructor_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_lookup_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_members_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_modifiers_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_constructor_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_lookup_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_members_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_modifiers_test.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/node_hash_map.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/container/node_hash_set.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/copts
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/failure_signal_handler.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/address_is_readable.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/demangle.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/elf_mem_image.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/examine_stack.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_aarch64-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_arm-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_config.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_generic-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_powerpc-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_unimplemented-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_win32-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_x86-inl.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stack_consumption.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/symbolize.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/vdso_support.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/leak_check.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/stacktrace.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_elf.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_unimplemented.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_win32.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/hash.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/hash_testing.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/city.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/hash.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/spy_hash_state.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/memory
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/memory/memory.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/meta
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/meta/type_traits.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128_have_intrinsic.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128_no_intrinsic.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/ascii.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/charconv.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/escaping.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/charconv_bigint.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/charconv_parse.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/char_map.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/escaping_test_common.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/memutil.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/numbers_test_common.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/ostringstream.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/pow10_helper.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/resize_uninitialized.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/stl_type_traits.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/arg.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/bind.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/checker.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/extension.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/float_conversion.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/output.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/parser.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_join_internal.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_split_internal.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/utf8.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/match.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/numbers.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/string_view.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/strip.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_cat.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_format.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_join.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_replace.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_split.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/substitute.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/testdata
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/barrier.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/blocking_counter.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/create_thread_identity.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/graphcycles.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/kernel_timeout.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/mutex_nonprod.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/per_thread_sem.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/thread_pool.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/waiter.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/mutex.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/notification.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/civil_time.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/clock.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/civil_time.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/civil_time_detail.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/time_zone.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/zone_info_source.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_fixed.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_if.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_impl.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_info.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_libc.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_posix.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/tzfile.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Africa
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Argentina
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Indiana
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Kentucky
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/North_Dakota
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Antarctica
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Arctic
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Asia
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Atlantic
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Australia
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Brazil
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Canada
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Chile
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Etc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Europe
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Indian
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Mexico
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Pacific
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/US
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/get_current_time_chrono.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/get_current_time_posix.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/test_util.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/zoneinfo.inc
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/time/time.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/any.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_any_cast.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_optional_access.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_variant_access.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/internal
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/internal/variant.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/optional.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/span.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/types/variant.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/utility
+-- Installing: C:/GitRepo/or-tools/dependencies/install/include/absl/utility/utility.h
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_spinlock_wait.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_dynamic_annotations.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_malloc_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_base.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_throw_delegate.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_scoped_set_env.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_hashtablez_sampler.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_raw_hash_set.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_stacktrace.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_symbolize.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_examine_stack.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_failure_signal_handler.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_debugging_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_demangle_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_leak_check.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_leak_check_disable.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_hash.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_city.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_int128.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_strings.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_strings_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_str_format_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_graphcycles_internal.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_synchronization.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_time.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_civil_time.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_time_zone.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_any_cast_impl.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_optional.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_optional_access.lib
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_variant_access.lib
+tools\win\wget.exe --quiet -P dependencies\\archives --no-check-certificate https://superb-dca2.dl.sourceforge.net/project/swig/swigwin/swigwin-4.0.0/swigwin-4.0.0.zip
+tools\win\unzip.exe -q -d dependencies\\install dependencies\\archives\\swigwin-4.0.0.zip
+[dependencies/archives/swigwin-4.0.0.zip]
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in dependencies/archives/swigwin-4.0.0.zip,
+        and cannot find dependencies/archives/swigwin-4.0.0.zip.zip, period.
+make: *** [dependencies/install/swigwin-4.0.0/swig.exe] Error 9
+
+c:\GitRepo\or-tools>
