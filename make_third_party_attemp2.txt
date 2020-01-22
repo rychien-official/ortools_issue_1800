@@ -1,0 +1,1795 @@
+c:\GitRepo\or-tools>tools\make third_party
+del Makefile.local
+tools\win\mkdir.exe -p dependencies\\install\\lib\\coin
+tools\win\mkdir.exe -p dependencies\\install\\include\\coin
+copy dependencies\\sources\\zlib-1.2.11\\zlib.h dependencies\\install\\include\\zlib.h
+        1 file(s) copied.
+copy dependencies\\sources\\zlib-1.2.11\\zconf.h dependencies\\install\\include\\zconf.h
+        1 file(s) copied.
+cd dependencies\sources\gflags-2.2.2 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/gflags-2.2.2/build_cmake
+[ 50%] Built target gflags_static
+[100%] Built target gflags_nothreads_static
+[ 50%] Built target gflags_static
+[100%] Built target gflags_nothreads_static
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/gflags_static.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/gflags_nothreads_static.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_declare.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_completions.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/gflags/gflags_gflags.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-config.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-config-version.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-targets-release.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-nonamespace-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake
+-- Register:   Added HKEY_CURRENT_USER\Software\Kitware\CMake\Packages\gflags\1e73f50176d47481e8ac3cd72d0b58e8
+cd dependencies\sources\glog-0.4.0 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_PREFIX_PATH=..\..\install \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/glog-0.4.0/build_cmake
+[100%] Built target glog
+[100%] Built target glog
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/glog.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/glog/logging.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/glog/raw_logging.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/glog/stl_logging.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/glog/vlog_is_on.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/glog/log_severity.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-config.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-config-version.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-targets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/glog/glog-targets-release.cmake
+cd dependencies\sources\abseil-cpp-bf29470 && \
+  set MAKEFLAGS= && \
+  "C:\Program Files\CMake\bin\cmake.EXE" -H. -Bbuild_cmake \
+    -DCMAKE_PREFIX_PATH=..\..\install \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_SHARED_LIBS=OFF \
+    -DBUILD_TESTING=OFF \
+    -DCMAKE_INSTALL_PREFIX=..\..\install \
+    -G "NMake Makefiles" && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake && \
+  "C:\Program Files\CMake\bin\cmake.EXE" --build build_cmake --target install
+-- No CMAKE_CXX_STANDARD set, assuming 11
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/GitRepo/or-tools/dependencies/sources/abseil-cpp-bf29470/build_cmake
+[  2%] Built target spinlock_wait
+[  4%] Built target dynamic_annotations
+[ 11%] Built target base
+[ 12%] Built target throw_delegate
+[ 14%] Built target malloc_internal
+[ 16%] Built target scoped_set_env
+[ 19%] Built target debugging_internal
+[ 20%] Built target stacktrace
+[ 22%] Built target demangle_internal
+[ 24%] Built target symbolize
+[ 26%] Built target int128
+[ 28%] Built target graphcycles_internal
+[ 31%] Built target strings_internal
+[ 44%] Built target strings
+[ 54%] Built target time_zone
+[ 56%] Built target civil_time
+[ 62%] Built target time
+[ 70%] Built target synchronization
+[ 72%] Built target hashtablez_sampler
+[ 74%] Built target bad_optional_access
+[ 76%] Built target optional
+[ 78%] Built target raw_hash_set
+[ 80%] Built target examine_stack
+[ 82%] Built target failure_signal_handler
+[ 84%] Built target leak_check
+[ 86%] Built target leak_check_disable
+[ 88%] Built target city
+[ 90%] Built target bad_variant_access
+[ 92%] Built target hash
+[ 99%] Built target str_format_internal
+[100%] Built target bad_any_cast_impl
+[  2%] Built target spinlock_wait
+[  4%] Built target dynamic_annotations
+[ 11%] Built target base
+[ 12%] Built target throw_delegate
+[ 14%] Built target malloc_internal
+[ 16%] Built target scoped_set_env
+[ 19%] Built target debugging_internal
+[ 20%] Built target stacktrace
+[ 22%] Built target demangle_internal
+[ 24%] Built target symbolize
+[ 26%] Built target int128
+[ 28%] Built target graphcycles_internal
+[ 31%] Built target strings_internal
+[ 44%] Built target strings
+[ 54%] Built target time_zone
+[ 56%] Built target civil_time
+[ 62%] Built target time
+[ 70%] Built target synchronization
+[ 72%] Built target hashtablez_sampler
+[ 74%] Built target bad_optional_access
+[ 76%] Built target optional
+[ 78%] Built target raw_hash_set
+[ 80%] Built target examine_stack
+[ 82%] Built target failure_signal_handler
+[ 84%] Built target leak_check
+[ 86%] Built target leak_check_disable
+[ 88%] Built target city
+[ 90%] Built target bad_variant_access
+[ 92%] Built target hash
+[ 99%] Built target str_format_internal
+[100%] Built target bad_any_cast_impl
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslTargets.cmake
+-- Installing: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslTargets-release.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/cmake/abslConfig.cmake
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm/algorithm.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/algorithm/container.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/attributes.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/call_once.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/casts.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/config.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/const_init.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/dynamic_annotations.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/atomic_hook.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/bits.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/cycleclock.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/direct_mmap.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/endian.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/exception_safety_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/exception_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/hide_ptr.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/identity.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/inline_variable.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/inline_variable_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/invoke.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/low_level_alloc.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/low_level_scheduling.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/per_thread_tls.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/pretty_function.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/raw_logging.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/scheduling_mode.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/scoped_set_env.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_akaros.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_linux.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_posix.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_wait.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/spinlock_win32.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/sysinfo.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/thread_identity.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/throw_delegate.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/tsan_mutex_interface.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/unaligned_access.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/internal/unscaledcycleclock.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/log_severity.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/macros.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/optimization.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/policy_checks.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/port.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/base/thread_annotations.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/fixed_array.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/flat_hash_map.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/flat_hash_set.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/inlined_vector.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/common.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/compressed_tuple.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/container_memory.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/counting_allocator.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtablez_sampler.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtable_debug.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hashtable_debug_hooks.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_function_defaults.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_generator_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_policy_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/hash_policy_traits.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/have_sse.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/inlined_vector.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/layout.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/node_hash_policy.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/raw_hash_map.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/raw_hash_set.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/test_instance_tracker.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/tracked.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_constructor_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_lookup_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_members_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_map_modifiers_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_constructor_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_lookup_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_members_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/internal/unordered_set_modifiers_test.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/node_hash_map.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/container/node_hash_set.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/copts
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/failure_signal_handler.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/address_is_readable.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/demangle.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/elf_mem_image.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/examine_stack.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_aarch64-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_arm-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_config.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_generic-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_powerpc-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_unimplemented-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_win32-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stacktrace_x86-inl.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/stack_consumption.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/symbolize.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/internal/vdso_support.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/leak_check.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/stacktrace.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_elf.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_unimplemented.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/debugging/symbolize_win32.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/hash.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/hash_testing.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/city.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/hash.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/hash/internal/spy_hash_state.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/memory
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/memory/memory.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/meta
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/meta/type_traits.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128_have_intrinsic.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/numeric/int128_no_intrinsic.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/ascii.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/charconv.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/escaping.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/charconv_bigint.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/charconv_parse.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/char_map.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/escaping_test_common.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/memutil.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/numbers_test_common.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/ostringstream.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/pow10_helper.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/resize_uninitialized.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/stl_type_traits.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/arg.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/bind.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/checker.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/extension.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/float_conversion.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/output.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_format/parser.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_join_internal.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/str_split_internal.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/internal/utf8.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/match.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/numbers.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/string_view.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/strip.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_cat.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_format.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_join.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_replace.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/str_split.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/substitute.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/strings/testdata
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/barrier.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/blocking_counter.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/create_thread_identity.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/graphcycles.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/kernel_timeout.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/mutex_nonprod.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/per_thread_sem.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/thread_pool.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/internal/waiter.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/mutex.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/synchronization/notification.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/civil_time.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/clock.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/civil_time.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/civil_time_detail.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/time_zone.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/include/cctz/zone_info_source.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_fixed.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_if.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_impl.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_info.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_libc.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/time_zone_posix.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/src/tzfile.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Africa
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Argentina
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Indiana
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/Kentucky
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/America/North_Dakota
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Antarctica
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Arctic
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Asia
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Atlantic
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Australia
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Brazil
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Canada
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Chile
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Etc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Europe
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Indian
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Mexico
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/Pacific
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/cctz/testdata/zoneinfo/US
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/get_current_time_chrono.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/get_current_time_posix.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/test_util.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/internal/zoneinfo.inc
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/time/time.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/any.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_any_cast.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_optional_access.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/bad_variant_access.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/internal
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/internal/variant.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/optional.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/span.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/types/variant.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/utility
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/include/absl/utility/utility.h
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_spinlock_wait.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_dynamic_annotations.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_malloc_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_base.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_throw_delegate.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_scoped_set_env.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_hashtablez_sampler.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_raw_hash_set.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_stacktrace.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_symbolize.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_examine_stack.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_failure_signal_handler.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_debugging_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_demangle_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_leak_check.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_leak_check_disable.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_hash.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_city.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_int128.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_strings.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_strings_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_str_format_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_graphcycles_internal.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_synchronization.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_time.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_civil_time.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_time_zone.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_any_cast_impl.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_optional.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_optional_access.lib
+-- Up-to-date: C:/GitRepo/or-tools/dependencies/install/lib/absl_bad_variant_access.lib
+tools\win\unzip.exe -q -d dependencies\\install dependencies\\archives\\swigwin-4.0.1.zip
+tools\win\touch.exe dependencies\\install\\swigwin-4.0.1\\swig.exe
+tools\win\wget.exe --quiet --continue -P dependencies\archives --no-check-certificate https://www.coin-or.org/download/source/Cbc/Cbc-2.10.3.zip || (@echo wget failed to dowload https://www.coin-or.org/download/source/Cbc/Cbc-2.10.3.zip, try running 'tools\win\wget.exe -P dependencies\archives --no-check-certificate https://www.coin-or.org/download/source/Cbc/Cbc-2.10.3.zip' then rerun 'make third_party' && exit 1)
+tools\win\unzip.exe -q -d dependencies\sources dependencies\archives\Cbc-2.10.3.zip
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Clp\\MSVisualStudio\\v10\\libOsiClp\\libOsiClp.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Clp\\MSVisualStudio\\v10\\libClp\\libClp.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Cbc\\MSVisualStudio\\v10\\libOsiCbc\\libOsiCbc.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libOsiCbc\libOsiCbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libOsiCbc\libOsiCbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libOsiCbc\libOsiCbc.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Cbc\\MSVisualStudio\\v10\\libCbc\\libCbc.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Cbc\\MSVisualStudio\\v10\\cbc\\cbc.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Cbc\\MSVisualStudio\\v10\\libCbcSolver\\libCbcSolver.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Osi\\MSVisualStudio\\v10\\libOsi\\libOsi.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\CoinUtils\\MSVisualStudio\\v10\\libCoinUtils\\libCoinUtils.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj
+tools\win\upgrade_vs_project.cmd dependencies\\sources\\Cbc-2.10.3\\Cgl\\MSVisualStudio\\v10\\libCgl\\libCgl.vcxproj v142
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/<PlatformToolset>/d" dependencies\sources\Cbc-2.10.3\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>StaticLibrary<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj
+
+c:\GitRepo\or-tools>tools\win\sed.exe -i -e "/^\ \ \ \ <ConfigurationType>Application<\/ConfigurationType>/a\ \ \ \ <PlatformToolset>v142<\/PlatformToolset>" dependencies\sources\Cbc-2.10.3\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj
+tools\win\sed.exe -i 's/CBC_BUILD;/CBC_BUILD;CBC_THREAD_SAFE;CBC_NO_INTERRUPT;/g' dependencies\\sources\\Cbc-2.10.3\\Cbc\\MSVisualStudio\\v10\\libCbcSolver\\libCbcSolver.vcxproj
+cd dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10 && msbuild Cbc.sln /t:cbc /p:Configuration=Release;BuildCmd=ReBuild
+Microsoft (R) Build Engine version 16.4.0+e901037fe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "-m" switch.
+Build started 1/22/2020 9:33:25 AM.
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" on node 1 (cbc target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|x64".
+ValidateProjects:
+  The project "cbcCInterfaceDll" is not selected for building in solution configuration "Release|x64".
+  The project "cbcCSosDllSample" is not selected for building in solution configuration "Release|x64".
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (1) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\
+MSVisualStudio\v10\cbc\cbc.vcxproj" (2) on node 1 (default targets).
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\".
+  Creating directory "x64-v142-Release\libCgl.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libCgl.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\src\CglDuplicateRow /I..\..\..\src\CglM
+  ixedIntegerRounding /I..\..\..\src\CglMixedIntegerRounding2 /I..\..\..\src\CglFlowCover /I..\..\..\src\CglClique /I..\..\..\src\CglOddHole /I..\..\..\src\CglKnapsac
+  kCover /I..\..\..\src\CglGomory /I..\..\..\src\CglPreProcess /I..\..\..\src\CglRedSplit /I..\..\..\src\CglResidualCapacity /I..\..\..\src\CglProbing /I..\..\..\src
+  /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Clp\src /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /diag
+  nostics:column /O2 /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _SCL_SECURE_NO_WARNINGS /GF /Gm- /EH
+  sc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libCgl.pdb" /Gd /TP /FC /errorReport:queue ..\..\..\src\
+  CglAllDifferent\CglAllDifferent.cpp ..\..\..\src\CglClique\CglClique.cpp ..\..\..\src\CglClique\CglCliqueHelper.cpp ..\..\..\src\CglCutGenerator.cpp ..\..\..\src\Cg
+  lDuplicateRow\CglDuplicateRow.cpp ..\..\..\src\CglFlowCover\CglFlowCover.cpp ..\..\..\src\CglGMI\CglGMI.cpp ..\..\..\src\CglGMI\CglGMIParam.cpp ..\..\..\src\CglGomo
+  ry\CglGomory.cpp ..\..\..\src\CglKnapsackCover\CglKnapsackCover.cpp ..\..\..\src\CglLandP\CglLandP.cpp ..\..\..\src\CglLandP\CglLandPMessages.cpp ..\..\..\src\CglLa
+  ndP\CglLandPSimplex.cpp ..\..\..\src\CglLandP\CglLandPTabRow.cpp ..\..\..\src\CglLandP\CglLandPUtils.cpp ..\..\..\src\CglLandP\CglLandPValidator.cpp ..\..\..\src\Cg
+  lLiftAndProject\CglLiftAndProject.cpp ..\..\..\src\CglMessage.cpp ..\..\..\src\CglMixedIntegerRounding\CglMixedIntegerRounding.cpp ..\..\..\src\CglMixedIntegerRound
+  ing2\CglMixedIntegerRounding2.cpp ..\..\..\src\CglOddHole\CglOddHole.cpp ..\..\..\src\CglParam.cpp ..\..\..\src\CglPreProcess\CglPreProcess.cpp ..\..\..\src\CglProb
+  ing\CglProbing.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2Param.cpp ..\..\..\src\CglRedSplit2\CglRedSplit2Test.cpp ..\..\.
+  .\src\CglRedSplit\CglRedSplit.cpp ..\..\..\src\CglRedSplit\CglRedSplitParam.cpp ..\..\..\src\CglResidualCapacity\CglResidualCapacity.cpp ..\..\..\src\CglResidualCap
+  acity\CglResidualCapacityTest.cpp ..\..\..\src\CglSimpleRounding\CglSimpleRounding.cpp ..\..\..\src\CglStored.cpp ..\..\..\src\CglTreeInfo.cpp ..\..\..\src\CglTwomi
+  r\CglTwomir.cpp ..\..\..\src\CglZeroHalf\Cgl012cut.cpp ..\..\..\src\CglZeroHalf\CglZeroHalf.cpp ..\..\..\src\CglZeroHalf\CglZeroHalfTest.cpp
+  CglAllDifferent.cpp
+  CglClique.cpp
+  CglCliqueHelper.cpp
+  CglCutGenerator.cpp
+  CglDuplicateRow.cpp
+  CglFlowCover.cpp
+  CglGMI.cpp
+  CglGMIParam.cpp
+  CglGomory.cpp
+  CglKnapsackCover.cpp
+  CglLandP.cpp
+  CglLandPMessages.cpp
+  CglLandPSimplex.cpp
+  CglLandPTabRow.cpp
+  CglLandPUtils.cpp
+  CglLandPValidator.cpp
+  CglLiftAndProject.cpp
+  CglMessage.cpp
+  CglMixedIntegerRounding.cpp
+  CglMixedIntegerRounding2.cpp
+  Generating Code...
+  Compiling...
+  CglOddHole.cpp
+  CglParam.cpp
+  CglPreProcess.cpp
+  CglProbing.cpp
+  CglRedSplit2.cpp
+  CglRedSplit2Param.cpp
+  CglRedSplit2Test.cpp
+  CglRedSplit.cpp
+  CglRedSplitParam.cpp
+  CglResidualCapacity.cpp
+  CglResidualCapacityTest.cpp
+  CglSimpleRounding.cpp
+  CglStored.cpp
+  CglTreeInfo.cpp
+  CglTwomir.cpp
+  Cgl012cut.cpp
+  CglZeroHalf.cpp
+  CglZeroHalfTest.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCgl.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\CglAllDifferent.obj"
+  "x64-v142-Release\CglClique.obj"
+  "x64-v142-Release\CglCliqueHelper.obj"
+  "x64-v142-Release\CglCutGenerator.obj"
+  "x64-v142-Release\CglDuplicateRow.obj"
+  "x64-v142-Release\CglFlowCover.obj"
+  "x64-v142-Release\CglGMI.obj"
+  "x64-v142-Release\CglGMIParam.obj"
+  "x64-v142-Release\CglGomory.obj"
+  "x64-v142-Release\CglKnapsackCover.obj"
+  "x64-v142-Release\CglLandP.obj"
+  "x64-v142-Release\CglLandPMessages.obj"
+  "x64-v142-Release\CglLandPSimplex.obj"
+  "x64-v142-Release\CglLandPTabRow.obj"
+  "x64-v142-Release\CglLandPUtils.obj"
+  "x64-v142-Release\CglLandPValidator.obj"
+  "x64-v142-Release\CglLiftAndProject.obj"
+  "x64-v142-Release\CglMessage.obj"
+  "x64-v142-Release\CglMixedIntegerRounding.obj"
+  "x64-v142-Release\CglMixedIntegerRounding2.obj"
+  "x64-v142-Release\CglOddHole.obj"
+  "x64-v142-Release\CglParam.obj"
+  "x64-v142-Release\CglPreProcess.obj"
+  "x64-v142-Release\CglProbing.obj"
+  "x64-v142-Release\CglRedSplit2.obj"
+  "x64-v142-Release\CglRedSplit2Param.obj"
+  "x64-v142-Release\CglRedSplit2Test.obj"
+  "x64-v142-Release\CglRedSplit.obj"
+  "x64-v142-Release\CglRedSplitParam.obj"
+  "x64-v142-Release\CglResidualCapacity.obj"
+  "x64-v142-Release\CglResidualCapacityTest.obj"
+  "x64-v142-Release\CglSimpleRounding.obj"
+  "x64-v142-Release\CglStored.obj"
+  "x64-v142-Release\CglTreeInfo.obj"
+  "x64-v142-Release\CglTwomir.obj"
+  "x64-v142-Release\Cgl012cut.obj"
+  "x64-v142-Release\CglZeroHalf.obj"
+  "x64-v142-Release\CglZeroHalfTest.obj"
+  libCgl.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCgl.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libCgl.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libCgl.tlog\libCgl.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cgl\MSVisualStudio\v10\libCgl\libCgl.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libClp.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libClp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildToo
+  ls\headers /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D CLP_BUILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGR
+  ADE=0x0710 /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libClp.pdb" /Gd /TP /FC /errorRep
+  ort:queue ..\..\..\src\Clp_C_Interface.cpp ..\..\..\src\ClpCholeskyBase.cpp ..\..\..\src\ClpCholeskyDense.cpp ..\..\..\src\ClpConstraint.cpp ..\..\..\src\ClpConstra
+  intLinear.cpp ..\..\..\src\ClpConstraintQuadratic.cpp ..\..\..\src\ClpDualRowDantzig.cpp ..\..\..\src\ClpDualRowPivot.cpp ..\..\..\src\ClpDualRowSteepest.cpp ..\..\
+  ..\src\ClpDummyMatrix.cpp ..\..\..\src\ClpDynamicExampleMatrix.cpp ..\..\..\src\ClpDynamicMatrix.cpp ..\..\..\src\ClpEventHandler.cpp ..\..\..\src\ClpFactorization.
+  cpp ..\..\..\src\ClpGubDynamicMatrix.cpp ..\..\..\src\ClpGubMatrix.cpp ..\..\..\src\ClpHelperFunctions.cpp ..\..\..\src\ClpInterior.cpp ..\..\..\src\ClpLinearObject
+  ive.cpp ..\..\..\src\ClpLsqr.cpp ..\..\..\src\ClpMatrixBase.cpp ..\..\..\src\ClpMessage.cpp ..\..\..\src\ClpModel.cpp ..\..\..\src\ClpNetworkBasis.cpp ..\..\..\src\
+  ClpNetworkMatrix.cpp ..\..\..\src\ClpNode.cpp ..\..\..\src\ClpNonLinearCost.cpp ..\..\..\src\ClpObjective.cpp ..\..\..\src\ClpPackedMatrix.cpp ..\..\..\src\ClpPdco.
+  cpp ..\..\..\src\ClpPdcoBase.cpp ..\..\..\src\ClpPlusMinusOneMatrix.cpp ..\..\..\src\ClpPredictorCorrector.cpp ..\..\..\src\ClpPresolve.cpp ..\..\..\src\ClpPrimalCo
+  lumnDantzig.cpp ..\..\..\src\ClpPrimalColumnPivot.cpp ..\..\..\src\ClpPrimalColumnSteepest.cpp ..\..\..\src\ClpQuadraticObjective.cpp ..\..\..\src\ClpSimplex.cpp ..
+  \..\..\src\ClpSimplexDual.cpp ..\..\..\src\ClpSimplexNonlinear.cpp ..\..\..\src\ClpSimplexOther.cpp ..\..\..\src\ClpSimplexPrimal.cpp ..\..\..\src\ClpSolve.cpp ..\.
+  .\..\src\Idiot.cpp ..\..\..\src\IdiSolve.cpp ..\..\..\src\ClpPESimplex.cpp ..\..\..\src\ClpPEPrimalColumnDantzig.cpp ..\..\..\src\ClpPEPrimalColumnSteepest.cpp ..\.
+  .\..\src\ClpPEDualRowDantzig.cpp ..\..\..\src\ClpPEDualRowSteepest.cpp
+  Clp_C_Interface.cpp
+  ClpCholeskyBase.cpp
+  ClpCholeskyDense.cpp
+  ClpConstraint.cpp
+  ClpConstraintLinear.cpp
+  ClpConstraintQuadratic.cpp
+  ClpDualRowDantzig.cpp
+  ClpDualRowPivot.cpp
+  ClpDualRowSteepest.cpp
+  ClpDummyMatrix.cpp
+  ClpDynamicExampleMatrix.cpp
+  ClpDynamicMatrix.cpp
+  ClpEventHandler.cpp
+  ClpFactorization.cpp
+  ClpGubDynamicMatrix.cpp
+  ClpGubMatrix.cpp
+  ClpHelperFunctions.cpp
+  ClpInterior.cpp
+  ClpLinearObjective.cpp
+  ClpLsqr.cpp
+  Generating Code...
+  Compiling...
+  ClpMatrixBase.cpp
+  ClpMessage.cpp
+  ClpModel.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(1341,53): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(1352,20): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3541,27): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3568,33): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3816,25): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3837,17): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3855,31): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3876,20): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\sour
+ces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  ClpNetworkBasis.cpp
+  ClpNetworkMatrix.cpp
+  ClpNode.cpp
+  ClpNonLinearCost.cpp
+  ClpObjective.cpp
+  ClpPackedMatrix.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPackedMatrix.cpp(6921,20): warning C4244: '=': conversion from '__int64' to 'CoinBigIndex', possible lo
+ss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  ClpPdco.cpp
+  ClpPdcoBase.cpp
+  ClpPlusMinusOneMatrix.cpp
+  ClpPredictorCorrector.cpp
+  ClpPresolve.cpp
+  ClpPrimalColumnDantzig.cpp
+  ClpPrimalColumnPivot.cpp
+  ClpPrimalColumnSteepest.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalColumnSteepest.cpp(3174,8): warning C4805: '==': unsafe mix of type 'double' and type 'bool' in o
+peration [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  ClpQuadraticObjective.cpp
+  ClpSimplex.cpp
+  ClpSimplexDual.cpp
+  Generating Code...
+  Compiling...
+  ClpSimplexNonlinear.cpp
+  ClpSimplexOther.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexOther.cpp(8368,14): warning C4244: 'initializing': conversion from '__int64' to 'long', possible
+ loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  ClpSimplexPrimal.cpp
+  ClpSolve.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSolve.cpp(2933,36): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data [c:\G
+itRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSolve.cpp(2935,36): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data [c:\G
+itRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  Idiot.cpp
+  IdiSolve.cpp
+  ClpPESimplex.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(556,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(567,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(577,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(587,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  ClpPEPrimalColumnDantzig.cpp
+  ClpPEPrimalColumnSteepest.cpp
+  ClpPEDualRowDantzig.cpp
+  ClpPEDualRowSteepest.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libClp.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\Clp_C_Interface.obj"
+  "x64-v142-Release\ClpCholeskyBase.obj"
+  "x64-v142-Release\ClpCholeskyDense.obj"
+  "x64-v142-Release\ClpConstraint.obj"
+  "x64-v142-Release\ClpConstraintLinear.obj"
+  "x64-v142-Release\ClpConstraintQuadratic.obj"
+  "x64-v142-Release\ClpDualRowDantzig.obj"
+  "x64-v142-Release\ClpDualRowPivot.obj"
+  "x64-v142-Release\ClpDualRowSteepest.obj"
+  "x64-v142-Release\ClpDummyMatrix.obj"
+  "x64-v142-Release\ClpDynamicExampleMatrix.obj"
+  "x64-v142-Release\ClpDynamicMatrix.obj"
+  "x64-v142-Release\ClpEventHandler.obj"
+  "x64-v142-Release\ClpFactorization.obj"
+  "x64-v142-Release\ClpGubDynamicMatrix.obj"
+  "x64-v142-Release\ClpGubMatrix.obj"
+  "x64-v142-Release\ClpHelperFunctions.obj"
+  "x64-v142-Release\ClpInterior.obj"
+  "x64-v142-Release\ClpLinearObjective.obj"
+  "x64-v142-Release\ClpLsqr.obj"
+  "x64-v142-Release\ClpMatrixBase.obj"
+  "x64-v142-Release\ClpMessage.obj"
+  "x64-v142-Release\ClpModel.obj"
+  "x64-v142-Release\ClpNetworkBasis.obj"
+  "x64-v142-Release\ClpNetworkMatrix.obj"
+  "x64-v142-Release\ClpNode.obj"
+  "x64-v142-Release\ClpNonLinearCost.obj"
+  "x64-v142-Release\ClpObjective.obj"
+  "x64-v142-Release\ClpPackedMatrix.obj"
+  "x64-v142-Release\ClpPdco.obj"
+  "x64-v142-Release\ClpPdcoBase.obj"
+  "x64-v142-Release\ClpPlusMinusOneMatrix.obj"
+  "x64-v142-Release\ClpPredictorCorrector.obj"
+  "x64-v142-Release\ClpPresolve.obj"
+  "x64-v142-Release\ClpPrimalColumnDantzig.obj"
+  "x64-v142-Release\ClpPrimalColumnPivot.obj"
+  "x64-v142-Release\ClpPrimalColumnSteepest.obj"
+  "x64-v142-Release\ClpQuadraticObjective.obj"
+  "x64-v142-Release\ClpSimplex.obj"
+  "x64-v142-Release\ClpSimplexDual.obj"
+  "x64-v142-Release\ClpSimplexNonlinear.obj"
+  "x64-v142-Release\ClpSimplexOther.obj"
+  "x64-v142-Release\ClpSimplexPrimal.obj"
+  "x64-v142-Release\ClpSolve.obj"
+  "x64-v142-Release\Idiot.obj"
+  "x64-v142-Release\IdiSolve.obj"
+  "x64-v142-Release\ClpPESimplex.obj"
+  "x64-v142-Release\ClpPEPrimalColumnDantzig.obj"
+  "x64-v142-Release\ClpPEPrimalColumnSteepest.obj"
+  "x64-v142-Release\ClpPEDualRowDantzig.obj"
+  "x64-v142-Release\ClpPEDualRowSteepest.obj"
+  libClp.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libClp.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libClp.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libClp.tlog\libClp.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (5) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libOsiClp.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libOsiClp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp
+   /I..\..\..\..\Osi\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D OSI_BU
+  ILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:for
+  Scope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libOsiClp.pdb" /Gd /TP /FC /errorReport:queue ..\..\..\src\OsiClp\OsiClpSolverInterface.cpp
+  OsiClpSolverInterface.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\OsiClp\OsiClpSolverInterface.cpp(9787,7): warning C4101: 'iRow': unreferenced local variable [c:\GitRepo\o
+r-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj]
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsiClp.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\OsiClpSolverInterface.obj"
+  libOsiClp.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsiClp.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libOsiClp.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libOsiClp.tlog\libOsiClp.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" (6) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libCoinUtils.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libCoinUtils.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /
+  WX- /diagnostics:column /O2 /D COINUTILS_BUILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _SCL_SEC
+  URE_NO_WARNINGS /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libCoinUtils.pdb" /Gd /TP /F
+  C /errorReport:queue ..\..\..\src\CoinAlloc.cpp ..\..\..\src\CoinBuild.cpp ..\..\..\src\CoinDenseFactorization.cpp ..\..\..\src\CoinDenseVector.cpp ..\..\..\src\Coi
+  nError.cpp ..\..\..\src\CoinFactorization1.cpp ..\..\..\src\CoinFactorization2.cpp ..\..\..\src\CoinFactorization3.cpp ..\..\..\src\CoinFactorization4.cpp ..\..\..\
+  src\CoinFileIO.cpp ..\..\..\src\CoinFinite.cpp ..\..\..\src\CoinIndexedVector.cpp ..\..\..\src\CoinLpIO.cpp ..\..\..\src\CoinMessage.cpp ..\..\..\src\CoinMessageHan
+  dler.cpp ..\..\..\src\CoinModel.cpp ..\..\..\src\CoinModelUseful.cpp ..\..\..\src\CoinModelUseful2.cpp ..\..\..\src\CoinMpsIO.cpp ..\..\..\src\CoinOslFactorization.
+  cpp ..\..\..\src\CoinOslFactorization2.cpp ..\..\..\src\CoinOslFactorization3.cpp ..\..\..\src\CoinPackedMatrix.cpp ..\..\..\src\CoinPackedVector.cpp ..\..\..\src\C
+  oinPackedVectorBase.cpp ..\..\..\src\CoinParam.cpp ..\..\..\src\CoinParamUtils.cpp ..\..\..\src\CoinPostsolveMatrix.cpp ..\..\..\src\CoinPrePostsolveMatrix.cpp ..\.
+  .\..\src\CoinPresolveDoubleton.cpp ..\..\..\src\CoinPresolveDual.cpp ..\..\..\src\CoinPresolveDupcol.cpp ..\..\..\src\CoinPresolveEmpty.cpp ..\..\..\src\CoinPresolv
+  eFixed.cpp ..\..\..\src\CoinPresolveForcing.cpp ..\..\..\src\CoinPresolveHelperFunctions.cpp ..\..\..\src\CoinPresolveImpliedFree.cpp ..\..\..\src\CoinPresolveIsola
+  ted.cpp ..\..\..\src\CoinPresolveMatrix.cpp ..\..\..\src\CoinPresolvePsdebug.cpp ..\..\..\src\CoinPresolveSingleton.cpp ..\..\..\src\CoinPresolveSubst.cpp ..\..\..\
+  src\CoinPresolveTighten.cpp ..\..\..\src\CoinPresolveTripleton.cpp ..\..\..\src\CoinPresolveUseless.cpp ..\..\..\src\CoinPresolveZeros.cpp ..\..\..\src\CoinRational
+  .cpp ..\..\..\src\CoinSearchTree.cpp ..\..\..\src\CoinShallowPackedVector.cpp ..\..\..\src\CoinSimpFactorization.cpp ..\..\..\src\CoinSnapshot.cpp ..\..\..\src\Coin
+  StructuredModel.cpp ..\..\..\src\CoinWarmStartBasis.cpp ..\..\..\src\CoinWarmStartDual.cpp ..\..\..\src\CoinWarmStartPrimalDual.cpp ..\..\..\src\CoinWarmStartVector
+  .cpp
+  CoinAlloc.cpp
+  CoinBuild.cpp
+  CoinDenseFactorization.cpp
+  CoinDenseVector.cpp
+  CoinError.cpp
+  CoinFactorization1.cpp
+  CoinFactorization2.cpp
+  CoinFactorization3.cpp
+  CoinFactorization4.cpp
+  CoinFileIO.cpp
+  CoinFinite.cpp
+  CoinIndexedVector.cpp
+  CoinLpIO.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(1860,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible lo
+ss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(2299,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible lo
+ss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(2361,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible lo
+ss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3003,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible lo
+ss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3021,19): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+ [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3075,15): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+ [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3091,21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+ [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  CoinMessage.cpp
+  CoinMessageHandler.cpp
+  CoinModel.cpp
+  CoinModelUseful.cpp
+  CoinModelUseful2.cpp
+  CoinMpsIO.cpp
+  CoinOslFactorization.cpp
+  Generating Code...
+  Compiling...
+  CoinOslFactorization2.cpp
+  CoinOslFactorization3.cpp
+  CoinPackedMatrix.cpp
+  CoinPackedVector.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(100,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools\d
+ependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(479,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools\d
+ependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(503,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools\d
+ependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  CoinPackedVectorBase.cpp
+  CoinParam.cpp
+  CoinParamUtils.cpp
+  CoinPostsolveMatrix.cpp
+  CoinPrePostsolveMatrix.cpp
+  CoinPresolveDoubleton.cpp
+  CoinPresolveDual.cpp
+  CoinPresolveDupcol.cpp
+  CoinPresolveEmpty.cpp
+  CoinPresolveFixed.cpp
+  CoinPresolveForcing.cpp
+  CoinPresolveHelperFunctions.cpp
+  CoinPresolveImpliedFree.cpp
+  CoinPresolveIsolated.cpp
+  CoinPresolveMatrix.cpp
+  CoinPresolvePsdebug.cpp
+  Generating Code...
+  Compiling...
+  CoinPresolveSingleton.cpp
+  CoinPresolveSubst.cpp
+  CoinPresolveTighten.cpp
+  CoinPresolveTripleton.cpp
+  CoinPresolveUseless.cpp
+  CoinPresolveZeros.cpp
+  CoinRational.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinRational.cpp(76,49): warning C4244: '+=': conversion from 'double' to 'long', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  CoinSearchTree.cpp
+  CoinShallowPackedVector.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(37,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-t
+ools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(58,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-t
+ools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(78,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-t
+ools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(97,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-t
+ools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(117,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-
+tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(135,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-
+tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(153,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-
+tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  CoinSimpFactorization.cpp
+  CoinSnapshot.cpp
+  CoinStructuredModel.cpp
+  CoinWarmStartBasis.cpp
+  CoinWarmStartDual.cpp
+  CoinWarmStartPrimalDual.cpp
+  CoinWarmStartVector.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCoinUtils.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\CoinAlloc.obj"
+  "x64-v142-Release\CoinBuild.obj"
+  "x64-v142-Release\CoinDenseFactorization.obj"
+  "x64-v142-Release\CoinDenseVector.obj"
+  "x64-v142-Release\CoinError.obj"
+  "x64-v142-Release\CoinFactorization1.obj"
+  "x64-v142-Release\CoinFactorization2.obj"
+  "x64-v142-Release\CoinFactorization3.obj"
+  "x64-v142-Release\CoinFactorization4.obj"
+  "x64-v142-Release\CoinFileIO.obj"
+  "x64-v142-Release\CoinFinite.obj"
+  "x64-v142-Release\CoinIndexedVector.obj"
+  "x64-v142-Release\CoinLpIO.obj"
+  "x64-v142-Release\CoinMessage.obj"
+  "x64-v142-Release\CoinMessageHandler.obj"
+  "x64-v142-Release\CoinModel.obj"
+  "x64-v142-Release\CoinModelUseful.obj"
+  "x64-v142-Release\CoinModelUseful2.obj"
+  "x64-v142-Release\CoinMpsIO.obj"
+  "x64-v142-Release\CoinOslFactorization.obj"
+  "x64-v142-Release\CoinOslFactorization2.obj"
+  "x64-v142-Release\CoinOslFactorization3.obj"
+  "x64-v142-Release\CoinPackedMatrix.obj"
+  "x64-v142-Release\CoinPackedVector.obj"
+  "x64-v142-Release\CoinPackedVectorBase.obj"
+  "x64-v142-Release\CoinParam.obj"
+  "x64-v142-Release\CoinParamUtils.obj"
+  "x64-v142-Release\CoinPostsolveMatrix.obj"
+  "x64-v142-Release\CoinPrePostsolveMatrix.obj"
+  "x64-v142-Release\CoinPresolveDoubleton.obj"
+  "x64-v142-Release\CoinPresolveDual.obj"
+  "x64-v142-Release\CoinPresolveDupcol.obj"
+  "x64-v142-Release\CoinPresolveEmpty.obj"
+  "x64-v142-Release\CoinPresolveFixed.obj"
+  "x64-v142-Release\CoinPresolveForcing.obj"
+  "x64-v142-Release\CoinPresolveHelperFunctions.obj"
+  "x64-v142-Release\CoinPresolveImpliedFree.obj"
+  "x64-v142-Release\CoinPresolveIsolated.obj"
+  "x64-v142-Release\CoinPresolveMatrix.obj"
+  "x64-v142-Release\CoinPresolvePsdebug.obj"
+  "x64-v142-Release\CoinPresolveSingleton.obj"
+  "x64-v142-Release\CoinPresolveSubst.obj"
+  "x64-v142-Release\CoinPresolveTighten.obj"
+  "x64-v142-Release\CoinPresolveTripleton.obj"
+  "x64-v142-Release\CoinPresolveUseless.obj"
+  "x64-v142-Release\CoinPresolveZeros.obj"
+  "x64-v142-Release\CoinRational.obj"
+  "x64-v142-Release\CoinSearchTree.obj"
+  "x64-v142-Release\CoinShallowPackedVector.obj"
+  "x64-v142-Release\CoinSimpFactorization.obj"
+  "x64-v142-Release\CoinSnapshot.obj"
+  "x64-v142-Release\CoinStructuredModel.obj"
+  "x64-v142-Release\CoinWarmStartBasis.obj"
+  "x64-v142-Release\CoinWarmStartDual.obj"
+  "x64-v142-Release\CoinWarmStartPrimalDual.obj"
+  "x64-v142-Release\CoinWarmStartVector.obj"
+  libCoinUtils.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCoinUtils.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libCoinUtils.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libCoinUtils.tlog\libCoinUtils.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" (7) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libOsi.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libOsi.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildToo
+  ls\headers /I..\..\..\..\Osi\src\Osi /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D OSI_BUILD /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_
+  NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libOsi.
+  pdb" /Gd /TP /FC /errorReport:queue ..\..\..\src\Osi\OsiAuxInfo.cpp ..\..\..\src\Osi\OsiBranchingObject.cpp ..\..\..\src\Osi\OsiChooseVariable.cpp ..\..\..\src\Osi\
+  OsiColCut.cpp ..\..\..\src\Osi\OsiCut.cpp ..\..\..\src\Osi\OsiCuts.cpp ..\..\..\src\Osi\OsiNames.cpp ..\..\..\src\Osi\OsiPresolve.cpp ..\..\..\src\Osi\OsiRowCut.cpp
+   ..\..\..\src\Osi\OsiRowCutDebugger.cpp ..\..\..\src\Osi\OsiSolverBranch.cpp ..\..\..\src\Osi\OsiSolverInterface.cpp
+  OsiAuxInfo.cpp
+  OsiBranchingObject.cpp
+  OsiChooseVariable.cpp
+  OsiColCut.cpp
+  OsiCut.cpp
+  OsiCuts.cpp
+  OsiNames.cpp
+  OsiPresolve.cpp
+  OsiRowCut.cpp
+  OsiRowCutDebugger.cpp
+  OsiSolverBranch.cpp
+  OsiSolverInterface.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsi.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\OsiAuxInfo.obj"
+  "x64-v142-Release\OsiBranchingObject.obj"
+  "x64-v142-Release\OsiChooseVariable.obj"
+  "x64-v142-Release\OsiColCut.obj"
+  "x64-v142-Release\OsiCut.obj"
+  "x64-v142-Release\OsiCuts.obj"
+  "x64-v142-Release\OsiNames.obj"
+  "x64-v142-Release\OsiPresolve.obj"
+  "x64-v142-Release\OsiRowCut.obj"
+  "x64-v142-Release\OsiRowCutDebugger.obj"
+  "x64-v142-Release\OsiSolverBranch.obj"
+  "x64-v142-Release\OsiSolverInterface.obj"
+  libOsi.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsi.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libOsi.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libOsi.tlog\libOsi.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj" (8) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libCbcSolver.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libCbcSolver.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\src\ /I..\..\..\..\Cgl\src\CglZeroHalf
+  /I..\..\..\..\Cgl\src\CglGMI /I..\..\..\..\Cgl\src\CglLandP /I..\..\..\..\Cgl\src\CglTwomir /I..\..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\..\Cgl\src\CglM
+  ixedIntegerRounding2 /I..\..\..\..\Cgl\src\CglFlowCover /I..\..\..\..\Cgl\src\CglClique /I..\..\..\..\Cgl\src\CglOddHole /I..\..\..\..\Cgl\src\CglKnapsackCover /I..
+  \..\..\..\Cgl\src\CglGomory /I..\..\..\..\Cgl\src\CglPreProcess /I..\..\..\..\Cgl\src\CglDuplicateRow /I..\..\..\..\Cgl\src\CglRedSplit /I..\..\..\..\Cgl\src\CglPro
+  bing /I..\..\..\..\Cgl\src /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers
+   /I..\..\..\..\Cgl\src\CglResidualCapacity /I..\..\..\..\Cgl\src\CglRedSplit2 /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D CBC_BUILD /D CBC_THREAD_SAFE /D CBC_NO
+  _INTERRUPT /D WIN32 /D NDEBUG /D _NDEBUG /D COIN_FAST_CODE /D CLP_FAST_CODE /D COIN_NO_TEST_DUPLICATE /D _CRT_SECURE_NO_WARNINGS /GF /Gm- /EHsc /MD /GS /fp:precise
+  /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libCbcSolver.pdb" /Gd /TP /FC /errorReport:queue ..\..\..\src\CbcCbcParam.cpp .
+  .\..\..\src\CbcLinked.cpp ..\..\..\src\CbcLinkedUtils.cpp ..\..\..\src\CbcSolver.cpp ..\..\..\src\CbcSolverAnalyze.cpp ..\..\..\src\CbcSolverExpandKnapsack.cpp ..\.
+  .\..\src\CbcSolverHeuristics.cpp ..\..\..\src\unitTestClp.cpp
+  CbcCbcParam.cpp
+  CbcLinked.cpp
+  CbcLinkedUtils.cpp
+  CbcSolver.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8531,62): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8574,64): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8735,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8907,56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8908,59): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  CbcSolverAnalyze.cpp
+  CbcSolverExpandKnapsack.cpp
+  CbcSolverHeuristics.cpp
+  unitTestClp.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\unitTestClp.cpp(550,34): warning C4805: '==': unsafe mix of type '_Ty' and type 'bool' in operation [c:\Gi
+tRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+          with
+          [
+              _Ty=CoinBigIndex
+          ]
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbcSolver.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\CbcCbcParam.obj"
+  "x64-v142-Release\CbcLinked.obj"
+  "x64-v142-Release\CbcLinkedUtils.obj"
+  "x64-v142-Release\CbcSolver.obj"
+  "x64-v142-Release\CbcSolverAnalyze.obj"
+  "x64-v142-Release\CbcSolverExpandKnapsack.obj"
+  "x64-v142-Release\CbcSolverHeuristics.obj"
+  "x64-v142-Release\unitTestClp.obj"
+  libCbcSolver.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbcSolver.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libCbcSolver.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libCbcSolver.tlog\libCbcSolver.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj" (default targets).
+
+Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (2) is building "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.1
+0.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj" (9) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\libCbc.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\libCbc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\src\ /I..\..\..\..\Cgl\src\CglZeroHalf
+  /I..\..\..\..\Cgl\src\CglGMI /I..\..\..\..\Cgl\src\CglLandP /I..\..\..\..\Cgl\src\CglTwomir /I..\..\..\..\Cgl\src\CglMixedIntegerRounding /I..\..\..\..\Cgl\src\CglM
+  ixedIntegerRounding2 /I..\..\..\..\Cgl\src\CglFlowCover /I..\..\..\..\Cgl\src\CglClique /I..\..\..\..\Cgl\src\CglOddHole /I..\..\..\..\Cgl\src\CglKnapsackCover /I..
+  \..\..\..\Cgl\src\CglGomory /I..\..\..\..\Cgl\src\CglPreProcess /I..\..\..\..\Cgl\src\CglDuplicateRow /I..\..\..\..\Cgl\src\CglRedSplit /I..\..\..\..\Cgl\src\CglPro
+  bing /I..\..\..\..\Cgl\src /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers
+   /I..\..\..\..\Cgl\src\CglResidualCapacity /I..\..\..\..\Cgl\src\CglRedSplit2 /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D CBC_BUILD /D WIN32 /D NDEBUG /D _NDEBU
+  G /D COIN_FAST_CODE /D CLP_FAST_CODE /D COIN_NO_TEST_DUPLICATE /D WIN32 /D _LIB /D USE_CBCCONFIG /D COIN_NO_CLP_MESSAGE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO
+  _DEPRECATE /D _VC80_UPGRADE=0x0710 /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\libCbc.pd
+  b" /Gd /TP /FC /errorReport:queue ..\..\..\src\CbcBranchAllDifferent.cpp ..\..\..\src\CbcBranchCut.cpp ..\..\..\src\CbcBranchDecision.cpp ..\..\..\src\CbcBranchDefa
+  ultDecision.cpp ..\..\..\src\CbcBranchDynamic.cpp ..\..\..\src\CbcBranchingObject.cpp ..\..\..\src\CbcBranchLotsize.cpp ..\..\..\src\CbcBranchToFixLots.cpp ..\..\..
+  \src\CbcClique.cpp ..\..\..\src\CbcCompareDefault.cpp ..\..\..\src\CbcCompareDepth.cpp ..\..\..\src\CbcCompareEstimate.cpp ..\..\..\src\CbcCompareObjective.cpp ..\.
+  .\..\src\CbcConsequence.cpp ..\..\..\src\CbcCountRowCut.cpp ..\..\..\src\CbcCutGenerator.cpp ..\..\..\src\CbcCutModifier.cpp ..\..\..\src\CbcCutSubsetModifier.cpp .
+  .\..\..\src\CbcDummyBranchingObject.cpp ..\..\..\src\CbcEventHandler.cpp ..\..\..\src\CbcFathom.cpp ..\..\..\src\CbcFathomDynamicProgramming.cpp ..\..\..\src\CbcFix
+  Variable.cpp ..\..\..\src\CbcFollowOn.cpp ..\..\..\src\CbcFullNodeInfo.cpp ..\..\..\src\CbcGeneral.cpp ..\..\..\src\CbcGeneralDepth.cpp ..\..\..\src\CbcHeuristic.cp
+  p ..\..\..\src\CbcHeuristicDINS.cpp ..\..\..\src\CbcHeuristicDive.cpp ..\..\..\src\CbcHeuristicDiveCoefficient.cpp ..\..\..\src\CbcHeuristicDiveFractional.cpp ..\..
+  \..\src\CbcHeuristicDiveGuided.cpp ..\..\..\src\CbcHeuristicDiveLineSearch.cpp ..\..\..\src\CbcHeuristicDivePseudoCost.cpp ..\..\..\src\CbcHeuristicDiveVectorLength
+  .cpp ..\..\..\src\CbcHeuristicDW.cpp ..\..\..\src\CbcHeuristicFPump.cpp ..\..\..\src\CbcHeuristicGreedy.cpp ..\..\..\src\CbcHeuristicLocal.cpp ..\..\..\src\CbcHeuri
+  sticPivotAndFix.cpp ..\..\..\src\CbcHeuristicRandRound.cpp ..\..\..\src\CbcHeuristicRENS.cpp ..\..\..\src\CbcHeuristicRINS.cpp ..\..\..\src\CbcHeuristicVND.cpp ..\.
+  .\..\src\CbcMessage.cpp ..\..\..\src\CbcMipStartIO.cpp ..\..\..\src\CbcModel.cpp ..\..\..\src\CbcNode.cpp ..\..\..\src\CbcNodeInfo.cpp ..\..\..\src\CbcNWay.cpp ..\.
+  .\..\src\CbcObject.cpp ..\..\..\src\CbcObjectUpdateData.cpp ..\..\..\src\CbcParam.cpp ..\..\..\src\CbcPartialNodeInfo.cpp ..\..\..\src\CbcSimpleInteger.cpp ..\..\..
+  \src\CbcSimpleIntegerDynamicPseudoCost.cpp ..\..\..\src\CbcSimpleIntegerPseudoCost.cpp ..\..\..\src\CbcSOS.cpp ..\..\..\src\CbcStatistics.cpp ..\..\..\src\CbcStrate
+  gy.cpp ..\..\..\src\CbcSubProblem.cpp ..\..\..\src\CbcThread.cpp ..\..\..\src\CbcTree.cpp ..\..\..\src\CbcTreeLocal.cpp
+  CbcBranchAllDifferent.cpp
+  CbcBranchCut.cpp
+  CbcBranchDecision.cpp
+  CbcBranchDefaultDecision.cpp
+  CbcBranchDynamic.cpp
+  CbcBranchingObject.cpp
+  CbcBranchLotsize.cpp
+  CbcBranchToFixLots.cpp
+  CbcClique.cpp
+  CbcCompareDefault.cpp
+  CbcCompareDepth.cpp
+  CbcCompareEstimate.cpp
+  CbcCompareObjective.cpp
+  CbcConsequence.cpp
+  CbcCountRowCut.cpp
+  CbcCutGenerator.cpp
+  CbcCutModifier.cpp
+  CbcCutSubsetModifier.cpp
+  CbcDummyBranchingObject.cpp
+  CbcEventHandler.cpp
+  Generating Code...
+  Compiling...
+  CbcFathom.cpp
+  CbcFathomDynamicProgramming.cpp
+  CbcFixVariable.cpp
+  CbcFollowOn.cpp
+  CbcFullNodeInfo.cpp
+  CbcGeneral.cpp
+  CbcGeneralDepth.cpp
+  CbcHeuristic.cpp
+  CbcHeuristicDINS.cpp
+  CbcHeuristicDive.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDive.cpp(687,41): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\dependenci
+es\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDive.cpp(722,41): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\dependenci
+es\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDiveCoefficient.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveCoefficient.cpp(126,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools
+\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveCoefficient.cpp(128,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools
+\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDiveFractional.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveFractional.cpp(110,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveFractional.cpp(112,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDiveGuided.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveGuided.cpp(120,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\depe
+ndencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveGuided.cpp(122,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\depe
+ndencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDiveLineSearch.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveLineSearch.cpp(118,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveLineSearch.cpp(120,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDivePseudoCost.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDivePseudoCost.cpp(139,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDivePseudoCost.cpp(141,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDiveVectorLength.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveVectorLength.cpp(127,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveVectorLength.cpp(129,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcHeuristicDW.cpp
+  CbcHeuristicFPump.cpp
+  CbcHeuristicGreedy.cpp
+  CbcHeuristicLocal.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicLocal.cpp(1204,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible
+ loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicLocal.cpp(1205,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible
+ loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  Generating Code...
+  Compiling...
+  CbcHeuristicPivotAndFix.cpp
+  CbcHeuristicRandRound.cpp
+  CbcHeuristicRENS.cpp
+  CbcHeuristicRINS.cpp
+  CbcHeuristicVND.cpp
+  CbcMessage.cpp
+  CbcMipStartIO.cpp
+  CbcModel.cpp
+  CbcNode.cpp
+  CbcNodeInfo.cpp
+  CbcNWay.cpp
+  CbcObject.cpp
+  CbcObjectUpdateData.cpp
+  CbcParam.cpp
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(195,31): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of dat
+a [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(200,29): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of dat
+a [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(245,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(254,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(258,28): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of dat
+a [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(260,35): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of dat
+a [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  CbcPartialNodeInfo.cpp
+  CbcSimpleInteger.cpp
+  CbcSimpleIntegerDynamicPseudoCost.cpp
+  CbcSimpleIntegerPseudoCost.cpp
+  CbcSOS.cpp
+  CbcStatistics.cpp
+  Generating Code...
+  Compiling...
+  CbcStrategy.cpp
+  CbcSubProblem.cpp
+  CbcThread.cpp
+  CbcTree.cpp
+  CbcTreeLocal.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2
+  .10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbc.lib" /NOLOGO /MACHINE:X64 "x64-v142-Release\CbcBranchAllDifferent.obj"
+  "x64-v142-Release\CbcBranchCut.obj"
+  "x64-v142-Release\CbcBranchDecision.obj"
+  "x64-v142-Release\CbcBranchDefaultDecision.obj"
+  "x64-v142-Release\CbcBranchDynamic.obj"
+  "x64-v142-Release\CbcBranchingObject.obj"
+  "x64-v142-Release\CbcBranchLotsize.obj"
+  "x64-v142-Release\CbcBranchToFixLots.obj"
+  "x64-v142-Release\CbcClique.obj"
+  "x64-v142-Release\CbcCompareDefault.obj"
+  "x64-v142-Release\CbcCompareDepth.obj"
+  "x64-v142-Release\CbcCompareEstimate.obj"
+  "x64-v142-Release\CbcCompareObjective.obj"
+  "x64-v142-Release\CbcConsequence.obj"
+  "x64-v142-Release\CbcCountRowCut.obj"
+  "x64-v142-Release\CbcCutGenerator.obj"
+  "x64-v142-Release\CbcCutModifier.obj"
+  "x64-v142-Release\CbcCutSubsetModifier.obj"
+  "x64-v142-Release\CbcDummyBranchingObject.obj"
+  "x64-v142-Release\CbcEventHandler.obj"
+  "x64-v142-Release\CbcFathom.obj"
+  "x64-v142-Release\CbcFathomDynamicProgramming.obj"
+  "x64-v142-Release\CbcFixVariable.obj"
+  "x64-v142-Release\CbcFollowOn.obj"
+  "x64-v142-Release\CbcFullNodeInfo.obj"
+  "x64-v142-Release\CbcGeneral.obj"
+  "x64-v142-Release\CbcGeneralDepth.obj"
+  "x64-v142-Release\CbcHeuristic.obj"
+  "x64-v142-Release\CbcHeuristicDINS.obj"
+  "x64-v142-Release\CbcHeuristicDive.obj"
+  "x64-v142-Release\CbcHeuristicDiveCoefficient.obj"
+  "x64-v142-Release\CbcHeuristicDiveFractional.obj"
+  "x64-v142-Release\CbcHeuristicDiveGuided.obj"
+  "x64-v142-Release\CbcHeuristicDiveLineSearch.obj"
+  "x64-v142-Release\CbcHeuristicDivePseudoCost.obj"
+  "x64-v142-Release\CbcHeuristicDiveVectorLength.obj"
+  "x64-v142-Release\CbcHeuristicDW.obj"
+  "x64-v142-Release\CbcHeuristicFPump.obj"
+  "x64-v142-Release\CbcHeuristicGreedy.obj"
+  "x64-v142-Release\CbcHeuristicLocal.obj"
+  "x64-v142-Release\CbcHeuristicPivotAndFix.obj"
+  "x64-v142-Release\CbcHeuristicRandRound.obj"
+  "x64-v142-Release\CbcHeuristicRENS.obj"
+  "x64-v142-Release\CbcHeuristicRINS.obj"
+  "x64-v142-Release\CbcHeuristicVND.obj"
+  "x64-v142-Release\CbcMessage.obj"
+  "x64-v142-Release\CbcMipStartIO.obj"
+  "x64-v142-Release\CbcModel.obj"
+  "x64-v142-Release\CbcNode.obj"
+  "x64-v142-Release\CbcNodeInfo.obj"
+  "x64-v142-Release\CbcNWay.obj"
+  "x64-v142-Release\CbcObject.obj"
+  "x64-v142-Release\CbcObjectUpdateData.obj"
+  "x64-v142-Release\CbcParam.obj"
+  "x64-v142-Release\CbcPartialNodeInfo.obj"
+  "x64-v142-Release\CbcSimpleInteger.obj"
+  "x64-v142-Release\CbcSimpleIntegerDynamicPseudoCost.obj"
+  "x64-v142-Release\CbcSimpleIntegerPseudoCost.obj"
+  "x64-v142-Release\CbcSOS.obj"
+  "x64-v142-Release\CbcStatistics.obj"
+  "x64-v142-Release\CbcStrategy.obj"
+  "x64-v142-Release\CbcSubProblem.obj"
+  "x64-v142-Release\CbcThread.obj"
+  "x64-v142-Release\CbcTree.obj"
+  "x64-v142-Release\CbcTreeLocal.obj"
+  libCbc.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbc.lib
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\libCbc.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\libCbc.tlog\libCbc.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj" (default targets).
+
+PrepareForBuild:
+  Creating directory "x64-v142-Release\".
+  Creating directory "x64-v142-Release\cbc.tlog\".
+InitializeBuildStatus:
+  Creating "x64-v142-Release\cbc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I..\..\..\src /I..\..\..\..\BuildTools\headers /I
+  ..\..\..\..\CoinUtils\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /Zi /nologo /W3 /WX- /diagnostics:column /O2 /D CBC_BUILD /D
+  WIN32 /D NDEBUG /D _NDEBUG /D COIN_FAST_CODE /D CLP_FAST_CODE /D COIN_NO_TEST_DUPLICATE /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_
+  UPGRADE=0x0710 /GF /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"x64-v142-Release\\" /Fd"x64-v142-Release\vc142.pdb" /Gd /TP /FC /error
+  Report:queue ..\..\..\src\CoinSolve.cpp
+  CoinSolve.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"c:\GitRepo\or-tools\depend
+  encies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\cbc.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc
+  \MSVisualStudio\v10\x64-v142-Release\\" /LIBPATH:"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\\" libCbcSolver.lib li
+  bCbc.lib libCgl.lib libOsiClp.lib libOsi.lib libClp.lib libCoinUtils.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.
+  lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"c:\GitRepo\or-tools\
+  dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\cbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"c:\GitRepo\or-tools\dependenci
+  es\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\cbc.lib" /MACHINE:X64 "x64-v142-Release\CoinSolve.obj"
+  cbc.vcxproj -> c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\cbc.exe
+FinalizeBuildStatus:
+  Deleting file "x64-v142-Release\cbc.tlog\unsuccessfulbuild".
+  Touching "x64-v142-Release\cbc.tlog\cbc.lastbuildstate".
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default targets).
+
+Done Building Project "c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target(s)).
+
+
+Build succeeded.
+
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target) (1) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default target) (2) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (default target) (4) ->
+(ClCompile target) ->
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(1341,53): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(1352,20): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3541,27): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3568,33): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3816,25): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3837,17): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3855,31): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.cpp(3876,20): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\dependencies\so
+urces\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPackedMatrix.cpp(6921,20): warning C4244: '=': conversion from '__int64' to 'CoinBigIndex', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalColumnSteepest.cpp(3174,8): warning C4805: '==': unsafe mix of type 'double' and type 'bool' in
+ operation [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexOther.cpp(8368,14): warning C4244: 'initializing': conversion from '__int64' to 'long', possib
+le loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSolve.cpp(2933,36): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpSolve.cpp(2935,36): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data [c:
+\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(556,34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(567,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(577,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.cpp(587,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data [
+c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj]
+
+
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target) (1) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default target) (2) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (default target) (5) ->
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Clp\src\OsiClp\OsiClpSolverInterface.cpp(9787,7): warning C4101: 'iRow': unreferenced local variable [c:\GitRepo
+\or-tools\dependencies\sources\Cbc-2.10.3\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj]
+
+
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target) (1) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default target) (2) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" (default target) (6) ->
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(1860,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(2299,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(2361,48): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3003,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible
+loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3021,19): warning C4244: '=': conversion from '__int64' to 'int', possible loss of da
+ta [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3075,15): warning C4244: '=': conversion from '__int64' to 'int', possible loss of da
+ta [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.cpp(3091,21): warning C4244: '=': conversion from '__int64' to 'int', possible loss of da
+ta [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(100,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools
+\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(479,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools
+\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.cpp(503,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or-tools
+\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinRational.cpp(76,49): warning C4244: '+=': conversion from 'double' to 'long', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(37,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or
+-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(58,25): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or
+-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(78,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or
+-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(97,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\or
+-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(117,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\o
+r-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(135,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\o
+r-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.cpp(153,23): warning C4101: 'e': unreferenced local variable [c:\GitRepo\o
+r-tools\dependencies\sources\Cbc-2.10.3\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj]
+
+
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target) (1) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default target) (2) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj" (default target) (8) ->
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8531,62): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss
+of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8574,64): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss
+of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8735,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss
+of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8907,56): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss
+of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.cpp(8908,59): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss
+of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\unitTestClp.cpp(550,34): warning C4805: '==': unsafe mix of type '_Ty' and type 'bool' in operation [c:\
+GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbcSolver\libCbcSolver.vcxproj]
+
+
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\Cbc.sln" (cbc target) (1) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\cbc\cbc.vcxproj" (default target) (2) ->
+"c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj" (default target) (9) ->
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDive.cpp(687,41): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\dependen
+cies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDive.cpp(722,41): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\dependen
+cies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveCoefficient.cpp(126,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-too
+ls\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveCoefficient.cpp(128,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-too
+ls\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveFractional.cpp(110,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveFractional.cpp(112,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveGuided.cpp(120,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tools\de
+pendencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveGuided.cpp(122,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tools\de
+pendencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveLineSearch.cpp(118,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveLineSearch.cpp(120,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDivePseudoCost.cpp(139,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDivePseudoCost.cpp(141,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-tool
+s\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveVectorLength.cpp(127,37): warning C4018: '>': signed/unsigned mismatch [c:\GitRepo\or-to
+ols\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveVectorLength.cpp(129,44): warning C4018: '<': signed/unsigned mismatch [c:\GitRepo\or-to
+ols\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicLocal.cpp(1204,21): warning C4244: 'initializing': conversion from 'double' to 'int', possib
+le loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicLocal.cpp(1205,21): warning C4244: 'initializing': conversion from 'double' to 'int', possib
+le loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(195,31): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(200,29): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(245,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of
+ data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(254,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possibl
+e loss of data [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(258,28): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+  c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.cpp(260,35): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of d
+ata [c:\GitRepo\or-tools\dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\libCbc\libCbc.vcxproj]
+
+    64 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:03:26.21
+copy dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\*.lib dependencies\install\lib\coin
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbc.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCbcSolver.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCgl.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libClp.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libCoinUtils.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsi.lib
+dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\libOsiClp.lib
+        7 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Cbc\src\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchActual.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchAllDifferent.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchBase.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchCut.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchDecision.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchDefaultDecision.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchDynamic.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchingObject.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchLotsize.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcBranchToFixLots.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcClique.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompare.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareActual.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareBase.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareDefault.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareDepth.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareEstimate.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCompareObjective.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcConsequence.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCountRowCut.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCutGenerator.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCutModifier.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcCutSubsetModifier.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcDummyBranchingObject.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcEventHandler.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFathom.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFathomDynamicProgramming.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFeasibilityBase.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFixVariable.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFollowOn.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcFullNodeInfo.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGenCbcParam.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGenCtlBlk.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGeneral.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGeneralDepth.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGenMessages.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGenOsiParam.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcGenParam.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristic.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDINS.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDive.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveCoefficient.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveFractional.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveGuided.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveLineSearch.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDivePseudoCost.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDiveVectorLength.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicDW.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicFPump.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicGreedy.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicLocal.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicPivotAndFix.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicRandRound.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicRENS.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicRINS.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcHeuristicVND.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcLinked.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcMessage.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcMipStartIO.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcModel.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcNode.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcNodeInfo.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcNWay.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcObject.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcObjectUpdateData.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcParam.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcPartialNodeInfo.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSimpleInteger.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSimpleIntegerDynamicPseudoCost.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSimpleIntegerPseudoCost.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolver.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolverAnalyze.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolverExpandKnapsack.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSolverHeuristics.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSOS.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcStatistics.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcStrategy.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSubProblem.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcSymmetry.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcThread.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcTree.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcTreeLocal.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\ClpAmplObjective.hpp
+dependencies\sources\Cbc-2.10.3\Cbc\src\ClpConstraintAmpl.hpp
+       84 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Clp\src\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcCommon.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcDualRowDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcDualRowPivot.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcDualRowSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcNonLinearCost.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcPrimalColumnDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcPrimalColumnPivot.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcPrimalColumnSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcSimplex.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcSimplexDual.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcSimplexFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcSimplexPrimal.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\AbcWarmStart.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CbcOrClpParam.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyBase.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyDense.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyMumps.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyPardiso.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyTaucs.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyUfl.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyWssmp.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpCholeskyWssmpKKT.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpConstraint.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpConstraintLinear.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpConstraintQuadratic.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDualRowDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDualRowPivot.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDualRowSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDummyMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDynamicExampleMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpDynamicMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpEventHandler.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpGubDynamicMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpGubMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpHelperFunctions.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpInterior.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpLinearObjective.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpLsqr.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpMatrixBase.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpMessage.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpModel.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpNetworkBasis.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpNetworkMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpNode.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpNonLinearCost.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpObjective.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPackedMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpParameters.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPdco.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPdcoBase.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPEDualRowDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPEDualRowSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPEPrimalColumnDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPEPrimalColumnSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPESimplex.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPlusMinusOneMatrix.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPredictorCorrector.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPresolve.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalColumnDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalColumnPivot.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalColumnSteepest.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpPrimalQuadraticDantzig.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpQuadraticObjective.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplex.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexDual.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexNonlinear.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexOther.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSimplexPrimal.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpSolve.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcBaseFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcCommon.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcCommonFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcDenseFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcFactorization.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\CoinAbcHelperFunctions.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\Idiot.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\MyEventHandler.hpp
+dependencies\sources\Cbc-2.10.3\Clp\src\MyMessageHandler.hpp
+       80 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Clp\src\OsiClp\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Clp\src\OsiClp\OsiClpSolverInterface.hpp
+        1 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\CoinUtils\src\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinAlloc.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinBuild.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinDenseFactorization.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinDenseVector.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinDistance.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinError.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinFactorization.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinFileIO.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinFinite.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinFloatEqual.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinHelperFunctions.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinIndexedVector.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinLpIO.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinMessage.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinMessageHandler.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinModel.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinModelUseful.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinMpsIO.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinOslFactorization.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedMatrix.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVector.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPackedVectorBase.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinParam.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPragma.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveDoubleton.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveDual.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveDupcol.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveEmpty.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveFixed.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveForcing.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveImpliedFree.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveIsolated.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveMatrix.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveMonitor.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolvePsdebug.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveSingleton.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveSubst.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveTighten.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveTripleton.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveUseless.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinPresolveZeros.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinRational.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSearchTree.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinShallowPackedVector.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSignal.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSimpFactorization.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSmartPtr.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSnapshot.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinSort.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinStructuredModel.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinTime.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinTypes.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinUtility.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinWarmStart.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinWarmStartBasis.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinWarmStartDual.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinWarmStartPrimalDual.hpp
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinWarmStartVector.hpp
+       58 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Cgl\src\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglCutGenerator.hpp
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglMessage.hpp
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglParam.hpp
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglStored.hpp
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglTreeInfo.hpp
+        5 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Osi\src\Osi\*.hpp dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiAuxInfo.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiBranchingObject.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiChooseVariable.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiColCut.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiCollections.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiCut.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiCuts.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiPresolve.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiRowCut.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiRowCutDebugger.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiSolverBranch.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiSolverInterface.hpp
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiSolverParameters.hpp
+       13 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Cbc\src\*.h dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Cbc\src\CbcConfig.h
+dependencies\sources\Cbc-2.10.3\Cbc\src\Cbc_ampl.h
+dependencies\sources\Cbc-2.10.3\Cbc\src\Cbc_C_Interface.h
+dependencies\sources\Cbc-2.10.3\Cbc\src\config_cbc_default.h
+dependencies\sources\Cbc-2.10.3\Cbc\src\config_default.h
+        5 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Clp\src\*.h dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Clp\src\ClpConfig.h
+dependencies\sources\Cbc-2.10.3\Clp\src\Clp_ampl.h
+dependencies\sources\Cbc-2.10.3\Clp\src\Clp_C_Interface.h
+dependencies\sources\Cbc-2.10.3\Clp\src\config_clp_default.h
+dependencies\sources\Cbc-2.10.3\Clp\src\config_default.h
+        5 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\CoinUtils\src\*.h dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinOslC.h
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\CoinUtilsConfig.h
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\Coin_C_defines.h
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\config_coinutils_default.h
+dependencies\sources\Cbc-2.10.3\CoinUtils\src\config_default.h
+        5 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Cgl\src\*.h dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Cgl\src\CglConfig.h
+dependencies\sources\Cbc-2.10.3\Cgl\src\config_cgl_default.h
+dependencies\sources\Cbc-2.10.3\Cgl\src\config_default.h
+        3 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Osi\src\Osi\*.h dependencies\install\include\coin
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\config_default.h
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\config_osi_default.h
+dependencies\sources\Cbc-2.10.3\Osi\src\Osi\OsiConfig.h
+        3 file(s) copied.
+copy dependencies\sources\Cbc-2.10.3\Cbc\MSVisualStudio\v10\x64-v142-Release\cbc.exe dependencies\install\bin
+        1 file(s) copied.
+
+c:\GitRepo\or-tools>
