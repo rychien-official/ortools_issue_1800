@@ -1,0 +1,8896 @@
+
+total_sum: 24
+1 2 6
+4 0 2
+4 4 1
+
+total_sum: 23
+1 2 6
+4 0 1
+4 3 2
+
+total_sum: 22
+1 2 6
+3 0 1
+5 2 2
+
+total_sum: 23
+1 2 6
+3 0 2
+5 3 1
+
+total_sum: 22
+1 2 6
+2 0 2
+6 2 1
+
+total_sum: 21
+1 2 6
+2 0 1
+6 1 2
+
+total_sum: 21
+1 2 6
+1 0 2
+7 1 1
+
+total_sum: 22
+1 3 5
+1 0 3
+7 1 1
+
+total_sum: 22
+1 3 5
+2 0 2
+6 1 2
+
+total_sum: 23
+1 3 5
+2 0 3
+6 2 1
+
+total_sum: 22
+1 3 5
+3 0 1
+5 1 3
+
+total_sum: 23
+1 3 5
+3 0 2
+5 2 2
+
+total_sum: 24
+1 3 5
+3 0 3
+5 3 1
+
+total_sum: 23
+1 3 5
+4 0 1
+4 2 3
+
+total_sum: 24
+1 3 5
+4 0 2
+4 3 2
+
+total_sum: 25
+1 3 5
+4 0 3
+4 4 1
+
+total_sum: 24
+1 3 5
+5 0 1
+3 3 3
+
+total_sum: 25
+1 3 5
+5 0 2
+3 4 2
+
+total_sum: 26
+1 3 5
+5 0 3
+3 5 1
+
+total_sum: 25
+1 3 5
+6 0 1
+2 4 3
+
+total_sum: 26
+1 3 5
+6 0 2
+2 5 2
+
+total_sum: 27
+1 3 5
+6 0 3
+2 6 1
+
+total_sum: 26
+1 3 5
+7 0 1
+1 5 3
+
+total_sum: 27
+1 3 5
+7 0 2
+1 6 2
+
+total_sum: 28
+1 3 5
+7 0 3
+1 7 1
+
+total_sum: 23
+1 4 4
+1 0 4
+7 1 1
+
+total_sum: 24
+1 4 4
+2 0 4
+6 2 1
+
+total_sum: 25
+1 4 4
+3 0 4
+5 3 1
+
+total_sum: 26
+1 4 4
+4 0 4
+4 4 1
+
+total_sum: 27
+1 4 4
+5 0 4
+3 5 1
+
+total_sum: 28
+1 4 4
+6 0 4
+2 6 1
+
+total_sum: 29
+1 4 4
+7 0 4
+1 7 1
+
+total_sum: 23
+1 4 4
+2 0 3
+6 1 2
+
+total_sum: 24
+1 4 4
+3 0 3
+5 2 2
+
+total_sum: 25
+1 4 4
+4 0 3
+4 3 2
+
+total_sum: 26
+1 4 4
+5 0 3
+3 4 2
+
+total_sum: 27
+1 4 4
+6 0 3
+2 5 2
+
+total_sum: 28
+1 4 4
+7 0 3
+1 6 2
+
+total_sum: 23
+1 4 4
+3 0 2
+5 1 3
+
+total_sum: 24
+1 4 4
+4 0 2
+4 2 3
+
+total_sum: 25
+1 4 4
+5 0 2
+3 3 3
+
+total_sum: 26
+1 4 4
+6 0 2
+2 4 3
+
+total_sum: 27
+1 4 4
+7 0 2
+1 5 3
+
+total_sum: 23
+1 4 4
+4 0 1
+4 1 4
+
+total_sum: 24
+1 4 4
+5 0 1
+3 2 4
+
+total_sum: 25
+1 4 4
+6 0 1
+2 3 4
+
+total_sum: 26
+1 4 4
+7 0 1
+1 4 4
+
+total_sum: 24
+1 5 3
+5 0 1
+3 1 5
+
+total_sum: 25
+1 5 3
+6 0 1
+2 2 5
+
+total_sum: 26
+1 5 3
+7 0 1
+1 3 5
+
+total_sum: 24
+1 5 3
+4 0 2
+4 1 4
+
+total_sum: 25
+1 5 3
+5 0 2
+3 2 4
+
+total_sum: 26
+1 5 3
+6 0 2
+2 3 4
+
+total_sum: 27
+1 5 3
+7 0 2
+1 4 4
+
+total_sum: 24
+1 5 3
+3 0 3
+5 1 3
+
+total_sum: 25
+1 5 3
+4 0 3
+4 2 3
+
+total_sum: 26
+1 5 3
+5 0 3
+3 3 3
+
+total_sum: 27
+1 5 3
+6 0 3
+2 4 3
+
+total_sum: 28
+1 5 3
+7 0 3
+1 5 3
+
+total_sum: 24
+1 5 3
+2 0 4
+6 1 2
+
+total_sum: 25
+1 5 3
+3 0 4
+5 2 2
+
+total_sum: 26
+1 5 3
+4 0 4
+4 3 2
+
+total_sum: 27
+1 5 3
+5 0 4
+3 4 2
+
+total_sum: 28
+1 5 3
+6 0 4
+2 5 2
+
+total_sum: 29
+1 5 3
+7 0 4
+1 6 2
+
+total_sum: 24
+1 5 3
+1 0 5
+7 1 1
+
+total_sum: 25
+1 5 3
+2 0 5
+6 2 1
+
+total_sum: 26
+1 5 3
+3 0 5
+5 3 1
+
+total_sum: 27
+1 5 3
+4 0 5
+4 4 1
+
+total_sum: 28
+1 5 3
+5 0 5
+3 5 1
+
+total_sum: 29
+1 5 3
+6 0 5
+2 6 1
+
+total_sum: 30
+1 5 3
+7 0 5
+1 7 1
+
+total_sum: 26
+1 6 2
+7 0 1
+1 2 6
+
+total_sum: 27
+1 6 2
+7 0 2
+1 3 5
+
+total_sum: 28
+1 6 2
+7 0 3
+1 4 4
+
+total_sum: 29
+1 6 2
+7 0 4
+1 5 3
+
+total_sum: 30
+1 6 2
+7 0 5
+1 6 2
+
+total_sum: 31
+1 6 2
+7 0 6
+1 7 1
+
+total_sum: 30
+1 6 2
+6 0 6
+2 6 1
+
+total_sum: 29
+1 6 2
+6 0 5
+2 5 2
+
+total_sum: 28
+1 6 2
+6 0 4
+2 4 3
+
+total_sum: 27
+1 6 2
+6 0 3
+2 3 4
+
+total_sum: 26
+1 6 2
+6 0 2
+2 2 5
+
+total_sum: 25
+1 6 2
+6 0 1
+2 1 6
+
+total_sum: 25
+1 6 2
+5 0 2
+3 1 5
+
+total_sum: 26
+1 6 2
+5 0 3
+3 2 4
+
+total_sum: 27
+1 6 2
+5 0 4
+3 3 3
+
+total_sum: 28
+1 6 2
+5 0 5
+3 4 2
+
+total_sum: 29
+1 6 2
+5 0 6
+3 5 1
+
+total_sum: 28
+1 6 2
+4 0 6
+4 4 1
+
+total_sum: 27
+1 6 2
+4 0 5
+4 3 2
+
+total_sum: 26
+1 6 2
+4 0 4
+4 2 3
+
+total_sum: 25
+1 6 2
+4 0 3
+4 1 4
+
+total_sum: 25
+1 6 2
+3 0 4
+5 1 3
+
+total_sum: 26
+1 6 2
+3 0 5
+5 2 2
+
+total_sum: 27
+1 6 2
+3 0 6
+5 3 1
+
+total_sum: 26
+1 6 2
+2 0 6
+6 2 1
+
+total_sum: 25
+1 6 2
+2 0 5
+6 1 2
+
+total_sum: 25
+1 6 2
+1 0 6
+7 1 1
+
+total_sum: 26
+1 7 1
+1 0 7
+7 1 1
+
+total_sum: 26
+1 7 1
+2 0 6
+6 1 2
+
+total_sum: 26
+1 7 1
+3 0 5
+5 1 3
+
+total_sum: 26
+1 7 1
+4 0 4
+4 1 4
+
+total_sum: 26
+1 7 1
+5 0 3
+3 1 5
+
+total_sum: 26
+1 7 1
+6 0 2
+2 1 6
+
+total_sum: 26
+1 7 1
+7 0 1
+1 1 7
+
+total_sum: 27
+1 7 1
+2 0 7
+6 2 1
+
+total_sum: 27
+1 7 1
+3 0 6
+5 2 2
+
+total_sum: 27
+1 7 1
+4 0 5
+4 2 3
+
+total_sum: 27
+1 7 1
+5 0 4
+3 2 4
+
+total_sum: 27
+1 7 1
+6 0 3
+2 2 5
+
+total_sum: 27
+1 7 1
+7 0 2
+1 2 6
+
+total_sum: 28
+1 7 1
+3 0 7
+5 3 1
+
+total_sum: 28
+1 7 1
+4 0 6
+4 3 2
+
+total_sum: 28
+1 7 1
+5 0 5
+3 3 3
+
+total_sum: 28
+1 7 1
+6 0 4
+2 3 4
+
+total_sum: 28
+1 7 1
+7 0 3
+1 3 5
+
+total_sum: 29
+1 7 1
+4 0 7
+4 4 1
+
+total_sum: 29
+1 7 1
+5 0 6
+3 4 2
+
+total_sum: 29
+1 7 1
+6 0 5
+2 4 3
+
+total_sum: 29
+1 7 1
+7 0 4
+1 4 4
+
+total_sum: 30
+1 7 1
+7 0 5
+1 5 3
+
+total_sum: 30
+1 7 1
+6 0 6
+2 5 2
+
+total_sum: 30
+1 7 1
+5 0 7
+3 5 1
+
+total_sum: 31
+1 7 1
+7 0 6
+1 6 2
+
+total_sum: 31
+1 7 1
+6 0 7
+2 6 1
+
+total_sum: 32
+1 7 1
+7 0 7
+1 7 1
+
+total_sum: 31
+2 6 1
+6 0 7
+1 7 1
+
+total_sum: 30
+2 6 1
+6 0 6
+1 6 2
+
+total_sum: 29
+2 6 1
+6 0 5
+1 5 3
+
+total_sum: 28
+2 6 1
+6 0 4
+1 4 4
+
+total_sum: 27
+2 6 1
+6 0 3
+1 3 5
+
+total_sum: 26
+2 6 1
+6 0 2
+1 2 6
+
+total_sum: 25
+2 6 1
+6 0 1
+1 1 7
+
+total_sum: 25
+2 6 1
+5 0 2
+2 1 6
+
+total_sum: 26
+2 6 1
+5 0 3
+2 2 5
+
+total_sum: 27
+2 6 1
+5 0 4
+2 3 4
+
+total_sum: 28
+2 6 1
+5 0 5
+2 4 3
+
+total_sum: 29
+2 6 1
+5 0 6
+2 5 2
+
+total_sum: 30
+2 6 1
+5 0 7
+2 6 1
+
+total_sum: 29
+2 6 1
+4 0 7
+3 5 1
+
+total_sum: 28
+2 6 1
+4 0 6
+3 4 2
+
+total_sum: 27
+2 6 1
+4 0 5
+3 3 3
+
+total_sum: 26
+2 6 1
+4 0 4
+3 2 4
+
+total_sum: 25
+2 6 1
+4 0 3
+3 1 5
+
+total_sum: 28
+2 6 1
+3 0 7
+4 4 1
+
+total_sum: 27
+2 6 1
+3 0 6
+4 3 2
+
+total_sum: 26
+2 6 1
+3 0 5
+4 2 3
+
+total_sum: 25
+2 6 1
+3 0 4
+4 1 4
+
+total_sum: 25
+2 6 1
+2 0 5
+5 1 3
+
+total_sum: 26
+2 6 1
+2 0 6
+5 2 2
+
+total_sum: 27
+2 6 1
+2 0 7
+5 3 1
+
+total_sum: 26
+2 6 1
+1 0 7
+6 2 1
+
+total_sum: 25
+2 6 1
+1 0 6
+6 1 2
+
+total_sum: 25
+2 5 2
+6 0 1
+1 2 6
+
+total_sum: 24
+2 5 2
+5 0 1
+2 1 6
+
+total_sum: 24
+2 5 2
+4 0 2
+3 1 5
+
+total_sum: 25
+2 5 2
+5 0 2
+2 2 5
+
+total_sum: 26
+2 5 2
+6 0 2
+1 3 5
+
+total_sum: 24
+2 5 2
+3 0 3
+4 1 4
+
+total_sum: 25
+2 5 2
+4 0 3
+3 2 4
+
+total_sum: 26
+2 5 2
+5 0 3
+2 3 4
+
+total_sum: 27
+2 5 2
+6 0 3
+1 4 4
+
+total_sum: 24
+2 5 2
+2 0 4
+5 1 3
+
+total_sum: 25
+2 5 2
+3 0 4
+4 2 3
+
+total_sum: 26
+2 5 2
+4 0 4
+3 3 3
+
+total_sum: 27
+2 5 2
+5 0 4
+2 4 3
+
+total_sum: 28
+2 5 2
+6 0 4
+1 5 3
+
+total_sum: 24
+2 5 2
+1 0 5
+6 1 2
+
+total_sum: 25
+2 5 2
+2 0 5
+5 2 2
+
+total_sum: 26
+2 5 2
+3 0 5
+4 3 2
+
+total_sum: 27
+2 5 2
+4 0 5
+3 4 2
+
+total_sum: 28
+2 5 2
+5 0 5
+2 5 2
+
+total_sum: 29
+2 5 2
+6 0 5
+1 6 2
+
+total_sum: 30
+2 5 2
+6 0 6
+1 7 1
+
+total_sum: 29
+2 5 2
+5 0 6
+2 6 1
+
+total_sum: 28
+2 5 2
+4 0 6
+3 5 1
+
+total_sum: 27
+2 5 2
+3 0 6
+4 4 1
+
+total_sum: 26
+2 5 2
+2 0 6
+5 3 1
+
+total_sum: 25
+2 5 2
+1 0 6
+6 2 1
+
+total_sum: 24
+2 4 3
+1 0 5
+6 2 1
+
+total_sum: 23
+2 4 3
+1 0 4
+6 1 2
+
+total_sum: 23
+2 4 3
+2 0 3
+5 1 3
+
+total_sum: 24
+2 4 3
+2 0 4
+5 2 2
+
+total_sum: 25
+2 4 3
+2 0 5
+5 3 1
+
+total_sum: 26
+2 4 3
+3 0 5
+4 4 1
+
+total_sum: 25
+2 4 3
+3 0 4
+4 3 2
+
+total_sum: 24
+2 4 3
+3 0 3
+4 2 3
+
+total_sum: 23
+2 4 3
+3 0 2
+4 1 4
+
+total_sum: 27
+2 4 3
+4 0 5
+3 5 1
+
+total_sum: 26
+2 4 3
+4 0 4
+3 4 2
+
+total_sum: 25
+2 4 3
+4 0 3
+3 3 3
+
+total_sum: 24
+2 4 3
+4 0 2
+3 2 4
+
+total_sum: 23
+2 4 3
+4 0 1
+3 1 5
+
+total_sum: 24
+2 4 3
+5 0 1
+2 2 5
+
+total_sum: 25
+2 4 3
+5 0 2
+2 3 4
+
+total_sum: 26
+2 4 3
+5 0 3
+2 4 3
+
+total_sum: 27
+2 4 3
+5 0 4
+2 5 2
+
+total_sum: 28
+2 4 3
+5 0 5
+2 6 1
+
+total_sum: 29
+2 4 3
+6 0 5
+1 7 1
+
+total_sum: 28
+2 4 3
+6 0 4
+1 6 2
+
+total_sum: 27
+2 4 3
+6 0 3
+1 5 3
+
+total_sum: 26
+2 4 3
+6 0 2
+1 4 4
+
+total_sum: 25
+2 4 3
+6 0 1
+1 3 5
+
+total_sum: 23
+2 3 4
+1 0 4
+6 2 1
+
+total_sum: 22
+2 3 4
+1 0 3
+6 1 2
+
+total_sum: 22
+2 3 4
+2 0 2
+5 1 3
+
+total_sum: 23
+2 3 4
+2 0 3
+5 2 2
+
+total_sum: 24
+2 3 4
+2 0 4
+5 3 1
+
+total_sum: 25
+2 3 4
+3 0 4
+4 4 1
+
+total_sum: 24
+2 3 4
+3 0 3
+4 3 2
+
+total_sum: 23
+2 3 4
+3 0 2
+4 2 3
+
+total_sum: 22
+2 3 4
+3 0 1
+4 1 4
+
+total_sum: 26
+2 3 4
+4 0 4
+3 5 1
+
+total_sum: 25
+2 3 4
+4 0 3
+3 4 2
+
+total_sum: 24
+2 3 4
+4 0 2
+3 3 3
+
+total_sum: 23
+2 3 4
+4 0 1
+3 2 4
+
+total_sum: 24
+2 3 4
+5 0 1
+2 3 4
+
+total_sum: 25
+2 3 4
+5 0 2
+2 4 3
+
+total_sum: 26
+2 3 4
+5 0 3
+2 5 2
+
+total_sum: 27
+2 3 4
+5 0 4
+2 6 1
+
+total_sum: 28
+2 3 4
+6 0 4
+1 7 1
+
+total_sum: 27
+2 3 4
+6 0 3
+1 6 2
+
+total_sum: 26
+2 3 4
+6 0 2
+1 5 3
+
+total_sum: 25
+2 3 4
+6 0 1
+1 4 4
+
+total_sum: 21
+2 2 5
+2 0 1
+5 1 3
+
+total_sum: 22
+2 2 5
+3 0 1
+4 2 3
+
+total_sum: 23
+2 2 5
+4 0 1
+3 3 3
+
+total_sum: 24
+2 2 5
+5 0 1
+2 4 3
+
+total_sum: 25
+2 2 5
+6 0 1
+1 5 3
+
+total_sum: 21
+2 2 5
+1 0 2
+6 1 2
+
+total_sum: 22
+2 2 5
+2 0 2
+5 2 2
+
+total_sum: 23
+2 2 5
+3 0 2
+4 3 2
+
+total_sum: 24
+2 2 5
+4 0 2
+3 4 2
+
+total_sum: 25
+2 2 5
+5 0 2
+2 5 2
+
+total_sum: 26
+2 2 5
+6 0 2
+1 6 2
+
+total_sum: 22
+2 2 5
+1 0 3
+6 2 1
+
+total_sum: 23
+2 2 5
+2 0 3
+5 3 1
+
+total_sum: 24
+2 2 5
+3 0 3
+4 4 1
+
+total_sum: 25
+2 2 5
+4 0 3
+3 5 1
+
+total_sum: 26
+2 2 5
+5 0 3
+2 6 1
+
+total_sum: 27
+2 2 5
+6 0 3
+1 7 1
+
+total_sum: 26
+2 1 6
+6 0 2
+1 7 1
+
+total_sum: 25
+2 1 6
+6 0 1
+1 6 2
+
+total_sum: 24
+2 1 6
+5 0 1
+2 5 2
+
+total_sum: 25
+2 1 6
+5 0 2
+2 6 1
+
+total_sum: 24
+2 1 6
+4 0 2
+3 5 1
+
+total_sum: 23
+2 1 6
+4 0 1
+3 4 2
+
+total_sum: 23
+2 1 6
+3 0 2
+4 4 1
+
+total_sum: 22
+2 1 6
+3 0 1
+4 3 2
+
+total_sum: 21
+2 1 6
+2 0 1
+5 2 2
+
+total_sum: 22
+2 1 6
+2 0 2
+5 3 1
+
+total_sum: 21
+2 1 6
+1 0 2
+6 2 1
+
+total_sum: 20
+2 1 6
+1 0 1
+6 1 2
+
+total_sum: 20
+3 1 5
+1 0 1
+5 1 3
+
+total_sum: 21
+3 1 5
+1 0 2
+5 2 2
+
+total_sum: 22
+3 1 5
+1 0 3
+5 3 1
+
+total_sum: 21
+3 2 4
+1 0 2
+5 1 3
+
+total_sum: 22
+3 2 4
+1 0 3
+5 2 2
+
+total_sum: 23
+3 2 4
+1 0 4
+5 3 1
+
+total_sum: 22
+3 3 3
+1 0 3
+5 1 3
+
+total_sum: 23
+3 3 3
+1 0 4
+5 2 2
+
+total_sum: 24
+3 3 3
+1 0 5
+5 3 1
+
+total_sum: 23
+3 4 2
+1 0 4
+5 1 3
+
+total_sum: 24
+3 4 2
+1 0 5
+5 2 2
+
+total_sum: 25
+3 4 2
+1 0 6
+5 3 1
+
+total_sum: 24
+3 5 1
+1 0 5
+5 1 3
+
+total_sum: 25
+3 5 1
+1 0 6
+5 2 2
+
+total_sum: 26
+3 5 1
+1 0 7
+5 3 1
+
+total_sum: 24
+3 5 1
+2 0 4
+4 1 4
+
+total_sum: 25
+3 5 1
+2 0 5
+4 2 3
+
+total_sum: 26
+3 5 1
+2 0 6
+4 3 2
+
+total_sum: 27
+3 5 1
+2 0 7
+4 4 1
+
+total_sum: 26
+3 4 2
+2 0 6
+4 4 1
+
+total_sum: 25
+3 4 2
+2 0 5
+4 3 2
+
+total_sum: 24
+3 4 2
+2 0 4
+4 2 3
+
+total_sum: 23
+3 4 2
+2 0 3
+4 1 4
+
+total_sum: 25
+3 3 3
+2 0 5
+4 4 1
+
+total_sum: 24
+3 3 3
+2 0 4
+4 3 2
+
+total_sum: 23
+3 3 3
+2 0 3
+4 2 3
+
+total_sum: 22
+3 3 3
+2 0 2
+4 1 4
+
+total_sum: 24
+3 2 4
+2 0 4
+4 4 1
+
+total_sum: 23
+3 2 4
+2 0 3
+4 3 2
+
+total_sum: 22
+3 2 4
+2 0 2
+4 2 3
+
+total_sum: 21
+3 2 4
+2 0 1
+4 1 4
+
+total_sum: 21
+3 1 5
+2 0 1
+4 2 3
+
+total_sum: 22
+3 1 5
+2 0 2
+4 3 2
+
+total_sum: 23
+3 1 5
+2 0 3
+4 4 1
+
+total_sum: 24
+3 1 5
+3 0 3
+3 5 1
+
+total_sum: 25
+3 2 4
+3 0 4
+3 5 1
+
+total_sum: 26
+3 3 3
+3 0 5
+3 5 1
+
+total_sum: 27
+3 4 2
+3 0 6
+3 5 1
+
+total_sum: 28
+3 5 1
+3 0 7
+3 5 1
+
+total_sum: 27
+3 5 1
+3 0 6
+3 4 2
+
+total_sum: 26
+3 4 2
+3 0 5
+3 4 2
+
+total_sum: 25
+3 3 3
+3 0 4
+3 4 2
+
+total_sum: 24
+3 2 4
+3 0 3
+3 4 2
+
+total_sum: 23
+3 1 5
+3 0 2
+3 4 2
+
+total_sum: 22
+3 1 5
+3 0 1
+3 3 3
+
+total_sum: 23
+3 2 4
+3 0 2
+3 3 3
+
+total_sum: 24
+3 3 3
+3 0 3
+3 3 3
+
+total_sum: 25
+3 4 2
+3 0 4
+3 3 3
+
+total_sum: 26
+3 5 1
+3 0 5
+3 3 3
+
+total_sum: 25
+3 5 1
+3 0 4
+3 2 4
+
+total_sum: 24
+3 4 2
+3 0 3
+3 2 4
+
+total_sum: 23
+3 3 3
+3 0 2
+3 2 4
+
+total_sum: 22
+3 2 4
+3 0 1
+3 2 4
+
+total_sum: 22
+3 3 3
+3 0 1
+3 1 5
+
+total_sum: 23
+3 4 2
+3 0 2
+3 1 5
+
+total_sum: 24
+3 5 1
+3 0 3
+3 1 5
+
+total_sum: 24
+3 5 1
+4 0 2
+2 1 6
+
+total_sum: 25
+3 5 1
+4 0 3
+2 2 5
+
+total_sum: 26
+3 5 1
+4 0 4
+2 3 4
+
+total_sum: 27
+3 5 1
+4 0 5
+2 4 3
+
+total_sum: 28
+3 5 1
+4 0 6
+2 5 2
+
+total_sum: 29
+3 5 1
+4 0 7
+2 6 1
+
+total_sum: 28
+3 4 2
+4 0 6
+2 6 1
+
+total_sum: 27
+3 4 2
+4 0 5
+2 5 2
+
+total_sum: 26
+3 4 2
+4 0 4
+2 4 3
+
+total_sum: 25
+3 4 2
+4 0 3
+2 3 4
+
+total_sum: 24
+3 4 2
+4 0 2
+2 2 5
+
+total_sum: 23
+3 4 2
+4 0 1
+2 1 6
+
+total_sum: 27
+3 3 3
+4 0 5
+2 6 1
+
+total_sum: 26
+3 3 3
+4 0 4
+2 5 2
+
+total_sum: 25
+3 3 3
+4 0 3
+2 4 3
+
+total_sum: 24
+3 3 3
+4 0 2
+2 3 4
+
+total_sum: 23
+3 3 3
+4 0 1
+2 2 5
+
+total_sum: 26
+3 2 4
+4 0 4
+2 6 1
+
+total_sum: 25
+3 2 4
+4 0 3
+2 5 2
+
+total_sum: 24
+3 2 4
+4 0 2
+2 4 3
+
+total_sum: 23
+3 2 4
+4 0 1
+2 3 4
+
+total_sum: 23
+3 1 5
+4 0 1
+2 4 3
+
+total_sum: 24
+3 1 5
+4 0 2
+2 5 2
+
+total_sum: 25
+3 1 5
+4 0 3
+2 6 1
+
+total_sum: 24
+3 1 5
+5 0 1
+1 5 3
+
+total_sum: 24
+3 2 4
+5 0 1
+1 4 4
+
+total_sum: 24
+3 3 3
+5 0 1
+1 3 5
+
+total_sum: 24
+3 4 2
+5 0 1
+1 2 6
+
+total_sum: 24
+3 5 1
+5 0 1
+1 1 7
+
+total_sum: 25
+3 5 1
+5 0 2
+1 2 6
+
+total_sum: 25
+3 4 2
+5 0 2
+1 3 5
+
+total_sum: 25
+3 3 3
+5 0 2
+1 4 4
+
+total_sum: 25
+3 2 4
+5 0 2
+1 5 3
+
+total_sum: 25
+3 1 5
+5 0 2
+1 6 2
+
+total_sum: 26
+3 1 5
+5 0 3
+1 7 1
+
+total_sum: 26
+3 2 4
+5 0 3
+1 6 2
+
+total_sum: 26
+3 3 3
+5 0 3
+1 5 3
+
+total_sum: 26
+3 4 2
+5 0 3
+1 4 4
+
+total_sum: 26
+3 5 1
+5 0 3
+1 3 5
+
+total_sum: 27
+3 2 4
+5 0 4
+1 7 1
+
+total_sum: 27
+3 3 3
+5 0 4
+1 6 2
+
+total_sum: 27
+3 4 2
+5 0 4
+1 5 3
+
+total_sum: 27
+3 5 1
+5 0 4
+1 4 4
+
+total_sum: 28
+3 3 3
+5 0 5
+1 7 1
+
+total_sum: 28
+3 4 2
+5 0 5
+1 6 2
+
+total_sum: 28
+3 5 1
+5 0 5
+1 5 3
+
+total_sum: 29
+3 4 2
+5 0 6
+1 7 1
+
+total_sum: 29
+3 5 1
+5 0 6
+1 6 2
+
+total_sum: 30
+3 5 1
+5 0 7
+1 7 1
+
+total_sum: 23
+4 1 4
+1 0 4
+4 4 1
+
+total_sum: 24
+4 1 4
+2 0 4
+3 5 1
+
+total_sum: 25
+4 1 4
+3 0 4
+2 6 1
+
+total_sum: 26
+4 1 4
+4 0 4
+1 7 1
+
+total_sum: 24
+4 2 3
+1 0 5
+4 4 1
+
+total_sum: 25
+4 2 3
+2 0 5
+3 5 1
+
+total_sum: 26
+4 2 3
+3 0 5
+2 6 1
+
+total_sum: 27
+4 2 3
+4 0 5
+1 7 1
+
+total_sum: 25
+4 3 2
+1 0 6
+4 4 1
+
+total_sum: 26
+4 3 2
+2 0 6
+3 5 1
+
+total_sum: 27
+4 3 2
+3 0 6
+2 6 1
+
+total_sum: 28
+4 3 2
+4 0 6
+1 7 1
+
+total_sum: 26
+4 4 1
+1 0 7
+4 4 1
+
+total_sum: 27
+4 4 1
+2 0 7
+3 5 1
+
+total_sum: 28
+4 4 1
+3 0 7
+2 6 1
+
+total_sum: 29
+4 4 1
+4 0 7
+1 7 1
+
+total_sum: 28
+4 4 1
+4 0 6
+1 6 2
+
+total_sum: 27
+4 4 1
+3 0 6
+2 5 2
+
+total_sum: 26
+4 4 1
+2 0 6
+3 4 2
+
+total_sum: 25
+4 4 1
+1 0 6
+4 3 2
+
+total_sum: 24
+4 3 2
+1 0 5
+4 3 2
+
+total_sum: 25
+4 3 2
+2 0 5
+3 4 2
+
+total_sum: 26
+4 3 2
+3 0 5
+2 5 2
+
+total_sum: 27
+4 3 2
+4 0 5
+1 6 2
+
+total_sum: 23
+4 2 3
+1 0 4
+4 3 2
+
+total_sum: 24
+4 2 3
+2 0 4
+3 4 2
+
+total_sum: 25
+4 2 3
+3 0 4
+2 5 2
+
+total_sum: 26
+4 2 3
+4 0 4
+1 6 2
+
+total_sum: 22
+4 1 4
+1 0 3
+4 3 2
+
+total_sum: 23
+4 1 4
+2 0 3
+3 4 2
+
+total_sum: 24
+4 1 4
+3 0 3
+2 5 2
+
+total_sum: 25
+4 1 4
+4 0 3
+1 6 2
+
+total_sum: 21
+4 1 4
+1 0 2
+4 2 3
+
+total_sum: 22
+4 2 3
+1 0 3
+4 2 3
+
+total_sum: 23
+4 3 2
+1 0 4
+4 2 3
+
+total_sum: 24
+4 4 1
+1 0 5
+4 2 3
+
+total_sum: 25
+4 4 1
+2 0 5
+3 3 3
+
+total_sum: 24
+4 3 2
+2 0 4
+3 3 3
+
+total_sum: 23
+4 2 3
+2 0 3
+3 3 3
+
+total_sum: 22
+4 1 4
+2 0 2
+3 3 3
+
+total_sum: 26
+4 4 1
+3 0 5
+2 4 3
+
+total_sum: 25
+4 3 2
+3 0 4
+2 4 3
+
+total_sum: 24
+4 2 3
+3 0 3
+2 4 3
+
+total_sum: 23
+4 1 4
+3 0 2
+2 4 3
+
+total_sum: 24
+4 1 4
+4 0 2
+1 5 3
+
+total_sum: 25
+4 2 3
+4 0 3
+1 5 3
+
+total_sum: 26
+4 3 2
+4 0 4
+1 5 3
+
+total_sum: 27
+4 4 1
+4 0 5
+1 5 3
+
+total_sum: 20
+4 1 4
+1 0 1
+4 1 4
+
+total_sum: 21
+4 2 3
+1 0 2
+4 1 4
+
+total_sum: 22
+4 3 2
+1 0 3
+4 1 4
+
+total_sum: 23
+4 4 1
+1 0 4
+4 1 4
+
+total_sum: 24
+4 4 1
+2 0 4
+3 2 4
+
+total_sum: 23
+4 3 2
+2 0 3
+3 2 4
+
+total_sum: 22
+4 2 3
+2 0 2
+3 2 4
+
+total_sum: 21
+4 1 4
+2 0 1
+3 2 4
+
+total_sum: 25
+4 4 1
+3 0 4
+2 3 4
+
+total_sum: 24
+4 3 2
+3 0 3
+2 3 4
+
+total_sum: 23
+4 2 3
+3 0 2
+2 3 4
+
+total_sum: 22
+4 1 4
+3 0 1
+2 3 4
+
+total_sum: 23
+4 1 4
+4 0 1
+1 4 4
+
+total_sum: 24
+4 2 3
+4 0 2
+1 4 4
+
+total_sum: 25
+4 3 2
+4 0 3
+1 4 4
+
+total_sum: 26
+4 4 1
+4 0 4
+1 4 4
+
+total_sum: 21
+4 2 3
+2 0 1
+3 1 5
+
+total_sum: 22
+4 2 3
+3 0 1
+2 2 5
+
+total_sum: 23
+4 2 3
+4 0 1
+1 3 5
+
+total_sum: 22
+4 3 2
+2 0 2
+3 1 5
+
+total_sum: 23
+4 3 2
+3 0 2
+2 2 5
+
+total_sum: 24
+4 3 2
+4 0 2
+1 3 5
+
+total_sum: 23
+4 4 1
+2 0 3
+3 1 5
+
+total_sum: 24
+4 4 1
+3 0 3
+2 2 5
+
+total_sum: 25
+4 4 1
+4 0 3
+1 3 5
+
+total_sum: 23
+4 3 2
+4 0 1
+1 2 6
+
+total_sum: 24
+4 4 1
+4 0 2
+1 2 6
+
+total_sum: 23
+4 4 1
+3 0 2
+2 1 6
+
+total_sum: 22
+4 3 2
+3 0 1
+2 1 6
+
+total_sum: 23
+4 4 1
+4 0 1
+1 1 7
+
+total_sum: 20
+5 1 3
+1 0 1
+3 1 5
+
+total_sum: 21
+5 1 3
+2 0 1
+2 2 5
+
+total_sum: 22
+5 1 3
+3 0 1
+1 3 5
+
+total_sum: 22
+5 2 2
+3 0 1
+1 2 6
+
+total_sum: 21
+5 2 2
+2 0 1
+2 1 6
+
+total_sum: 22
+5 3 1
+3 0 1
+1 1 7
+
+total_sum: 22
+5 3 1
+2 0 2
+2 1 6
+
+total_sum: 23
+5 3 1
+3 0 2
+1 2 6
+
+total_sum: 21
+5 2 2
+1 0 2
+3 1 5
+
+total_sum: 22
+5 2 2
+2 0 2
+2 2 5
+
+total_sum: 23
+5 2 2
+3 0 2
+1 3 5
+
+total_sum: 21
+5 1 3
+1 0 2
+3 2 4
+
+total_sum: 22
+5 1 3
+2 0 2
+2 3 4
+
+total_sum: 23
+5 1 3
+3 0 2
+1 4 4
+
+total_sum: 22
+5 1 3
+1 0 3
+3 3 3
+
+total_sum: 22
+5 2 2
+1 0 3
+3 2 4
+
+total_sum: 22
+5 3 1
+1 0 3
+3 1 5
+
+total_sum: 23
+5 3 1
+2 0 3
+2 2 5
+
+total_sum: 23
+5 2 2
+2 0 3
+2 3 4
+
+total_sum: 23
+5 1 3
+2 0 3
+2 4 3
+
+total_sum: 24
+5 1 3
+3 0 3
+1 5 3
+
+total_sum: 24
+5 2 2
+3 0 3
+1 4 4
+
+total_sum: 24
+5 3 1
+3 0 3
+1 3 5
+
+total_sum: 23
+5 1 3
+1 0 4
+3 4 2
+
+total_sum: 24
+5 1 3
+2 0 4
+2 5 2
+
+total_sum: 25
+5 1 3
+3 0 4
+1 6 2
+
+total_sum: 23
+5 2 2
+1 0 4
+3 3 3
+
+total_sum: 24
+5 2 2
+2 0 4
+2 4 3
+
+total_sum: 25
+5 2 2
+3 0 4
+1 5 3
+
+total_sum: 23
+5 3 1
+1 0 4
+3 2 4
+
+total_sum: 24
+5 3 1
+2 0 4
+2 3 4
+
+total_sum: 25
+5 3 1
+3 0 4
+1 4 4
+
+total_sum: 24
+5 1 3
+1 0 5
+3 5 1
+
+total_sum: 25
+5 1 3
+2 0 5
+2 6 1
+
+total_sum: 26
+5 1 3
+3 0 5
+1 7 1
+
+total_sum: 24
+5 2 2
+1 0 5
+3 4 2
+
+total_sum: 25
+5 2 2
+2 0 5
+2 5 2
+
+total_sum: 26
+5 2 2
+3 0 5
+1 6 2
+
+total_sum: 24
+5 3 1
+1 0 5
+3 3 3
+
+total_sum: 25
+5 3 1
+2 0 5
+2 4 3
+
+total_sum: 26
+5 3 1
+3 0 5
+1 5 3
+
+total_sum: 27
+5 2 2
+3 0 6
+1 7 1
+
+total_sum: 27
+5 3 1
+3 0 6
+1 6 2
+
+total_sum: 26
+5 3 1
+2 0 6
+2 5 2
+
+total_sum: 26
+5 2 2
+2 0 6
+2 6 1
+
+total_sum: 25
+5 2 2
+1 0 6
+3 5 1
+
+total_sum: 25
+5 3 1
+1 0 6
+3 4 2
+
+total_sum: 26
+5 3 1
+1 0 7
+3 5 1
+
+total_sum: 27
+5 3 1
+2 0 7
+2 6 1
+
+total_sum: 28
+5 3 1
+3 0 7
+1 7 1
+
+total_sum: 26
+6 1 2
+2 0 6
+1 7 1
+
+total_sum: 25
+6 1 2
+2 0 5
+1 6 2
+
+total_sum: 24
+6 1 2
+2 0 4
+1 5 3
+
+total_sum: 23
+6 1 2
+2 0 3
+1 4 4
+
+total_sum: 22
+6 1 2
+2 0 2
+1 3 5
+
+total_sum: 21
+6 1 2
+2 0 1
+1 2 6
+
+total_sum: 27
+6 2 1
+2 0 7
+1 7 1
+
+total_sum: 26
+6 2 1
+2 0 6
+1 6 2
+
+total_sum: 25
+6 2 1
+2 0 5
+1 5 3
+
+total_sum: 24
+6 2 1
+2 0 4
+1 4 4
+
+total_sum: 23
+6 2 1
+2 0 3
+1 3 5
+
+total_sum: 22
+6 2 1
+2 0 2
+1 2 6
+
+total_sum: 21
+6 2 1
+2 0 1
+1 1 7
+
+total_sum: 26
+6 2 1
+1 0 7
+2 6 1
+
+total_sum: 25
+6 2 1
+1 0 6
+2 5 2
+
+total_sum: 24
+6 2 1
+1 0 5
+2 4 3
+
+total_sum: 23
+6 2 1
+1 0 4
+2 3 4
+
+total_sum: 22
+6 2 1
+1 0 3
+2 2 5
+
+total_sum: 21
+6 2 1
+1 0 2
+2 1 6
+
+total_sum: 25
+6 1 2
+1 0 6
+2 6 1
+
+total_sum: 24
+6 1 2
+1 0 5
+2 5 2
+
+total_sum: 23
+6 1 2
+1 0 4
+2 4 3
+
+total_sum: 22
+6 1 2
+1 0 3
+2 3 4
+
+total_sum: 21
+6 1 2
+1 0 2
+2 2 5
+
+total_sum: 20
+6 1 2
+1 0 1
+2 1 6
+
+total_sum: 20
+7 1 1
+1 0 1
+1 1 7
+
+total_sum: 21
+7 1 1
+1 0 2
+1 2 6
+
+total_sum: 22
+7 1 1
+1 0 3
+1 3 5
+
+total_sum: 23
+7 1 1
+1 0 4
+1 4 4
+
+total_sum: 24
+7 1 1
+1 0 5
+1 5 3
+
+total_sum: 25
+7 1 1
+1 0 6
+1 6 2
+
+total_sum: 26
+7 1 1
+1 0 7
+1 7 1
+
+num_solutions: 532
+failures: 0
+branches: 1062
+WallTime: 222
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\seseman.py
+num_solutions: 532
+
+total_sum: 20
+1 1 7
+1 0 1
+7 1 1
+
+total_sum: 21
+1 1 7
+2 0 1
+6 2 1
+
+total_sum: 22
+1 1 7
+3 0 1
+5 3 1
+
+total_sum: 23
+1 1 7
+4 0 1
+4 4 1
+
+total_sum: 24
+1 1 7
+5 0 1
+3 5 1
+
+total_sum: 25
+1 1 7
+6 0 1
+2 6 1
+
+total_sum: 26
+1 1 7
+7 0 1
+1 7 1
+
+total_sum: 26
+1 2 6
+7 0 1
+1 6 2
+
+total_sum: 27
+1 2 6
+7 0 2
+1 7 1
+
+total_sum: 26
+1 2 6
+6 0 2
+2 6 1
+
+total_sum: 25
+1 2 6
+6 0 1
+2 5 2
+
+total_sum: 24
+1 2 6
+5 0 1
+3 4 2
+
+total_sum: 25
+1 2 6
+5 0 2
+3 5 1
+
+total_sum: 24
+1 2 6
+4 0 2
+4 4 1
+
+total_sum: 23
+1 2 6
+4 0 1
+4 3 2
+
+total_sum: 22
+1 2 6
+3 0 1
+5 2 2
+
+total_sum: 23
+1 2 6
+3 0 2
+5 3 1
+
+total_sum: 22
+1 2 6
+2 0 2
+6 2 1
+
+total_sum: 21
+1 2 6
+2 0 1
+6 1 2
+
+total_sum: 21
+1 2 6
+1 0 2
+7 1 1
+
+total_sum: 22
+1 3 5
+1 0 3
+7 1 1
+
+total_sum: 22
+1 3 5
+2 0 2
+6 1 2
+
+total_sum: 23
+1 3 5
+2 0 3
+6 2 1
+
+total_sum: 22
+1 3 5
+3 0 1
+5 1 3
+
+total_sum: 23
+1 3 5
+3 0 2
+5 2 2
+
+total_sum: 24
+1 3 5
+3 0 3
+5 3 1
+
+total_sum: 23
+1 3 5
+4 0 1
+4 2 3
+
+total_sum: 24
+1 3 5
+4 0 2
+4 3 2
+
+total_sum: 25
+1 3 5
+4 0 3
+4 4 1
+
+total_sum: 24
+1 3 5
+5 0 1
+3 3 3
+
+total_sum: 25
+1 3 5
+5 0 2
+3 4 2
+
+total_sum: 26
+1 3 5
+5 0 3
+3 5 1
+
+total_sum: 25
+1 3 5
+6 0 1
+2 4 3
+
+total_sum: 26
+1 3 5
+6 0 2
+2 5 2
+
+total_sum: 27
+1 3 5
+6 0 3
+2 6 1
+
+total_sum: 26
+1 3 5
+7 0 1
+1 5 3
+
+total_sum: 27
+1 3 5
+7 0 2
+1 6 2
+
+total_sum: 28
+1 3 5
+7 0 3
+1 7 1
+
+total_sum: 23
+1 4 4
+1 0 4
+7 1 1
+
+total_sum: 24
+1 4 4
+2 0 4
+6 2 1
+
+total_sum: 25
+1 4 4
+3 0 4
+5 3 1
+
+total_sum: 26
+1 4 4
+4 0 4
+4 4 1
+
+total_sum: 27
+1 4 4
+5 0 4
+3 5 1
+
+total_sum: 28
+1 4 4
+6 0 4
+2 6 1
+
+total_sum: 29
+1 4 4
+7 0 4
+1 7 1
+
+total_sum: 23
+1 4 4
+2 0 3
+6 1 2
+
+total_sum: 24
+1 4 4
+3 0 3
+5 2 2
+
+total_sum: 25
+1 4 4
+4 0 3
+4 3 2
+
+total_sum: 26
+1 4 4
+5 0 3
+3 4 2
+
+total_sum: 27
+1 4 4
+6 0 3
+2 5 2
+
+total_sum: 28
+1 4 4
+7 0 3
+1 6 2
+
+total_sum: 23
+1 4 4
+3 0 2
+5 1 3
+
+total_sum: 24
+1 4 4
+4 0 2
+4 2 3
+
+total_sum: 25
+1 4 4
+5 0 2
+3 3 3
+
+total_sum: 26
+1 4 4
+6 0 2
+2 4 3
+
+total_sum: 27
+1 4 4
+7 0 2
+1 5 3
+
+total_sum: 23
+1 4 4
+4 0 1
+4 1 4
+
+total_sum: 24
+1 4 4
+5 0 1
+3 2 4
+
+total_sum: 25
+1 4 4
+6 0 1
+2 3 4
+
+total_sum: 26
+1 4 4
+7 0 1
+1 4 4
+
+total_sum: 24
+1 5 3
+5 0 1
+3 1 5
+
+total_sum: 25
+1 5 3
+6 0 1
+2 2 5
+
+total_sum: 26
+1 5 3
+7 0 1
+1 3 5
+
+total_sum: 24
+1 5 3
+4 0 2
+4 1 4
+
+total_sum: 25
+1 5 3
+5 0 2
+3 2 4
+
+total_sum: 26
+1 5 3
+6 0 2
+2 3 4
+
+total_sum: 27
+1 5 3
+7 0 2
+1 4 4
+
+total_sum: 24
+1 5 3
+3 0 3
+5 1 3
+
+total_sum: 25
+1 5 3
+4 0 3
+4 2 3
+
+total_sum: 26
+1 5 3
+5 0 3
+3 3 3
+
+total_sum: 27
+1 5 3
+6 0 3
+2 4 3
+
+total_sum: 28
+1 5 3
+7 0 3
+1 5 3
+
+total_sum: 24
+1 5 3
+2 0 4
+6 1 2
+
+total_sum: 25
+1 5 3
+3 0 4
+5 2 2
+
+total_sum: 26
+1 5 3
+4 0 4
+4 3 2
+
+total_sum: 27
+1 5 3
+5 0 4
+3 4 2
+
+total_sum: 28
+1 5 3
+6 0 4
+2 5 2
+
+total_sum: 29
+1 5 3
+7 0 4
+1 6 2
+
+total_sum: 24
+1 5 3
+1 0 5
+7 1 1
+
+total_sum: 25
+1 5 3
+2 0 5
+6 2 1
+
+total_sum: 26
+1 5 3
+3 0 5
+5 3 1
+
+total_sum: 27
+1 5 3
+4 0 5
+4 4 1
+
+total_sum: 28
+1 5 3
+5 0 5
+3 5 1
+
+total_sum: 29
+1 5 3
+6 0 5
+2 6 1
+
+total_sum: 30
+1 5 3
+7 0 5
+1 7 1
+
+total_sum: 26
+1 6 2
+7 0 1
+1 2 6
+
+total_sum: 27
+1 6 2
+7 0 2
+1 3 5
+
+total_sum: 28
+1 6 2
+7 0 3
+1 4 4
+
+total_sum: 29
+1 6 2
+7 0 4
+1 5 3
+
+total_sum: 30
+1 6 2
+7 0 5
+1 6 2
+
+total_sum: 31
+1 6 2
+7 0 6
+1 7 1
+
+total_sum: 30
+1 6 2
+6 0 6
+2 6 1
+
+total_sum: 29
+1 6 2
+6 0 5
+2 5 2
+
+total_sum: 28
+1 6 2
+6 0 4
+2 4 3
+
+total_sum: 27
+1 6 2
+6 0 3
+2 3 4
+
+total_sum: 26
+1 6 2
+6 0 2
+2 2 5
+
+total_sum: 25
+1 6 2
+6 0 1
+2 1 6
+
+total_sum: 25
+1 6 2
+5 0 2
+3 1 5
+
+total_sum: 26
+1 6 2
+5 0 3
+3 2 4
+
+total_sum: 27
+1 6 2
+5 0 4
+3 3 3
+
+total_sum: 28
+1 6 2
+5 0 5
+3 4 2
+
+total_sum: 29
+1 6 2
+5 0 6
+3 5 1
+
+total_sum: 28
+1 6 2
+4 0 6
+4 4 1
+
+total_sum: 27
+1 6 2
+4 0 5
+4 3 2
+
+total_sum: 26
+1 6 2
+4 0 4
+4 2 3
+
+total_sum: 25
+1 6 2
+4 0 3
+4 1 4
+
+total_sum: 25
+1 6 2
+3 0 4
+5 1 3
+
+total_sum: 26
+1 6 2
+3 0 5
+5 2 2
+
+total_sum: 27
+1 6 2
+3 0 6
+5 3 1
+
+total_sum: 26
+1 6 2
+2 0 6
+6 2 1
+
+total_sum: 25
+1 6 2
+2 0 5
+6 1 2
+
+total_sum: 25
+1 6 2
+1 0 6
+7 1 1
+
+total_sum: 26
+1 7 1
+1 0 7
+7 1 1
+
+total_sum: 26
+1 7 1
+2 0 6
+6 1 2
+
+total_sum: 26
+1 7 1
+3 0 5
+5 1 3
+
+total_sum: 26
+1 7 1
+4 0 4
+4 1 4
+
+total_sum: 26
+1 7 1
+5 0 3
+3 1 5
+
+total_sum: 26
+1 7 1
+6 0 2
+2 1 6
+
+total_sum: 26
+1 7 1
+7 0 1
+1 1 7
+
+total_sum: 27
+1 7 1
+2 0 7
+6 2 1
+
+total_sum: 27
+1 7 1
+3 0 6
+5 2 2
+
+total_sum: 27
+1 7 1
+4 0 5
+4 2 3
+
+total_sum: 27
+1 7 1
+5 0 4
+3 2 4
+
+total_sum: 27
+1 7 1
+6 0 3
+2 2 5
+
+total_sum: 27
+1 7 1
+7 0 2
+1 2 6
+
+total_sum: 28
+1 7 1
+3 0 7
+5 3 1
+
+total_sum: 28
+1 7 1
+4 0 6
+4 3 2
+
+total_sum: 28
+1 7 1
+5 0 5
+3 3 3
+
+total_sum: 28
+1 7 1
+6 0 4
+2 3 4
+
+total_sum: 28
+1 7 1
+7 0 3
+1 3 5
+
+total_sum: 29
+1 7 1
+4 0 7
+4 4 1
+
+total_sum: 29
+1 7 1
+5 0 6
+3 4 2
+
+total_sum: 29
+1 7 1
+6 0 5
+2 4 3
+
+total_sum: 29
+1 7 1
+7 0 4
+1 4 4
+
+total_sum: 30
+1 7 1
+7 0 5
+1 5 3
+
+total_sum: 30
+1 7 1
+6 0 6
+2 5 2
+
+total_sum: 30
+1 7 1
+5 0 7
+3 5 1
+
+total_sum: 31
+1 7 1
+7 0 6
+1 6 2
+
+total_sum: 31
+1 7 1
+6 0 7
+2 6 1
+
+total_sum: 32
+1 7 1
+7 0 7
+1 7 1
+
+total_sum: 31
+2 6 1
+6 0 7
+1 7 1
+
+total_sum: 30
+2 6 1
+6 0 6
+1 6 2
+
+total_sum: 29
+2 6 1
+6 0 5
+1 5 3
+
+total_sum: 28
+2 6 1
+6 0 4
+1 4 4
+
+total_sum: 27
+2 6 1
+6 0 3
+1 3 5
+
+total_sum: 26
+2 6 1
+6 0 2
+1 2 6
+
+total_sum: 25
+2 6 1
+6 0 1
+1 1 7
+
+total_sum: 25
+2 6 1
+5 0 2
+2 1 6
+
+total_sum: 26
+2 6 1
+5 0 3
+2 2 5
+
+total_sum: 27
+2 6 1
+5 0 4
+2 3 4
+
+total_sum: 28
+2 6 1
+5 0 5
+2 4 3
+
+total_sum: 29
+2 6 1
+5 0 6
+2 5 2
+
+total_sum: 30
+2 6 1
+5 0 7
+2 6 1
+
+total_sum: 29
+2 6 1
+4 0 7
+3 5 1
+
+total_sum: 28
+2 6 1
+4 0 6
+3 4 2
+
+total_sum: 27
+2 6 1
+4 0 5
+3 3 3
+
+total_sum: 26
+2 6 1
+4 0 4
+3 2 4
+
+total_sum: 25
+2 6 1
+4 0 3
+3 1 5
+
+total_sum: 28
+2 6 1
+3 0 7
+4 4 1
+
+total_sum: 27
+2 6 1
+3 0 6
+4 3 2
+
+total_sum: 26
+2 6 1
+3 0 5
+4 2 3
+
+total_sum: 25
+2 6 1
+3 0 4
+4 1 4
+
+total_sum: 25
+2 6 1
+2 0 5
+5 1 3
+
+total_sum: 26
+2 6 1
+2 0 6
+5 2 2
+
+total_sum: 27
+2 6 1
+2 0 7
+5 3 1
+
+total_sum: 26
+2 6 1
+1 0 7
+6 2 1
+
+total_sum: 25
+2 6 1
+1 0 6
+6 1 2
+
+total_sum: 25
+2 5 2
+6 0 1
+1 2 6
+
+total_sum: 24
+2 5 2
+5 0 1
+2 1 6
+
+total_sum: 24
+2 5 2
+4 0 2
+3 1 5
+
+total_sum: 25
+2 5 2
+5 0 2
+2 2 5
+
+total_sum: 26
+2 5 2
+6 0 2
+1 3 5
+
+total_sum: 24
+2 5 2
+3 0 3
+4 1 4
+
+total_sum: 25
+2 5 2
+4 0 3
+3 2 4
+
+total_sum: 26
+2 5 2
+5 0 3
+2 3 4
+
+total_sum: 27
+2 5 2
+6 0 3
+1 4 4
+
+total_sum: 24
+2 5 2
+2 0 4
+5 1 3
+
+total_sum: 25
+2 5 2
+3 0 4
+4 2 3
+
+total_sum: 26
+2 5 2
+4 0 4
+3 3 3
+
+total_sum: 27
+2 5 2
+5 0 4
+2 4 3
+
+total_sum: 28
+2 5 2
+6 0 4
+1 5 3
+
+total_sum: 24
+2 5 2
+1 0 5
+6 1 2
+
+total_sum: 25
+2 5 2
+2 0 5
+5 2 2
+
+total_sum: 26
+2 5 2
+3 0 5
+4 3 2
+
+total_sum: 27
+2 5 2
+4 0 5
+3 4 2
+
+total_sum: 28
+2 5 2
+5 0 5
+2 5 2
+
+total_sum: 29
+2 5 2
+6 0 5
+1 6 2
+
+total_sum: 30
+2 5 2
+6 0 6
+1 7 1
+
+total_sum: 29
+2 5 2
+5 0 6
+2 6 1
+
+total_sum: 28
+2 5 2
+4 0 6
+3 5 1
+
+total_sum: 27
+2 5 2
+3 0 6
+4 4 1
+
+total_sum: 26
+2 5 2
+2 0 6
+5 3 1
+
+total_sum: 25
+2 5 2
+1 0 6
+6 2 1
+
+total_sum: 24
+2 4 3
+1 0 5
+6 2 1
+
+total_sum: 23
+2 4 3
+1 0 4
+6 1 2
+
+total_sum: 23
+2 4 3
+2 0 3
+5 1 3
+
+total_sum: 24
+2 4 3
+2 0 4
+5 2 2
+
+total_sum: 25
+2 4 3
+2 0 5
+5 3 1
+
+total_sum: 26
+2 4 3
+3 0 5
+4 4 1
+
+total_sum: 25
+2 4 3
+3 0 4
+4 3 2
+
+total_sum: 24
+2 4 3
+3 0 3
+4 2 3
+
+total_sum: 23
+2 4 3
+3 0 2
+4 1 4
+
+total_sum: 27
+2 4 3
+4 0 5
+3 5 1
+
+total_sum: 26
+2 4 3
+4 0 4
+3 4 2
+
+total_sum: 25
+2 4 3
+4 0 3
+3 3 3
+
+total_sum: 24
+2 4 3
+4 0 2
+3 2 4
+
+total_sum: 23
+2 4 3
+4 0 1
+3 1 5
+
+total_sum: 24
+2 4 3
+5 0 1
+2 2 5
+
+total_sum: 25
+2 4 3
+5 0 2
+2 3 4
+
+total_sum: 26
+2 4 3
+5 0 3
+2 4 3
+
+total_sum: 27
+2 4 3
+5 0 4
+2 5 2
+
+total_sum: 28
+2 4 3
+5 0 5
+2 6 1
+
+total_sum: 29
+2 4 3
+6 0 5
+1 7 1
+
+total_sum: 28
+2 4 3
+6 0 4
+1 6 2
+
+total_sum: 27
+2 4 3
+6 0 3
+1 5 3
+
+total_sum: 26
+2 4 3
+6 0 2
+1 4 4
+
+total_sum: 25
+2 4 3
+6 0 1
+1 3 5
+
+total_sum: 23
+2 3 4
+1 0 4
+6 2 1
+
+total_sum: 22
+2 3 4
+1 0 3
+6 1 2
+
+total_sum: 22
+2 3 4
+2 0 2
+5 1 3
+
+total_sum: 23
+2 3 4
+2 0 3
+5 2 2
+
+total_sum: 24
+2 3 4
+2 0 4
+5 3 1
+
+total_sum: 25
+2 3 4
+3 0 4
+4 4 1
+
+total_sum: 24
+2 3 4
+3 0 3
+4 3 2
+
+total_sum: 23
+2 3 4
+3 0 2
+4 2 3
+
+total_sum: 22
+2 3 4
+3 0 1
+4 1 4
+
+total_sum: 26
+2 3 4
+4 0 4
+3 5 1
+
+total_sum: 25
+2 3 4
+4 0 3
+3 4 2
+
+total_sum: 24
+2 3 4
+4 0 2
+3 3 3
+
+total_sum: 23
+2 3 4
+4 0 1
+3 2 4
+
+total_sum: 24
+2 3 4
+5 0 1
+2 3 4
+
+total_sum: 25
+2 3 4
+5 0 2
+2 4 3
+
+total_sum: 26
+2 3 4
+5 0 3
+2 5 2
+
+total_sum: 27
+2 3 4
+5 0 4
+2 6 1
+
+total_sum: 28
+2 3 4
+6 0 4
+1 7 1
+
+total_sum: 27
+2 3 4
+6 0 3
+1 6 2
+
+total_sum: 26
+2 3 4
+6 0 2
+1 5 3
+
+total_sum: 25
+2 3 4
+6 0 1
+1 4 4
+
+total_sum: 21
+2 2 5
+2 0 1
+5 1 3
+
+total_sum: 22
+2 2 5
+3 0 1
+4 2 3
+
+total_sum: 23
+2 2 5
+4 0 1
+3 3 3
+
+total_sum: 24
+2 2 5
+5 0 1
+2 4 3
+
+total_sum: 25
+2 2 5
+6 0 1
+1 5 3
+
+total_sum: 21
+2 2 5
+1 0 2
+6 1 2
+
+total_sum: 22
+2 2 5
+2 0 2
+5 2 2
+
+total_sum: 23
+2 2 5
+3 0 2
+4 3 2
+
+total_sum: 24
+2 2 5
+4 0 2
+3 4 2
+
+total_sum: 25
+2 2 5
+5 0 2
+2 5 2
+
+total_sum: 26
+2 2 5
+6 0 2
+1 6 2
+
+total_sum: 22
+2 2 5
+1 0 3
+6 2 1
+
+total_sum: 23
+2 2 5
+2 0 3
+5 3 1
+
+total_sum: 24
+2 2 5
+3 0 3
+4 4 1
+
+total_sum: 25
+2 2 5
+4 0 3
+3 5 1
+
+total_sum: 26
+2 2 5
+5 0 3
+2 6 1
+
+total_sum: 27
+2 2 5
+6 0 3
+1 7 1
+
+total_sum: 26
+2 1 6
+6 0 2
+1 7 1
+
+total_sum: 25
+2 1 6
+6 0 1
+1 6 2
+
+total_sum: 24
+2 1 6
+5 0 1
+2 5 2
+
+total_sum: 25
+2 1 6
+5 0 2
+2 6 1
+
+total_sum: 24
+2 1 6
+4 0 2
+3 5 1
+
+total_sum: 23
+2 1 6
+4 0 1
+3 4 2
+
+total_sum: 23
+2 1 6
+3 0 2
+4 4 1
+
+total_sum: 22
+2 1 6
+3 0 1
+4 3 2
+
+total_sum: 21
+2 1 6
+2 0 1
+5 2 2
+
+total_sum: 22
+2 1 6
+2 0 2
+5 3 1
+
+total_sum: 21
+2 1 6
+1 0 2
+6 2 1
+
+total_sum: 20
+2 1 6
+1 0 1
+6 1 2
+
+total_sum: 20
+3 1 5
+1 0 1
+5 1 3
+
+total_sum: 21
+3 1 5
+1 0 2
+5 2 2
+
+total_sum: 22
+3 1 5
+1 0 3
+5 3 1
+
+total_sum: 21
+3 2 4
+1 0 2
+5 1 3
+
+total_sum: 22
+3 2 4
+1 0 3
+5 2 2
+
+total_sum: 23
+3 2 4
+1 0 4
+5 3 1
+
+total_sum: 22
+3 3 3
+1 0 3
+5 1 3
+
+total_sum: 23
+3 3 3
+1 0 4
+5 2 2
+
+total_sum: 24
+3 3 3
+1 0 5
+5 3 1
+
+total_sum: 23
+3 4 2
+1 0 4
+5 1 3
+
+total_sum: 24
+3 4 2
+1 0 5
+5 2 2
+
+total_sum: 25
+3 4 2
+1 0 6
+5 3 1
+
+total_sum: 24
+3 5 1
+1 0 5
+5 1 3
+
+total_sum: 25
+3 5 1
+1 0 6
+5 2 2
+
+total_sum: 26
+3 5 1
+1 0 7
+5 3 1
+
+total_sum: 24
+3 5 1
+2 0 4
+4 1 4
+
+total_sum: 25
+3 5 1
+2 0 5
+4 2 3
+
+total_sum: 26
+3 5 1
+2 0 6
+4 3 2
+
+total_sum: 27
+3 5 1
+2 0 7
+4 4 1
+
+total_sum: 26
+3 4 2
+2 0 6
+4 4 1
+
+total_sum: 25
+3 4 2
+2 0 5
+4 3 2
+
+total_sum: 24
+3 4 2
+2 0 4
+4 2 3
+
+total_sum: 23
+3 4 2
+2 0 3
+4 1 4
+
+total_sum: 25
+3 3 3
+2 0 5
+4 4 1
+
+total_sum: 24
+3 3 3
+2 0 4
+4 3 2
+
+total_sum: 23
+3 3 3
+2 0 3
+4 2 3
+
+total_sum: 22
+3 3 3
+2 0 2
+4 1 4
+
+total_sum: 24
+3 2 4
+2 0 4
+4 4 1
+
+total_sum: 23
+3 2 4
+2 0 3
+4 3 2
+
+total_sum: 22
+3 2 4
+2 0 2
+4 2 3
+
+total_sum: 21
+3 2 4
+2 0 1
+4 1 4
+
+total_sum: 21
+3 1 5
+2 0 1
+4 2 3
+
+total_sum: 22
+3 1 5
+2 0 2
+4 3 2
+
+total_sum: 23
+3 1 5
+2 0 3
+4 4 1
+
+total_sum: 24
+3 1 5
+3 0 3
+3 5 1
+
+total_sum: 25
+3 2 4
+3 0 4
+3 5 1
+
+total_sum: 26
+3 3 3
+3 0 5
+3 5 1
+
+total_sum: 27
+3 4 2
+3 0 6
+3 5 1
+
+total_sum: 28
+3 5 1
+3 0 7
+3 5 1
+
+total_sum: 27
+3 5 1
+3 0 6
+3 4 2
+
+total_sum: 26
+3 4 2
+3 0 5
+3 4 2
+
+total_sum: 25
+3 3 3
+3 0 4
+3 4 2
+
+total_sum: 24
+3 2 4
+3 0 3
+3 4 2
+
+total_sum: 23
+3 1 5
+3 0 2
+3 4 2
+
+total_sum: 22
+3 1 5
+3 0 1
+3 3 3
+
+total_sum: 23
+3 2 4
+3 0 2
+3 3 3
+
+total_sum: 24
+3 3 3
+3 0 3
+3 3 3
+
+total_sum: 25
+3 4 2
+3 0 4
+3 3 3
+
+total_sum: 26
+3 5 1
+3 0 5
+3 3 3
+
+total_sum: 25
+3 5 1
+3 0 4
+3 2 4
+
+total_sum: 24
+3 4 2
+3 0 3
+3 2 4
+
+total_sum: 23
+3 3 3
+3 0 2
+3 2 4
+
+total_sum: 22
+3 2 4
+3 0 1
+3 2 4
+
+total_sum: 22
+3 3 3
+3 0 1
+3 1 5
+
+total_sum: 23
+3 4 2
+3 0 2
+3 1 5
+
+total_sum: 24
+3 5 1
+3 0 3
+3 1 5
+
+total_sum: 24
+3 5 1
+4 0 2
+2 1 6
+
+total_sum: 25
+3 5 1
+4 0 3
+2 2 5
+
+total_sum: 26
+3 5 1
+4 0 4
+2 3 4
+
+total_sum: 27
+3 5 1
+4 0 5
+2 4 3
+
+total_sum: 28
+3 5 1
+4 0 6
+2 5 2
+
+total_sum: 29
+3 5 1
+4 0 7
+2 6 1
+
+total_sum: 28
+3 4 2
+4 0 6
+2 6 1
+
+total_sum: 27
+3 4 2
+4 0 5
+2 5 2
+
+total_sum: 26
+3 4 2
+4 0 4
+2 4 3
+
+total_sum: 25
+3 4 2
+4 0 3
+2 3 4
+
+total_sum: 24
+3 4 2
+4 0 2
+2 2 5
+
+total_sum: 23
+3 4 2
+4 0 1
+2 1 6
+
+total_sum: 27
+3 3 3
+4 0 5
+2 6 1
+
+total_sum: 26
+3 3 3
+4 0 4
+2 5 2
+
+total_sum: 25
+3 3 3
+4 0 3
+2 4 3
+
+total_sum: 24
+3 3 3
+4 0 2
+2 3 4
+
+total_sum: 23
+3 3 3
+4 0 1
+2 2 5
+
+total_sum: 26
+3 2 4
+4 0 4
+2 6 1
+
+total_sum: 25
+3 2 4
+4 0 3
+2 5 2
+
+total_sum: 24
+3 2 4
+4 0 2
+2 4 3
+
+total_sum: 23
+3 2 4
+4 0 1
+2 3 4
+
+total_sum: 23
+3 1 5
+4 0 1
+2 4 3
+
+total_sum: 24
+3 1 5
+4 0 2
+2 5 2
+
+total_sum: 25
+3 1 5
+4 0 3
+2 6 1
+
+total_sum: 24
+3 1 5
+5 0 1
+1 5 3
+
+total_sum: 24
+3 2 4
+5 0 1
+1 4 4
+
+total_sum: 24
+3 3 3
+5 0 1
+1 3 5
+
+total_sum: 24
+3 4 2
+5 0 1
+1 2 6
+
+total_sum: 24
+3 5 1
+5 0 1
+1 1 7
+
+total_sum: 25
+3 5 1
+5 0 2
+1 2 6
+
+total_sum: 25
+3 4 2
+5 0 2
+1 3 5
+
+total_sum: 25
+3 3 3
+5 0 2
+1 4 4
+
+total_sum: 25
+3 2 4
+5 0 2
+1 5 3
+
+total_sum: 25
+3 1 5
+5 0 2
+1 6 2
+
+total_sum: 26
+3 1 5
+5 0 3
+1 7 1
+
+total_sum: 26
+3 2 4
+5 0 3
+1 6 2
+
+total_sum: 26
+3 3 3
+5 0 3
+1 5 3
+
+total_sum: 26
+3 4 2
+5 0 3
+1 4 4
+
+total_sum: 26
+3 5 1
+5 0 3
+1 3 5
+
+total_sum: 27
+3 2 4
+5 0 4
+1 7 1
+
+total_sum: 27
+3 3 3
+5 0 4
+1 6 2
+
+total_sum: 27
+3 4 2
+5 0 4
+1 5 3
+
+total_sum: 27
+3 5 1
+5 0 4
+1 4 4
+
+total_sum: 28
+3 3 3
+5 0 5
+1 7 1
+
+total_sum: 28
+3 4 2
+5 0 5
+1 6 2
+
+total_sum: 28
+3 5 1
+5 0 5
+1 5 3
+
+total_sum: 29
+3 4 2
+5 0 6
+1 7 1
+
+total_sum: 29
+3 5 1
+5 0 6
+1 6 2
+
+total_sum: 30
+3 5 1
+5 0 7
+1 7 1
+
+total_sum: 23
+4 1 4
+1 0 4
+4 4 1
+
+total_sum: 24
+4 1 4
+2 0 4
+3 5 1
+
+total_sum: 25
+4 1 4
+3 0 4
+2 6 1
+
+total_sum: 26
+4 1 4
+4 0 4
+1 7 1
+
+total_sum: 24
+4 2 3
+1 0 5
+4 4 1
+
+total_sum: 25
+4 2 3
+2 0 5
+3 5 1
+
+total_sum: 26
+4 2 3
+3 0 5
+2 6 1
+
+total_sum: 27
+4 2 3
+4 0 5
+1 7 1
+
+total_sum: 25
+4 3 2
+1 0 6
+4 4 1
+
+total_sum: 26
+4 3 2
+2 0 6
+3 5 1
+
+total_sum: 27
+4 3 2
+3 0 6
+2 6 1
+
+total_sum: 28
+4 3 2
+4 0 6
+1 7 1
+
+total_sum: 26
+4 4 1
+1 0 7
+4 4 1
+
+total_sum: 27
+4 4 1
+2 0 7
+3 5 1
+
+total_sum: 28
+4 4 1
+3 0 7
+2 6 1
+
+total_sum: 29
+4 4 1
+4 0 7
+1 7 1
+
+total_sum: 28
+4 4 1
+4 0 6
+1 6 2
+
+total_sum: 27
+4 4 1
+3 0 6
+2 5 2
+
+total_sum: 26
+4 4 1
+2 0 6
+3 4 2
+
+total_sum: 25
+4 4 1
+1 0 6
+4 3 2
+
+total_sum: 24
+4 3 2
+1 0 5
+4 3 2
+
+total_sum: 25
+4 3 2
+2 0 5
+3 4 2
+
+total_sum: 26
+4 3 2
+3 0 5
+2 5 2
+
+total_sum: 27
+4 3 2
+4 0 5
+1 6 2
+
+total_sum: 23
+4 2 3
+1 0 4
+4 3 2
+
+total_sum: 24
+4 2 3
+2 0 4
+3 4 2
+
+total_sum: 25
+4 2 3
+3 0 4
+2 5 2
+
+total_sum: 26
+4 2 3
+4 0 4
+1 6 2
+
+total_sum: 22
+4 1 4
+1 0 3
+4 3 2
+
+total_sum: 23
+4 1 4
+2 0 3
+3 4 2
+
+total_sum: 24
+4 1 4
+3 0 3
+2 5 2
+
+total_sum: 25
+4 1 4
+4 0 3
+1 6 2
+
+total_sum: 21
+4 1 4
+1 0 2
+4 2 3
+
+total_sum: 22
+4 2 3
+1 0 3
+4 2 3
+
+total_sum: 23
+4 3 2
+1 0 4
+4 2 3
+
+total_sum: 24
+4 4 1
+1 0 5
+4 2 3
+
+total_sum: 25
+4 4 1
+2 0 5
+3 3 3
+
+total_sum: 24
+4 3 2
+2 0 4
+3 3 3
+
+total_sum: 23
+4 2 3
+2 0 3
+3 3 3
+
+total_sum: 22
+4 1 4
+2 0 2
+3 3 3
+
+total_sum: 26
+4 4 1
+3 0 5
+2 4 3
+
+total_sum: 25
+4 3 2
+3 0 4
+2 4 3
+
+total_sum: 24
+4 2 3
+3 0 3
+2 4 3
+
+total_sum: 23
+4 1 4
+3 0 2
+2 4 3
+
+total_sum: 24
+4 1 4
+4 0 2
+1 5 3
+
+total_sum: 25
+4 2 3
+4 0 3
+1 5 3
+
+total_sum: 26
+4 3 2
+4 0 4
+1 5 3
+
+total_sum: 27
+4 4 1
+4 0 5
+1 5 3
+
+total_sum: 20
+4 1 4
+1 0 1
+4 1 4
+
+total_sum: 21
+4 2 3
+1 0 2
+4 1 4
+
+total_sum: 22
+4 3 2
+1 0 3
+4 1 4
+
+total_sum: 23
+4 4 1
+1 0 4
+4 1 4
+
+total_sum: 24
+4 4 1
+2 0 4
+3 2 4
+
+total_sum: 23
+4 3 2
+2 0 3
+3 2 4
+
+total_sum: 22
+4 2 3
+2 0 2
+3 2 4
+
+total_sum: 21
+4 1 4
+2 0 1
+3 2 4
+
+total_sum: 25
+4 4 1
+3 0 4
+2 3 4
+
+total_sum: 24
+4 3 2
+3 0 3
+2 3 4
+
+total_sum: 23
+4 2 3
+3 0 2
+2 3 4
+
+total_sum: 22
+4 1 4
+3 0 1
+2 3 4
+
+total_sum: 23
+4 1 4
+4 0 1
+1 4 4
+
+total_sum: 24
+4 2 3
+4 0 2
+1 4 4
+
+total_sum: 25
+4 3 2
+4 0 3
+1 4 4
+
+total_sum: 26
+4 4 1
+4 0 4
+1 4 4
+
+total_sum: 21
+4 2 3
+2 0 1
+3 1 5
+
+total_sum: 22
+4 2 3
+3 0 1
+2 2 5
+
+total_sum: 23
+4 2 3
+4 0 1
+1 3 5
+
+total_sum: 22
+4 3 2
+2 0 2
+3 1 5
+
+total_sum: 23
+4 3 2
+3 0 2
+2 2 5
+
+total_sum: 24
+4 3 2
+4 0 2
+1 3 5
+
+total_sum: 23
+4 4 1
+2 0 3
+3 1 5
+
+total_sum: 24
+4 4 1
+3 0 3
+2 2 5
+
+total_sum: 25
+4 4 1
+4 0 3
+1 3 5
+
+total_sum: 23
+4 3 2
+4 0 1
+1 2 6
+
+total_sum: 24
+4 4 1
+4 0 2
+1 2 6
+
+total_sum: 23
+4 4 1
+3 0 2
+2 1 6
+
+total_sum: 22
+4 3 2
+3 0 1
+2 1 6
+
+total_sum: 23
+4 4 1
+4 0 1
+1 1 7
+
+total_sum: 20
+5 1 3
+1 0 1
+3 1 5
+
+total_sum: 21
+5 1 3
+2 0 1
+2 2 5
+
+total_sum: 22
+5 1 3
+3 0 1
+1 3 5
+
+total_sum: 22
+5 2 2
+3 0 1
+1 2 6
+
+total_sum: 21
+5 2 2
+2 0 1
+2 1 6
+
+total_sum: 22
+5 3 1
+3 0 1
+1 1 7
+
+total_sum: 22
+5 3 1
+2 0 2
+2 1 6
+
+total_sum: 23
+5 3 1
+3 0 2
+1 2 6
+
+total_sum: 21
+5 2 2
+1 0 2
+3 1 5
+
+total_sum: 22
+5 2 2
+2 0 2
+2 2 5
+
+total_sum: 23
+5 2 2
+3 0 2
+1 3 5
+
+total_sum: 21
+5 1 3
+1 0 2
+3 2 4
+
+total_sum: 22
+5 1 3
+2 0 2
+2 3 4
+
+total_sum: 23
+5 1 3
+3 0 2
+1 4 4
+
+total_sum: 22
+5 1 3
+1 0 3
+3 3 3
+
+total_sum: 22
+5 2 2
+1 0 3
+3 2 4
+
+total_sum: 22
+5 3 1
+1 0 3
+3 1 5
+
+total_sum: 23
+5 3 1
+2 0 3
+2 2 5
+
+total_sum: 23
+5 2 2
+2 0 3
+2 3 4
+
+total_sum: 23
+5 1 3
+2 0 3
+2 4 3
+
+total_sum: 24
+5 1 3
+3 0 3
+1 5 3
+
+total_sum: 24
+5 2 2
+3 0 3
+1 4 4
+
+total_sum: 24
+5 3 1
+3 0 3
+1 3 5
+
+total_sum: 23
+5 1 3
+1 0 4
+3 4 2
+
+total_sum: 24
+5 1 3
+2 0 4
+2 5 2
+
+total_sum: 25
+5 1 3
+3 0 4
+1 6 2
+
+total_sum: 23
+5 2 2
+1 0 4
+3 3 3
+
+total_sum: 24
+5 2 2
+2 0 4
+2 4 3
+
+total_sum: 25
+5 2 2
+3 0 4
+1 5 3
+
+total_sum: 23
+5 3 1
+1 0 4
+3 2 4
+
+total_sum: 24
+5 3 1
+2 0 4
+2 3 4
+
+total_sum: 25
+5 3 1
+3 0 4
+1 4 4
+
+total_sum: 24
+5 1 3
+1 0 5
+3 5 1
+
+total_sum: 25
+5 1 3
+2 0 5
+2 6 1
+
+total_sum: 26
+5 1 3
+3 0 5
+1 7 1
+
+total_sum: 24
+5 2 2
+1 0 5
+3 4 2
+
+total_sum: 25
+5 2 2
+2 0 5
+2 5 2
+
+total_sum: 26
+5 2 2
+3 0 5
+1 6 2
+
+total_sum: 24
+5 3 1
+1 0 5
+3 3 3
+
+total_sum: 25
+5 3 1
+2 0 5
+2 4 3
+
+total_sum: 26
+5 3 1
+3 0 5
+1 5 3
+
+total_sum: 27
+5 2 2
+3 0 6
+1 7 1
+
+total_sum: 27
+5 3 1
+3 0 6
+1 6 2
+
+total_sum: 26
+5 3 1
+2 0 6
+2 5 2
+
+total_sum: 26
+5 2 2
+2 0 6
+2 6 1
+
+total_sum: 25
+5 2 2
+1 0 6
+3 5 1
+
+total_sum: 25
+5 3 1
+1 0 6
+3 4 2
+
+total_sum: 26
+5 3 1
+1 0 7
+3 5 1
+
+total_sum: 27
+5 3 1
+2 0 7
+2 6 1
+
+total_sum: 28
+5 3 1
+3 0 7
+1 7 1
+
+total_sum: 26
+6 1 2
+2 0 6
+1 7 1
+
+total_sum: 25
+6 1 2
+2 0 5
+1 6 2
+
+total_sum: 24
+6 1 2
+2 0 4
+1 5 3
+
+total_sum: 23
+6 1 2
+2 0 3
+1 4 4
+
+total_sum: 22
+6 1 2
+2 0 2
+1 3 5
+
+total_sum: 21
+6 1 2
+2 0 1
+1 2 6
+
+total_sum: 27
+6 2 1
+2 0 7
+1 7 1
+
+total_sum: 26
+6 2 1
+2 0 6
+1 6 2
+
+total_sum: 25
+6 2 1
+2 0 5
+1 5 3
+
+total_sum: 24
+6 2 1
+2 0 4
+1 4 4
+
+total_sum: 23
+6 2 1
+2 0 3
+1 3 5
+
+total_sum: 22
+6 2 1
+2 0 2
+1 2 6
+
+total_sum: 21
+6 2 1
+2 0 1
+1 1 7
+
+total_sum: 26
+6 2 1
+1 0 7
+2 6 1
+
+total_sum: 25
+6 2 1
+1 0 6
+2 5 2
+
+total_sum: 24
+6 2 1
+1 0 5
+2 4 3
+
+total_sum: 23
+6 2 1
+1 0 4
+2 3 4
+
+total_sum: 22
+6 2 1
+1 0 3
+2 2 5
+
+total_sum: 21
+6 2 1
+1 0 2
+2 1 6
+
+total_sum: 25
+6 1 2
+1 0 6
+2 6 1
+
+total_sum: 24
+6 1 2
+1 0 5
+2 5 2
+
+total_sum: 23
+6 1 2
+1 0 4
+2 4 3
+
+total_sum: 22
+6 1 2
+1 0 3
+2 3 4
+
+total_sum: 21
+6 1 2
+1 0 2
+2 2 5
+
+total_sum: 20
+6 1 2
+1 0 1
+2 1 6
+
+total_sum: 20
+7 1 1
+1 0 1
+1 1 7
+
+total_sum: 21
+7 1 1
+1 0 2
+1 2 6
+
+total_sum: 22
+7 1 1
+1 0 3
+1 3 5
+
+total_sum: 23
+7 1 1
+1 0 4
+1 4 4
+
+total_sum: 24
+7 1 1
+1 0 5
+1 5 3
+
+total_sum: 25
+7 1 1
+1 0 6
+1 6 2
+
+total_sum: 26
+7 1 1
+1 0 7
+1 7 1
+
+failures: 532
+branches: 1062
+WallTime: 226
+num_solutions: 532
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering2.py
+z: 4
+x: [0, 1, 0, 0, 1, 1, 1, 0]
+failures: 7
+branches: 10
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering3.py
+z: 2
+x: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+Senator 5 belongs to these groups: 1 4 5
+Senator 10 belongs to these groups: 2 3 6
+
+failures: 9
+branches: 12
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering4.py
+Set partition:
+z: 49
+selected alternatives: [3, 5, 9]
+failures: 4
+branches: 6
+WallTime: 1
+
+Set covering:
+z: 45
+selected alternatives: [4, 8, 10]
+failures: 15
+branches: 24
+WallTime: 0
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering_deployment.py
+num_armies: 4
+X: [0, 0, 0, 1, 0, 1, 0, 0]
+Y: [0, 0, 0, 1, 0, 1, 0, 0]
+army: Byzantium reserv army: Byzantium
+army: Iberia reserv army: Iberia
+
+
+failures: 25
+branches: 46
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering.py
+z: 2
+x: [0, 1, 0, 1, 0, 0]
+failures: 5
+branches: 5
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_covering_skiena.py
+z: 3
+tot_elements: 17
+x: [0, 0, 0, 1, 0, 1, 1]
+
+num_solutions: 1
+failures: 4
+branches: 5
+WallTime: 2 ms
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\set_partition.py
+n: 16
+num_sets: 2
+
+sums: 68
+sums squared: 748
+1 : 1 5 6 7 8 11 14 16
+2 : 2 3 4 9 10 12 13 15
+
+sums: 68
+sums squared: 748
+1 : 1 4 6 7 10 11 13 16
+2 : 2 3 5 8 9 12 14 15
+
+sums: 68
+sums squared: 748
+1 : 1 4 6 7 9 12 14 15
+2 : 2 3 5 8 10 11 13 16
+
+sums: 68
+sums squared: 748
+1 : 1 4 5 8 10 11 14 15
+2 : 2 3 6 7 9 12 13 16
+
+sums: 68
+sums squared: 748
+1 : 1 3 6 9 10 11 12 16
+2 : 2 4 5 7 8 13 14 15
+
+sums: 68
+sums squared: 748
+1 : 1 3 6 8 10 12 13 15
+2 : 2 4 5 7 9 11 14 16
+
+sums: 68
+sums squared: 748
+1 : 1 2 7 8 11 12 13 14
+2 : 3 4 5 6 9 10 15 16
+
+
+num_solutions: 7
+failures: 15119
+branches: 30250
+WallTime: 113
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\sicherman_dice.py
+x1: [0, 1, 1, 2, 2, 3]
+x2: [2, 4, 5, 6, 7, 9]
+
+x1: [0, 1, 2, 3, 4, 5]
+x2: [2, 3, 4, 5, 6, 7]
+
+x1: [1, 2, 2, 3, 3, 4]
+x2: [1, 3, 4, 5, 6, 8]
+
+x1: [1, 2, 3, 4, 5, 6]
+x2: [1, 2, 3, 4, 5, 6]
+
+
+num_solutions: 4 solver.solutions: 4
+failures: 14846
+branches: 29698
+WallTime: 252
+MemoryUsage: 17297408
+SearchDepth: 0
+SolveDepth: 0
+stamp: 59907
+solver Solver(name = "Sicherman dice", state = OUTSIDE_SEARCH, branches = 29698, fails = 14846, decisions = 14849, delayed demon runs = 0, var demon runs = 1852634, normal demon runs = 3992419, Run time = 252 ms)
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\ski_assignment.py
+total differences: 15
+Skier 0: Ski 0 with length  1 (diff: -2)
+Skier 1: Ski 1 with length  2 (diff: -2)
+Skier 2: Ski 2 with length  5 (diff: -2)
+Skier 3: Ski 3 with length  7 (diff: -4)
+Skier 4: Ski 4 with length 13 (diff: -5)
+
+total differences: 13
+Skier 0: Ski 0 with length  1 (diff: -2)
+Skier 1: Ski 1 with length  2 (diff: -2)
+Skier 2: Ski 2 with length  5 (diff: -2)
+Skier 3: Ski 3 with length  7 (diff: -4)
+Skier 4: Ski 5 with length 21 (diff:  3)
+
+total differences: 11
+Skier 0: Ski 0 with length  1 (diff: -2)
+Skier 1: Ski 1 with length  2 (diff: -2)
+Skier 2: Ski 2 with length  5 (diff: -2)
+Skier 3: Ski 4 with length 13 (diff:  2)
+Skier 4: Ski 5 with length 21 (diff:  3)
+
+total differences: 9
+Skier 0: Ski 0 with length  1 (diff: -2)
+Skier 1: Ski 1 with length  2 (diff: -2)
+Skier 2: Ski 3 with length  7 (diff:  0)
+Skier 3: Ski 4 with length 13 (diff:  2)
+Skier 4: Ski 5 with length 21 (diff:  3)
+
+total differences: 8
+Skier 0: Ski 0 with length  1 (diff: -2)
+Skier 1: Ski 2 with length  5 (diff:  1)
+Skier 2: Ski 3 with length  7 (diff:  0)
+Skier 3: Ski 4 with length 13 (diff:  2)
+Skier 4: Ski 5 with length 21 (diff:  3)
+
+total differences: 7
+Skier 0: Ski 1 with length  2 (diff: -1)
+Skier 1: Ski 2 with length  5 (diff:  1)
+Skier 2: Ski 3 with length  7 (diff:  0)
+Skier 3: Ski 4 with length 13 (diff:  2)
+Skier 4: Ski 5 with length 21 (diff:  3)
+
+
+num_solutions: 6
+failures: 6
+branches: 20
+WallTime: 4
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\slitherlink.py
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0123 08:41:15.935935  8080 search.cc:254] Start search (memory used = 15.71 MB)
+I0123 08:41:15.937937  8080 search.cc:254] Root node processed (time = 0 ms, constraints = 67, memory used = 16.03 MB)
+I0123 08:41:15.939936  8080 search.cc:254] Solution #0 (0, time = 1 ms, branches = 24, failures = 10, depth = 6, memory used = 16.28 MB)
+ ---         ---
+|   |       |   |
+| 3 | 2     | 3 |
+|   |       |   |
+     --- ---
+|               |
+|             2 |
+|               |
+ ---     --- ---
+    |   |
+  3 |   |
+    |   |
+ ---     ---
+|           |
+| 3       3 | 1
+|           |
+ --- --- ---
+I0123 08:41:15.940937  8080 search.cc:254] Finished search tree (time = 3 ms, branches = 38, failures = 19, memory used = 16.29 MB)
+I0123 08:41:15.940937  8080 search.cc:254] End search (time = 3 ms, branches = 38, failures = 19, memory used = 16.31 MB, speed = 12666 branches/s)
+I0123 08:41:15.942937  8080 search.cc:254] Start search (memory used = 16.43 MB)
+I0123 08:41:15.943936  8080 search.cc:254] Root node processed (time = 0 ms, constraints = 201, memory used = 16.55 MB)
+I0123 08:41:15.946936  8080 search.cc:254] Solution #0 (0, time = 3 ms, branches = 27, failures = 9, depth = 15, memory used = 16.55 MB)
+                 --- --- --- ---
+                |               |
+      0       1 |         1     |
+                |               |
+ ---     ---         ---     ---
+|   |   |   |   |   |   |   |
+|   | 3 |   |   | 2 | 3 |   | 2
+|   |   |   |   |   |   |   |
+     ---     ---         ---
+|                   |
+|         0         |         0
+|                   |
+ --- ---             --- ---
+        |                   |
+      3 |         0         |
+        |                   |
+ --- ---     ---             ---
+|           |   |               |
+|           | 3 |         0     |
+|           |   |               |
+         ---         ---
+|       |       |   |   |       |
+| 1     |       |   | 3 |       |
+|       |       |   |   |       |
+     ---     ---         ---
+|   |       |       |       |   |
+| 3 |     1 | 3     |     3 |   |
+|   |       |       |       |   |
+ ---         ---         ---
+                |   |   |       |
+      0         | 3 |   | 3     |
+                |   |   |       |
+                 ---     --- ---
+I0123 08:41:15.961939  8080 search.cc:254] Finished search tree (time = 18 ms, branches = 140, failures = 70, memory used = 16.55 MB)
+I0123 08:41:15.964941  8080 search.cc:254] End search (time = 22 ms, branches = 140, failures = 70, memory used = 16.55 MB, speed = 6363 branches/s)
+I0123 08:41:15.967936  8080 search.cc:254] Start search (memory used = 16.53 MB)
+I0123 08:41:15.969935  8080 search.cc:254] Root node processed (time = 1 ms, constraints = 307, memory used = 16.76 MB)
+I0123 08:41:15.987936  8080 search.cc:254] Solution #0 (0, time = 19 ms, branches = 130, failures = 57, depth = 28, memory used = 16.79 MB)
+ ---     --- --- --- --- --- --- --- ---
+|   |   |                               |
+| 3 |   |         2       1       1   2 |
+|   |   |                               |
+     ---         --- ---
+|               |       |               |
+| 1       0     | 3     | 2   0         |
+|               |       |               |
+     ---         ---     ---     ---
+|   |   |           |       |   |   |   |
+|   | 3 |           |       |   | 3 |   |
+|   |   |           |       |   |   |   |
+ ---     --- ---         ---         ---
+                |   |   |       |
+  2   0       3 |   | 2 | 3     |
+                |   |   |       |
+ ---     --- ---         ---         ---
+|   |   |           |       |   |   |   |
+|   |   |     1   1 | 1     |   | 3 | 3 |
+|   |   |           |       |   |   |   |
+                         ---     ---
+|   |   |           |   |               |
+| 2 | 3 |         2 | 2 | 3             |
+|   |   |           |   |               |
+     ---         ---     ---     ---
+|               |           |   |   |   |
+|             1 | 2       2 |   | 3 | 3 |
+|               |           |   |   |   |
+ --- --- ---         ---             ---
+            |   |   |   |   |   |
+      2     |   |   |   |   |   | 2
+            |   |   |   |   |   |
+ --- --- ---                     --- ---
+|               |   |   |   |           |
+|         1   1 |   | 2 |   | 1       3 |
+|               |   |   |   |           |
+     ---         ---                 ---
+|   |   |               |   |       |
+| 3 | 3 |     1       2 |   |       | 2
+|   |   |               |   |       |
+ ---     --- --- --- ---     --- ---
+I0123 08:41:15.998937  8080 search.cc:254] Finished search tree (time = 31 ms, branches = 198, failures = 99, memory used = 16.79 MB)
+I0123 08:41:16.003935  8080 search.cc:254] End search (time = 36 ms, branches = 198, failures = 99, memory used = 16.79 MB, speed = 5500 branches/s)
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\stable_marriage.py
+Problem name: Van Hentenryck
+wife   :  [1, 0, 4, 2, 3]
+husband:  [1, 0, 3, 4, 2]
+
+wife   :  [1, 2, 4, 0, 3]
+husband:  [3, 0, 1, 4, 2]
+
+wife   :  [3, 0, 1, 2, 4]
+husband:  [1, 2, 3, 0, 4]
+
+
+num_solutions: 3
+failures: 2
+branches: 8
+WallTime: 2
+#############
+
+Problem name: MathWorld
+wife   :  [5, 0, 3, 7, 4, 6, 2, 1, 8]
+husband:  [1, 7, 6, 2, 4, 0, 5, 3, 8]
+
+wife   :  [5, 0, 3, 7, 4, 8, 2, 1, 6]
+husband:  [1, 7, 6, 2, 4, 0, 8, 3, 5]
+
+wife   :  [5, 3, 0, 7, 4, 6, 2, 1, 8]
+husband:  [2, 7, 6, 1, 4, 0, 5, 3, 8]
+
+wife   :  [5, 3, 8, 7, 2, 6, 0, 4, 1]
+husband:  [6, 8, 4, 1, 7, 0, 5, 3, 2]
+
+wife   :  [5, 4, 8, 7, 2, 6, 0, 3, 1]
+husband:  [6, 8, 4, 7, 1, 0, 5, 3, 2]
+
+wife   :  [6, 4, 8, 7, 2, 5, 0, 3, 1]
+husband:  [6, 8, 4, 7, 1, 5, 0, 3, 2]
+
+
+num_solutions: 6
+failures: 16
+branches: 42
+WallTime: 6
+#############
+
+Problem name: Problem 3
+wife   :  [0, 1, 3, 2]
+husband:  [0, 1, 3, 2]
+
+wife   :  [0, 2, 3, 1]
+husband:  [0, 3, 1, 2]
+
+
+num_solutions: 2
+failures: 0
+branches: 2
+WallTime: 6
+#############
+
+Problem name: Problem4
+wife   :  [0, 1, 3, 2, 5, 4]
+husband:  [0, 1, 3, 2, 5, 4]
+
+wife   :  [0, 1, 3, 4, 5, 2]
+husband:  [0, 1, 5, 2, 3, 4]
+
+wife   :  [0, 1, 3, 5, 4, 2]
+husband:  [0, 1, 5, 2, 4, 3]
+
+
+num_solutions: 3
+failures: 0
+branches: 4
+WallTime: 2
+#############
+
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\steel_lns.py
+Solving steel mill with 111 slabs
+searching for initial solution, initial cost = 24
+using LNS to improve the initial solution
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0123 08:41:18.442335 11144 search.cc:254] Start search (memory used = 26.64 MB)
+I0123 08:41:18.449335 11144 search.cc:254] Root node processed (time = 6 ms, constraints = 2445, memory used = 29.35 MB)
+I0123 08:41:18.455335 11144 search.cc:254] Solution #0 (24, time = 13 ms, branches = 103, failures = 0, depth = 33, memory used = 29.73 MB, limit = 0%)
+Objective: 24 check: 24
+I0123 08:41:18.461335 11144 search.cc:254] Solution #1 (22, objective maximum = 24, time = 19 ms, branches = 115, failures = 1, depth = 33, BaseObject, neighbors = 1, filtered neighbors = 1, accepted neighbors = 1, memory used = 29.96 MB, limit = 0%)
+Objective: 22 check: 22
+I0123 08:41:18.468335 11144 search.cc:254] Solution #2 (19, objective maximum = 24, time = 25 ms, branches = 133, failures = 5, depth = 33, BaseObject, neighbors = 2, filtered neighbors = 2, accepted neighbors = 2, memory used = 30.01 MB, limit = 0%)
+Objective: 19 check: 19
+I0123 08:41:18.474335 11144 search.cc:254] Solution #3 (18, objective maximum = 24, time = 32 ms, branches = 147, failures = 7, depth = 33, BaseObject, neighbors = 3, filtered neighbors = 3, accepted neighbors = 3, memory used = 30.06 MB, limit = 0%)
+Objective: 18 check: 18
+I0123 08:41:18.480335 11144 search.cc:254] Solution #4 (17, objective maximum = 24, time = 38 ms, branches = 167, failures = 11, depth = 33, BaseObject, neighbors = 4, filtered neighbors = 4, accepted neighbors = 4, memory used = 30.07 MB, limit = 0%)
+Objective: 17 check: 17
+I0123 08:41:18.490334 11144 search.cc:254] Solution #5 (13, objective maximum = 24, time = 48 ms, branches = 179, failures = 12, depth = 33, BaseObject, neighbors = 5, filtered neighbors = 5, accepted neighbors = 5, memory used = 30.07 MB, limit = 0%)
+Objective: 13 check: 13
+I0123 08:41:18.503337 11144 search.cc:254] Solution #6 (12, objective maximum = 24, time = 60 ms, branches = 244, failures = 39, depth = 33, BaseObject, neighbors = 6, filtered neighbors = 6, accepted neighbors = 6, memory used = 30.07 MB, limit = 0%)
+Objective: 12 check: 12
+I0123 08:41:18.509337 11144 search.cc:254] Solution #7 (11, objective maximum = 24, time = 67 ms, branches = 269, failures = 48, depth = 33, BaseObject, neighbors = 7, filtered neighbors = 7, accepted neighbors = 7, memory used = 30.07 MB, limit = 0%)
+Objective: 11 check: 11
+I0123 08:41:18.522336 11144 search.cc:254] Solution #8 (10, objective maximum = 24, time = 79 ms, branches = 285, failures = 52, depth = 33, BaseObject, neighbors = 9, filtered neighbors = 9, accepted neighbors = 8, memory used = 30.11 MB, limit = 0%)
+Objective: 10 check: 10
+I0123 08:41:18.539336 11144 search.cc:254] Solution #9 (9, objective maximum = 24, time = 96 ms, branches = 377, failures = 99, depth = 33, BaseObject, neighbors = 11, filtered neighbors = 11, accepted neighbors = 9, memory used = 30.14 MB, limit = 0%)
+Objective: 9 check: 9
+I0123 08:41:18.554335 11144 search.cc:254] Solution #10 (8, objective maximum = 24, time = 111 ms, branches = 424, failures = 118, depth = 33, BaseObject, neighbors = 13, filtered neighbors = 13, accepted neighbors = 10, memory used = 30.14 MB, limit = 0%)
+Objective: 8 check: 8
+I0123 08:41:18.575337 11144 search.cc:254] Solution #11 (7, objective maximum = 24, time = 132 ms, branches = 505, failures = 162, depth = 33, BaseObject, neighbors = 16, filtered neighbors = 16, accepted neighbors = 11, memory used = 30.14 MB, limit = 0%)
+Objective: 7 check: 7
+I0123 08:41:18.587337 11144 search.cc:254] Solution #12 (6, objective maximum = 24, time = 144 ms, branches = 524, failures = 167, depth = 33, BaseObject, neighbors = 18, filtered neighbors = 18, accepted neighbors = 12, memory used = 30.15 MB, limit = 0%)
+Objective: 6 check: 6
+I0123 08:41:18.606336 11144 search.cc:254] Solution #13 (5, objective maximum = 24, time = 163 ms, branches = 666, failures = 246, depth = 33, BaseObject, neighbors = 21, filtered neighbors = 21, accepted neighbors = 13, memory used = 30.15 MB, limit = 0%)
+Objective: 5 check: 5
+I0123 08:41:18.613337 11144 search.cc:254] Solution #14 (4, objective maximum = 24, time = 171 ms, branches = 701, failures = 258, depth = 33, BaseObject, neighbors = 22, filtered neighbors = 22, accepted neighbors = 14, memory used = 30.15 MB, limit = 0%)
+Objective: 4 check: 4
+I0123 08:41:18.645336 11144 search.cc:254] Solution #15 (3, objective maximum = 24, time = 203 ms, branches = 724, failures = 271, depth = 33, BaseObject, neighbors = 29, filtered neighbors = 29, accepted neighbors = 15, memory used = 30.15 MB, limit = 1%)
+Objective: 3 check: 3
+I0123 08:41:18.662336 11144 search.cc:254] Solution #16 (2, objective maximum = 24, time = 219 ms, branches = 740, failures = 275, depth = 33, BaseObject, neighbors = 32, filtered neighbors = 32, accepted neighbors = 16, memory used = 30.15 MB, limit = 1%)
+Objective: 2 check: 2
+I0123 08:41:18.674336 11144 search.cc:254] Solution #17 (1, objective maximum = 24, time = 231 ms, branches = 751, failures = 278, depth = 33, BaseObject, neighbors = 34, filtered neighbors = 34, accepted neighbors = 17, memory used = 30.15 MB, limit = 1%)
+Objective: 1 check: 1
+I0123 08:41:18.713336 11144 search.cc:254] Solution #18 (0, objective maximum = 24, time = 270 ms, branches = 768, failures = 291, depth = 33, BaseObject, neighbors = 44, filtered neighbors = 44, accepted neighbors = 18, memory used = 30.17 MB, limit = 1%)
+Objective: 0 check: 0
+I0123 08:41:18.715334 11144 search.cc:254] Finished search tree (time = 272 ms, branches = 768, failures = 322, neighbors = 44, filtered neighbors = 44, accepted neigbors = 18, memory used = 30.17 MB)
+I0123 08:41:18.717334 11144 search.cc:254] End search (time = 275 ms, branches = 768, failures = 322, memory used = 27.34 MB, speed = 2792 branches/s)
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\steel.py
+Solving steel mill with 111 slabs
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0123 08:41:19.921361  3248 search.cc:254] Start search (memory used = 22.37 MB)
+I0123 08:41:19.931362  3248 search.cc:254] Root node processed (time = 8 ms, constraints = 2445, memory used = 27.74 MB)
+I0123 08:41:19.965363  3248 search.cc:254] Solution #0 (24, time = 42 ms, branches = 70, failures = 0, depth = 70, memory used = 29.10 MB, limit = 0%)
+Objective: 24 check: 24
+I0123 08:41:19.966362  3248 search.cc:254] Solution #1 (20, objective maximum = 24, time = 43 ms, branches = 71, failures = 0, depth = 70, memory used = 29.12 MB, limit = 0%)
+Objective: 20 check: 20
+I0123 08:41:19.967362  3248 search.cc:254] Solution #2 (19, objective maximum = 24, time = 44 ms, branches = 75, failures = 1, depth = 70, memory used = 29.22 MB, limit = 0%)
+Objective: 19 check: 19
+I0123 08:41:19.975363  3248 search.cc:254] Solution #3 (17, objective maximum = 24, time = 52 ms, branches = 106, failures = 17, depth = 69, memory used = 29.33 MB, limit = 0%)
+Objective: 17 check: 17
+I0123 08:41:20.063362  3248 search.cc:254] Solution #4 (14, objective maximum = 24, time = 140 ms, branches = 560, failures = 242, depth = 71, memory used = 29.34 MB, limit = 0%)
+Objective: 14 check: 14
+I0123 08:41:20.065361  3248 search.cc:254] Solution #5 (13, objective maximum = 24, time = 142 ms, branches = 562, failures = 242, depth = 71, memory used = 29.34 MB, limit = 0%)
+Objective: 13 check: 13
+I0123 08:41:20.129361  3248 search.cc:254] Solution #6 (12, objective maximum = 24, time = 206 ms, branches = 933, failures = 429, depth = 69, memory used = 29.34 MB, limit = 1%)
+Objective: 12 check: 12
+I0123 08:41:20.185361  3248 search.cc:254] Solution #7 (11, objective maximum = 24, time = 262 ms, branches = 1249, failures = 587, depth = 71, memory used = 29.34 MB, limit = 1%)
+Objective: 11 check: 11
+I0123 08:41:20.232360  3248 search.cc:254] Solution #8 (10, objective maximum = 24, time = 309 ms, branches = 1535, failures = 730, depth = 69, memory used = 29.34 MB, limit = 1%)
+Objective: 10 check: 10
+I0123 08:41:20.261361  3248 search.cc:254] Solution #9 (9, objective maximum = 24, time = 338 ms, branches = 1705, failures = 816, depth = 70, memory used = 29.34 MB, limit = 1%)
+Objective: 9 check: 9
+I0123 08:41:20.478358  3248 search.cc:254] Solution #10 (8, objective maximum = 24, time = 555 ms, branches = 3086, failures = 1505, depth = 69, memory used = 29.34 MB, limit = 2%)
+Objective: 8 check: 8
+I0123 08:41:20.552361  3248 search.cc:254] Solution #11 (7, objective maximum = 24, time = 629 ms, branches = 3433, failures = 1680, depth = 70, memory used = 29.34 MB, limit = 3%)
+Objective: 7 check: 7
+I0123 08:41:20.826359  3248 search.cc:254] Solution #12 (6, objective maximum = 24, time = 903 ms, branches = 5175, failures = 2551, depth = 74, memory used = 29.34 MB, limit = 4%)
+Objective: 6 check: 6
+I0123 08:41:23.067353  3248 search.cc:254] Solution #13 (5, objective maximum = 24, time = 3144 ms, branches = 18335, failures = 9130, depth = 73, memory used = 29.34 MB, limit = 15%)
+Objective: 5 check: 5
+I0123 08:41:23.080349  3248 search.cc:254] Solution #14 (4, objective maximum = 24, time = 3157 ms, branches = 18393, failures = 9161, depth = 73, memory used = 29.34 MB, limit = 15%)
+Objective: 4 check: 4
+I0123 08:41:23.092350  3248 search.cc:254] Solution #15 (3, objective maximum = 24, time = 3169 ms, branches = 18468, failures = 9200, depth = 70, memory used = 29.34 MB, limit = 15%)
+Objective: 3 check: 3
+I0123 08:41:23.102351  3248 search.cc:254] Solution #16 (2, objective maximum = 24, time = 3179 ms, branches = 18516, failures = 9227, depth = 72, memory used = 29.34 MB, limit = 15%)
+Objective: 2 check: 2
+I0123 08:41:23.122349  3248 search.cc:254] Solution #17 (1, objective maximum = 24, time = 3199 ms, branches = 18650, failures = 9295, depth = 80, memory used = 29.34 MB, limit = 15%)
+Objective: 1 check: 1
+I0123 08:41:23.145349  3248 search.cc:254] Solution #18 (0, objective maximum = 24, time = 3222 ms, branches = 18794, failures = 9368, depth = 81, memory used = 29.34 MB, limit = 16%)
+Objective: 0 check: 0
+I0123 08:41:23.147352  3248 search.cc:254] Finished search tree (time = 3224 ms, branches = 18794, failures = 9433, memory used = 29.34 MB)
+I0123 08:41:23.150349  3248 search.cc:254] End search (time = 3227 ms, branches = 18794, failures = 9433, memory used = 25.74 MB, speed = 5823 branches/s)
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\stigler.py
+Solver:  CBC
+
+Cost = 0.11
+Total cost: 39.69
+
+Wheat Flour (Enriched) 10 lb.       10.78  29.95
+Liver (Beef)          1 lb.        0.69  2.58
+Cabbage               1 lb.        4.10  110.70
+Spinach               1 lb.        1.83  22.58
+Navy Beans, Dried     1 lb.        22.29  377.81
+
+walltime  : 8 ms
+iterations: 0
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\strimko2.py
+n: 7
+7 4 6 3 2 5 1
+1 5 7 2 6 3 4
+2 7 3 4 5 1 6
+4 3 1 6 7 2 5
+5 2 4 7 1 6 3
+3 6 5 1 4 7 2
+6 1 2 5 3 4 7
+
+
+num_solutions: 1
+failures: 0
+branches: 0
+WallTime: 2 ms
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\subset_sum.py
+coins: [16, 17, 23, 24, 39, 40]
+total: 100
+
+ss: 6
+x:  [2, 4, 0, 0, 0, 0]
+
+
+num_solutions: 1
+failures: 62
+branches: 124
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\survo_puzzle.py
+r: 3 c: 4
+
+num_solutions:  1
+12  6  2 10
+ 8  1  5  4
+ 7  9  3 11
+
+
+num_solutions: 1
+failures: 3
+branches: 4
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\toNum.py
+x: [0, 1, 2, 3]
+y: 123
+
+x: [0, 1, 3, 2]
+y: 132
+
+x: [0, 2, 1, 3]
+y: 213
+
+x: [0, 2, 3, 1]
+y: 231
+
+x: [0, 3, 1, 2]
+y: 312
+
+x: [0, 3, 2, 1]
+y: 321
+
+x: [1, 0, 2, 3]
+y: 1023
+
+x: [1, 0, 3, 2]
+y: 1032
+
+x: [1, 2, 0, 3]
+y: 1203
+
+x: [1, 2, 3, 0]
+y: 1230
+
+x: [1, 3, 0, 2]
+y: 1302
+
+x: [1, 3, 2, 0]
+y: 1320
+
+x: [2, 0, 1, 3]
+y: 2013
+
+x: [2, 0, 3, 1]
+y: 2031
+
+x: [2, 1, 0, 3]
+y: 2103
+
+x: [2, 1, 3, 0]
+y: 2130
+
+x: [2, 3, 0, 1]
+y: 2301
+
+x: [2, 3, 1, 0]
+y: 2310
+
+x: [3, 0, 1, 2]
+y: 3012
+
+x: [3, 0, 2, 1]
+y: 3021
+
+x: [3, 1, 0, 2]
+y: 3102
+
+x: [3, 1, 2, 0]
+y: 3120
+
+x: [3, 2, 0, 1]
+y: 3201
+
+x: [3, 2, 1, 0]
+y: 3210
+
+failures: 24
+branches: 46
+WallTime: 5
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\traffic_lights.py
+ r  r  g  g  r  r  g  g
+ry  r  y  r ry  r  y  r
+ g  g  r  r  g  g  r  r
+ y  r ry  r  y  r ry  r
+
+num_solutions: 4
+failures: 0
+branches: 6
+WallTime: 2
+
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\volsay2.py
+NumConstraints: 2
+
+objective =  2300.0
+Gas = 20.0 ReducedCost =  0.0
+Chloride = 30.0 ReducedCost =  0.0
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\volsay3.py
+NumConstraints: 3
+NumVariables: 2
+
+
+objective =  1800.0
+Gas = 6.666666666666666 ReducedCost =  0.0
+Chloride = 40.0 ReducedCost =  0.0
+
+walltime  : 2 ms
+iterations: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\volsay.py
+NumConstraints: 2
+
+objective =  2300.0
+Gas =  20.0 ReducedCost = 0.0
+Chloride: 30.0 ReducedCost = 0.0
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\wedding_optimal_chart.py
+z: CastVar<320>(264)
+Table:
+0
+0
+0
+0
+1
+1
+1
+1
+2
+2
+2
+2
+3
+3
+3
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Martha (B)
+Travis (B)
+
+Table 1:
+Allan (B)
+Lois (B)
+Jayne (B)
+Brad (B)
+
+Table 2:
+Abby (B)
+Mary Helen (G)
+Lee (G)
+Annika (G)
+
+Table 3:
+Carl (G)
+Colin (G)
+Shirley (G)
+
+Table 4:
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(265)
+Table:
+0
+0
+0
+0
+1
+1
+1
+1
+2
+2
+2
+3
+3
+3
+3
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Martha (B)
+Travis (B)
+
+Table 1:
+Allan (B)
+Lois (B)
+Jayne (B)
+Brad (B)
+
+Table 2:
+Abby (B)
+Mary Helen (G)
+Lee (G)
+
+Table 3:
+Annika (G)
+Carl (G)
+Colin (G)
+Shirley (G)
+
+Table 4:
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(267)
+Table:
+0
+0
+0
+0
+1
+1
+2
+2
+1
+3
+3
+3
+3
+4
+4
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Martha (B)
+Travis (B)
+
+Table 1:
+Allan (B)
+Lois (B)
+Abby (B)
+
+Table 2:
+Jayne (B)
+Brad (B)
+
+Table 3:
+Mary Helen (G)
+Lee (G)
+Annika (G)
+Carl (G)
+
+Table 4:
+Colin (G)
+Shirley (G)
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(269)
+Table:
+0
+0
+1
+1
+0
+0
+2
+2
+1
+2
+2
+1
+3
+3
+3
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Allan (B)
+Lois (B)
+
+Table 1:
+Martha (B)
+Travis (B)
+Abby (B)
+Annika (G)
+
+Table 2:
+Jayne (B)
+Brad (B)
+Mary Helen (G)
+Lee (G)
+
+Table 3:
+Carl (G)
+Colin (G)
+Shirley (G)
+
+Table 4:
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(272)
+Table:
+0
+0
+1
+1
+0
+0
+2
+2
+1
+2
+2
+3
+3
+3
+3
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Allan (B)
+Lois (B)
+
+Table 1:
+Martha (B)
+Travis (B)
+Abby (B)
+
+Table 2:
+Jayne (B)
+Brad (B)
+Mary Helen (G)
+Lee (G)
+
+Table 3:
+Annika (G)
+Carl (G)
+Colin (G)
+Shirley (G)
+
+Table 4:
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(273)
+Table:
+0
+0
+1
+1
+0
+0
+2
+2
+1
+3
+3
+1
+3
+3
+4
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Allan (B)
+Lois (B)
+
+Table 1:
+Martha (B)
+Travis (B)
+Abby (B)
+Annika (G)
+
+Table 2:
+Jayne (B)
+Brad (B)
+
+Table 3:
+Mary Helen (G)
+Lee (G)
+Carl (G)
+Colin (G)
+
+Table 4:
+Shirley (G)
+DeAnn (G)
+Lori (G)
+
+
+z: CastVar<320>(276)
+Table:
+0
+0
+1
+1
+0
+0
+2
+2
+1
+3
+3
+3
+3
+4
+4
+4
+4
+
+Table 0:
+Deb (B)
+John (B)
+Allan (B)
+Lois (B)
+
+Table 1:
+Martha (B)
+Travis (B)
+Abby (B)
+
+Table 2:
+Jayne (B)
+Brad (B)
+
+Table 3:
+Mary Helen (G)
+Lee (G)
+Annika (G)
+Carl (G)
+
+Table 4:
+Colin (G)
+Shirley (G)
+DeAnn (G)
+Lori (G)
+
+
+
+Solutions: 7
+WallTime: 856ms
+Failures: 90328
+Branches: 180668
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\who_killed_agatha.py
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 0 0
+
+richer:
+0 0 0
+1 0 0
+1 1 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 0 0
+
+richer:
+0 0 0
+1 0 1
+1 0 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 0 0
+
+richer:
+0 0 1
+1 0 0
+0 1 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 0 0
+
+richer:
+0 0 1
+1 0 1
+0 0 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 1 0
+
+richer:
+0 0 0
+1 0 0
+1 1 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 1 0
+
+richer:
+0 0 0
+1 0 1
+1 0 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 1 0
+
+richer:
+0 0 1
+1 0 0
+0 1 0
+
+
+the_killer: 0
+the_victim: 0
+hates:
+1 0 1
+1 0 1
+0 1 0
+
+richer:
+0 0 1
+1 0 1
+0 0 0
+
+
+
+num_solutions: 8
+failures: 0
+branches: 14
+WallTime: 6
+
+
+the killer agatha was choosen in 8 solutions
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\xkcd.py
+num_solutions:  2
+z: 15.05
+x: [1, 0, 0, 2, 0, 1]
+1 of mixed fruit : 2.15
+2 of host wings : 3.55
+1 of samples place : 5.8
+
+z: 15.05
+x: [7, 0, 0, 0, 0, 0]
+7 of mixed fruit : 2.15
+
+
+num_solutions: 2
+failures: 81
+branches: 160
+WallTime: 2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\young_tableaux.py
+n: 5
+p: [5, 0, 0, 0, 0]
+x:
+1 2 3 4 5
+
+p: [4, 1, 0, 0, 0]
+x:
+1 2 3 4
+5
+
+p: [4, 1, 0, 0, 0]
+x:
+1 2 3 5
+4
+
+p: [3, 2, 0, 0, 0]
+x:
+1 2 3
+4 5
+
+p: [3, 1, 1, 0, 0]
+x:
+1 2 3
+4
+5
+
+p: [4, 1, 0, 0, 0]
+x:
+1 2 4 5
+3
+
+p: [3, 2, 0, 0, 0]
+x:
+1 2 4
+3 5
+
+p: [3, 1, 1, 0, 0]
+x:
+1 2 4
+3
+5
+
+p: [3, 2, 0, 0, 0]
+x:
+1 2 5
+3 4
+
+p: [3, 1, 1, 0, 0]
+x:
+1 2 5
+3
+4
+
+p: [2, 2, 1, 0, 0]
+x:
+1 2
+3 4
+5
+
+p: [2, 2, 1, 0, 0]
+x:
+1 2
+3 5
+4
+
+p: [2, 1, 1, 1, 0]
+x:
+1 2
+3
+4
+5
+
+p: [4, 1, 0, 0, 0]
+x:
+1 3 4 5
+2
+
+p: [3, 2, 0, 0, 0]
+x:
+1 3 4
+2 5
+
+p: [3, 1, 1, 0, 0]
+x:
+1 3 4
+2
+5
+
+p: [3, 2, 0, 0, 0]
+x:
+1 3 5
+2 4
+
+p: [3, 1, 1, 0, 0]
+x:
+1 3 5
+2
+4
+
+p: [2, 2, 1, 0, 0]
+x:
+1 3
+2 4
+5
+
+p: [2, 2, 1, 0, 0]
+x:
+1 3
+2 5
+4
+
+p: [2, 1, 1, 1, 0]
+x:
+1 3
+2
+4
+5
+
+p: [3, 1, 1, 0, 0]
+x:
+1 4 5
+2
+3
+
+p: [2, 2, 1, 0, 0]
+x:
+1 4
+2 5
+3
+
+p: [2, 1, 1, 1, 0]
+x:
+1 4
+2
+3
+5
+
+p: [2, 1, 1, 1, 0]
+x:
+1 5
+2
+3
+4
+
+p: [1, 1, 1, 1, 1]
+x:
+1
+2
+3
+4
+5
+
+
+num_solutions: 26
+failures: 36
+branches: 122
+WallTime: 10
+c:/GitRepo/or-tools/tools/make run SOURCE=examples/contrib/coins_grid.py ARGS="5 2"
+make[1]: Entering directory `c:/GitRepo/or-tools'
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\coins_grid.py 5 2
+n:  5
+c:  2
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0123 08:41:49.792665 17216 search.cc:254] Start search (memory used = 15.72 MB)
+I0123 08:41:49.792665 17216 search.cc:254] Root node processed (time = 0 ms, constraints = 11, memory used = 15.90 MB)
+I0123 08:41:49.792665 17216 search.cc:254] Solution #0 (38, time = 0 ms, branches = 8, failures = 0, depth = 8, memory used = 15.97 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #1 (32, objective maximum = 38, time = 0 ms, branches = 10, failures = 1, depth = 9, memory used = 16.04 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #2 (26, objective maximum = 38, time = 0 ms, branches = 11, failures = 2, depth = 9, memory used = 16.04 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #3 (24, objective maximum = 38, time = 0 ms, branches = 14, failures = 5, depth = 7, memory used = 16.07 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #4 (18, objective maximum = 38, time = 0 ms, branches = 16, failures = 6, depth = 8, memory used = 16.07 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #5 (16, objective maximum = 38, time = 0 ms, branches = 18, failures = 9, depth = 5, memory used = 16.08 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #6 (14, objective maximum = 38, time = 0 ms, branches = 24, failures = 12, depth = 8, memory used = 16.08 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #7 (12, objective maximum = 38, time = 1 ms, branches = 27, failures = 14, depth = 9, memory used = 16.08 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #8 (8, objective maximum = 38, time = 1 ms, branches = 31, failures = 16, depth = 5, memory used = 16.08 MB)
+I0123 08:41:49.793656 17216 search.cc:254] Solution #9 (6, objective maximum = 38, time = 1 ms, branches = 39, failures = 22, depth = 6, memory used = 16.08 MB)
+I0123 08:41:49.794657 17216 search.cc:254] Finished search tree (time = 1 ms, branches = 43, failures = 27, memory used = 16.08 MB)
+I0123 08:41:49.794657 17216 search.cc:254] End search (time = 1 ms, branches = 43, failures = 27, memory used = 16.09 MB, speed = 43000 branches/s)
+objective: 6
+1 1 0 0 0
+1 1 0 0 0
+0 0 1 1 0
+0 0 1 0 1
+0 0 0 1 1
+
+failures: 27
+branches: 43
+WallTime: 4
+make[1]: Leaving directory `c:/GitRepo/or-tools'
+c:/GitRepo/or-tools/tools/make run SOURCE=examples/contrib/hidato.py ARGS="3 3"
+make[1]: Entering directory `c:/GitRepo/or-tools'
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\contrib\\hidato.py 3 3
+ 6  0  9
+ 0  2  8
+ 1  0  0
+
+Solution: 1
+ 6  7  9
+ 5  2  8
+ 1  4  3
+
+
+num_solutions: 1
+failures: 11
+branches: 22
+WallTime: 3
+make[1]: Leaving directory `c:/GitRepo/or-tools'
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\appointments.py
+appointments:
+   40 * A1 : 90 min
+   30 * A2 : 120 min
+   25 * A3 : 180 min
+commute time = 30
+accepted total duration = [480..540]
+98 workers
+found 6 possible combinations of appointements
+Problem solved in 4.000000 milliseconds
+Optimal solution as a cost of 0
+1 schedules with
+   2 installation of type A2
+   1 installation of type A3
+12 schedules with
+   1 installation of type A1
+   2 installation of type A3
+14 schedules with
+   2 installation of type A1
+   2 installation of type A2
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\assignment_sat.py
+Total cost = 326
+
+Worker  0  assigned to task  6   Cost =  12
+Worker  1  assigned to task  0   Cost =  35
+Worker  1  assigned to task  2   Cost =  55
+Worker  2  assigned to task  4   Cost =  59
+Worker  5  assigned to task  5   Cost =  31
+Worker  5  assigned to task  7   Cost =  34
+Worker  6  assigned to task  1   Cost =  51
+Worker  8  assigned to task  3   Cost =  49
+
+Statistics
+  - conflicts : 138001
+  - branches  : 242456
+  - wall time : 7.452202 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\assignment_with_constraints_sat.py
+Total cost = 239
+
+Worker  0  assigned to task  4   Cost =  50
+Worker  1  assigned to task  2   Cost =  55
+Worker  5  assigned to task  5   Cost =  31
+Worker  6  assigned to task  3   Cost =  41
+Worker  10  assigned to task  0   Cost =  17
+Worker  11  assigned to task  1   Cost =  45
+
+Statistics
+  - conflicts : 10643
+  - branches  : 19030
+  - wall time : 0.608850 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\balance_group_sat.py
+Model has 100 items, 10 groups, and 3 colors
+  average sum per group = 665
+Solution 0
+  objective value = 26
+group 0: sum = 675.00 [ (14, 15, 2) (20, 23, 2) (23, 26, 2) (29, 34, 2) (32, 38, 2) (59, 77, 2) (62, 82, 2) (68, 92, 2) (95, 141, 2) (98, 147, 2)]
+group 1: sum = 664.00 [ (5, 6, 2) (13, 14, 1) (22, 25, 1) (26, 30, 2) (40, 49, 1) (47, 59, 2) (74, 102, 2) (77, 107, 2) (91, 133, 1) (94, 139, 1)]
+group 2: sum = 639.00 [ (2, 3, 2) (35, 42, 2) (39, 47, 0) (42, 51, 0) (44, 54, 2) (48, 60, 0) (50, 63, 2) (63, 83, 0) (80, 113, 2) (86, 123, 2)]
+group 3: sum = 669.00 [ (7, 8, 1) (17, 19, 2) (25, 29, 1) (38, 46, 2) (53, 68, 2) (56, 72, 2) (70, 95, 1) (71, 97, 2) (73, 100, 1) (92, 135, 2)]
+group 4: sum = 674.00 [ (4, 5, 1) (9, 10, 0) (10, 11, 1) (30, 35, 0) (33, 39, 0) (55, 71, 1) (79, 111, 1) (85, 122, 1) (87, 125, 0) (97, 145, 1)]
+group 5: sum = 691.00 [ (1, 2, 1) (21, 24, 0) (27, 31, 0) (28, 32, 1) (31, 36, 1) (54, 69, 0) (76, 105, 1) (82, 116, 1) (88, 127, 1) (99, 149, 0)]
+group 6: sum = 655.00 [ (15, 17, 0) (36, 43, 0) (43, 53, 1) (46, 57, 1) (49, 62, 1) (51, 65, 0) (52, 66, 1) (58, 75, 1) (61, 80, 1) (93, 137, 0)]
+group 7: sum = 669.00 [ (16, 18, 1) (19, 21, 1) (34, 40, 1) (37, 44, 1) (45, 56, 0) (60, 79, 0) (64, 85, 1) (67, 90, 1) (69, 93, 0) (96, 143, 0)]
+group 8: sum = 650.00 [ (8, 9, 2) (11, 12, 2) (12, 13, 0) (24, 27, 0) (41, 50, 2) (57, 74, 0) (65, 87, 2) (83, 118, 2) (89, 129, 2) (90, 131, 0)]
+group 9: sum = 665.00 [ (0, 1, 0) (3, 4, 0) (6, 7, 0) (18, 20, 0) (66, 88, 0) (72, 98, 0) (75, 104, 0) (78, 109, 0) (81, 114, 0) (84, 120, 0)]
+Solution 1
+  objective value = 21
+group 0: sum = 680.00 [ (0, 1, 0) (21, 24, 0) (24, 27, 0) (33, 39, 0) (51, 65, 0) (57, 74, 0) (63, 83, 0) (75, 104, 0) (81, 114, 0) (99, 149, 0)]
+group 1: sum = 686.00 [ (18, 20, 0) (30, 35, 0) (35, 42, 2) (39, 47, 0) (41, 50, 2) (45, 56, 0) (62, 82, 2) (66, 88, 0) (87, 125, 0) (95, 141, 2)]
+group 2: sum = 679.00 [ (5, 6, 2) (36, 43, 0) (44, 54, 2) (53, 68, 2) (54, 69, 0) (56, 72, 2) (59, 77, 2) (60, 79, 0) (72, 98, 0) (80, 113, 2)]
+group 3: sum = 651.00 [ (2, 3, 2) (10, 11, 1) (22, 25, 1) (26, 30, 2) (29, 34, 2) (43, 53, 1) (73, 100, 1) (86, 123, 2) (88, 127, 1) (97, 145, 1)]
+group 4: sum = 662.00 [ (3, 4, 0) (9, 10, 0) (15, 17, 0) (23, 26, 2) (42, 51, 0) (47, 59, 2) (71, 97, 2) (83, 118, 2) (93, 137, 0) (96, 143, 0)]
+group 5: sum = 652.00 [ (11, 12, 2) (14, 15, 2) (25, 29, 1) (28, 32, 1) (38, 46, 2) (49, 62, 1) (68, 92, 2) (74, 102, 2) (89, 129, 2) (91, 133, 1)]
+group 6: sum = 653.00 [ (1, 2, 1) (6, 7, 0) (7, 8, 1) (16, 18, 1) (48, 60, 0) (67, 90, 1) (69, 93, 0) (76, 105, 1) (90, 131, 0) (94, 139, 1)]
+group 7: sum = 660.00 [ (4, 5, 1) (17, 19, 2) (31, 36, 1) (34, 40, 1) (50, 63, 2) (52, 66, 1) (58, 75, 1) (65, 87, 2) (85, 122, 1) (98, 147, 2)]
+group 8: sum = 646.00 [ (12, 13, 0) (13, 14, 1) (19, 21, 1) (27, 31, 0) (46, 57, 1) (61, 80, 1) (64, 85, 1) (78, 109, 0) (82, 116, 1) (84, 120, 0)]
+group 9: sum = 682.00 [ (8, 9, 2) (20, 23, 2) (32, 38, 2) (37, 44, 1) (40, 49, 1) (55, 71, 1) (70, 95, 1) (77, 107, 2) (79, 111, 1) (92, 135, 2)]
+Solution 2
+  objective value = 20
+group 0: sum = 678.00 [ (9, 10, 0) (31, 36, 1) (33, 39, 0) (40, 49, 1) (51, 65, 0) (60, 79, 0) (63, 83, 0) (67, 90, 1) (76, 105, 1) (85, 122, 1)]
+group 1: sum = 685.00 [ (18, 20, 0) (32, 38, 2) (35, 42, 2) (41, 50, 2) (45, 56, 0) (53, 68, 2) (62, 82, 2) (66, 88, 0) (75, 104, 0) (93, 137, 0)]
+group 2: sum = 646.00 [ (10, 11, 1) (13, 14, 1) (23, 26, 2) (25, 29, 1) (47, 59, 2) (50, 63, 2) (56, 72, 2) (73, 100, 1) (91, 133, 1) (94, 139, 1)]
+group 3: sum = 667.00 [ (4, 5, 1) (7, 8, 1) (8, 9, 2) (16, 18, 1) (19, 21, 1) (68, 92, 2) (77, 107, 2) (88, 127, 1) (92, 135, 2) (97, 145, 1)]
+group 4: sum = 673.00 [ (2, 3, 2) (5, 6, 2) (11, 12, 2) (15, 17, 0) (42, 51, 0) (57, 74, 0) (83, 118, 2) (84, 120, 0) (90, 131, 0) (95, 141, 2)]
+group 5: sum = 645.00 [ (1, 2, 1) (21, 24, 0) (24, 27, 0) (34, 40, 1) (39, 47, 0) (43, 53, 1) (58, 75, 1) (64, 85, 1) (96, 143, 0) (99, 149, 0)]
+group 6: sum = 662.00 [ (12, 13, 0) (22, 25, 1) (30, 35, 0) (36, 43, 0) (46, 57, 1) (55, 71, 1) (69, 93, 0) (70, 95, 1) (81, 114, 0) (82, 116, 1)]
+group 7: sum = 675.00 [ (6, 7, 0) (17, 19, 2) (27, 31, 0) (29, 34, 2) (48, 60, 0) (54, 69, 0) (71, 97, 2) (72, 98, 0) (80, 113, 2) (98, 147, 2)]
+group 8: sum = 656.00 [ (0, 1, 0) (3, 4, 0) (14, 15, 2) (38, 46, 2) (44, 54, 2) (59, 77, 2) (74, 102, 2) (78, 109, 0) (86, 123, 2) (87, 125, 0)]
+group 9: sum = 664.00 [ (20, 23, 2) (26, 30, 2) (28, 32, 1) (37, 44, 1) (49, 62, 1) (52, 66, 1) (61, 80, 1) (65, 87, 2) (79, 111, 1) (89, 129, 2)]
+Solution 3
+  objective value = 17
+group 0: sum = 660.00 [ (24, 27, 0) (28, 32, 1) (31, 36, 1) (33, 39, 0) (40, 49, 1) (51, 65, 0) (60, 79, 0) (70, 95, 1) (82, 116, 1) (85, 122, 1)]
+group 1: sum = 667.00 [ (23, 26, 2) (32, 38, 2) (35, 42, 2) (41, 50, 2) (45, 56, 0) (62, 82, 2) (63, 83, 0) (66, 88, 0) (72, 98, 0) (75, 104, 0)]
+group 2: sum = 665.00 [ (1, 2, 1) (10, 11, 1) (19, 21, 1) (44, 54, 2) (47, 59, 2) (59, 77, 2) (65, 87, 2) (74, 102, 2) (77, 107, 2) (97, 145, 1)]
+group 3: sum = 651.00 [ (2, 3, 2) (4, 5, 1) (7, 8, 1) (20, 23, 2) (55, 71, 1) (58, 75, 1) (64, 85, 1) (76, 105, 1) (92, 135, 2) (95, 141, 2)]
+group 4: sum = 677.00 [ (5, 6, 2) (8, 9, 2) (12, 13, 0) (21, 24, 0) (48, 60, 0) (57, 74, 0) (80, 113, 2) (83, 118, 2) (86, 123, 2) (93, 137, 0)]
+group 5: sum = 655.00 [ (0, 1, 0) (3, 4, 0) (34, 40, 1) (36, 43, 0) (37, 44, 1) (43, 53, 1) (46, 57, 1) (90, 131, 0) (91, 133, 1) (99, 149, 0)]
+group 6: sum = 672.00 [ (11, 12, 2) (14, 15, 2) (26, 30, 2) (27, 31, 0) (42, 51, 0) (56, 72, 2) (69, 93, 0) (81, 114, 0) (87, 125, 0) (89, 129, 2)]
+group 7: sum = 682.00 [ (13, 14, 1) (17, 19, 2) (29, 34, 2) (49, 62, 1) (50, 63, 2) (52, 66, 1) (53, 68, 2) (67, 90, 1) (88, 127, 1) (94, 139, 1)]
+group 8: sum = 666.00 [ (6, 7, 0) (9, 10, 0) (18, 20, 0) (30, 35, 0) (38, 46, 2) (54, 69, 0) (68, 92, 2) (71, 97, 2) (96, 143, 0) (98, 147, 2)]
+group 9: sum = 656.00 [ (15, 17, 0) (16, 18, 1) (22, 25, 1) (25, 29, 1) (39, 47, 0) (61, 80, 1) (73, 100, 1) (78, 109, 0) (79, 111, 1) (84, 120, 0)]
+Solution 4
+  objective value = 14
+group 0: sum = 652.00 [ (14, 15, 2) (20, 23, 2) (29, 34, 2) (32, 38, 2) (35, 42, 2) (38, 46, 2) (68, 92, 2) (71, 97, 2) (83, 118, 2) (98, 147, 2)]
+group 1: sum = 664.00 [ (11, 12, 2) (19, 21, 1) (40, 49, 1) (47, 59, 2) (56, 72, 2) (59, 77, 2) (62, 82, 2) (67, 90, 1) (73, 100, 1) (74, 102, 2)]
+group 2: sum = 678.00 [ (4, 5, 1) (15, 17, 0) (25, 29, 1) (39, 47, 0) (52, 66, 1) (55, 71, 1) (58, 75, 1) (75, 104, 0) (87, 125, 0) (94, 139, 1)]
+group 3: sum = 679.00 [ (5, 6, 2) (7, 8, 1) (8, 9, 2) (23, 26, 2) (53, 68, 2) (70, 95, 1) (76, 105, 1) (80, 113, 2) (82, 116, 1) (91, 133, 1)]
+group 4: sum = 659.00 [ (12, 13, 0) (16, 18, 1) (24, 27, 0) (28, 32, 1) (30, 35, 0) (34, 40, 1) (54, 69, 0) (90, 131, 0) (97, 145, 1) (99, 149, 0)]
+group 5: sum = 659.00 [ (3, 4, 0) (18, 20, 0) (33, 39, 0) (44, 54, 2) (48, 60, 0) (50, 63, 2) (60, 79, 0) (72, 98, 0) (77, 107, 2) (92, 135, 2)]
+group 6: sum = 662.00 [ (9, 10, 0) (21, 24, 0) (26, 30, 2) (27, 31, 0) (41, 50, 2) (65, 87, 2) (66, 88, 0) (69, 93, 0) (84, 120, 0) (89, 129, 2)]
+group 7: sum = 677.00 [ (1, 2, 1) (2, 3, 2) (13, 14, 1) (17, 19, 2) (46, 57, 1) (64, 85, 1) (79, 111, 1) (85, 122, 1) (86, 123, 2) (95, 141, 2)]
+group 8: sum = 664.00 [ (6, 7, 0) (22, 25, 1) (31, 36, 1) (42, 51, 0) (45, 56, 0) (49, 62, 1) (57, 74, 0) (63, 83, 0) (88, 127, 1) (96, 143, 0)]
+group 9: sum = 657.00 [ (0, 1, 0) (10, 11, 1) (36, 43, 0) (37, 44, 1) (43, 53, 1) (51, 65, 0) (61, 80, 1) (78, 109, 0) (81, 114, 0) (93, 137, 0)]
+Solution 5
+  objective value = 13
+group 0: sum = 657.00 [ (4, 5, 1) (6, 7, 0) (33, 39, 0) (34, 40, 1) (49, 62, 1) (60, 79, 0) (61, 80, 1) (72, 98, 0) (75, 104, 0) (96, 143, 0)]
+group 1: sum = 678.00 [ (13, 14, 1) (15, 17, 0) (36, 43, 0) (39, 47, 0) (57, 74, 0) (58, 75, 1) (67, 90, 1) (69, 93, 0) (73, 100, 1) (87, 125, 0)]
+group 2: sum = 672.00 [ (8, 9, 2) (11, 12, 2) (20, 23, 2) (28, 32, 1) (46, 57, 1) (62, 82, 2) (64, 85, 1) (79, 111, 1) (85, 122, 1) (94, 139, 1)]
+group 3: sum = 655.00 [ (7, 8, 1) (10, 11, 1) (16, 18, 1) (29, 34, 2) (41, 50, 2) (55, 71, 1) (76, 105, 1) (80, 113, 2) (82, 116, 1) (89, 129, 2)]
+group 4: sum = 660.00 [ (18, 20, 0) (21, 24, 0) (26, 30, 2) (30, 35, 0) (38, 46, 2) (42, 51, 0) (54, 69, 0) (78, 109, 0) (92, 135, 2) (95, 141, 2)]
+group 5: sum = 672.00 [ (0, 1, 0) (27, 31, 0) (32, 38, 2) (45, 56, 0) (48, 60, 0) (53, 68, 2) (56, 72, 2) (68, 92, 2) (77, 107, 2) (98, 147, 2)]
+group 6: sum = 663.00 [ (1, 2, 1) (3, 4, 0) (9, 10, 0) (19, 21, 1) (43, 53, 1) (63, 83, 0) (66, 88, 0) (84, 120, 0) (91, 133, 1) (99, 149, 0)]
+group 7: sum = 672.00 [ (2, 3, 2) (12, 13, 0) (23, 26, 2) (24, 27, 0) (47, 59, 2) (51, 65, 0) (71, 97, 2) (81, 114, 0) (90, 131, 0) (93, 137, 0)]
+group 8: sum = 663.00 [ (14, 15, 2) (25, 29, 1) (31, 36, 1) (37, 44, 1) (44, 54, 2) (50, 63, 2) (59, 77, 2) (70, 95, 1) (86, 123, 2) (88, 127, 1)]
+group 9: sum = 659.00 [ (5, 6, 2) (17, 19, 2) (22, 25, 1) (35, 42, 2) (40, 49, 1) (52, 66, 1) (65, 87, 2) (74, 102, 2) (83, 118, 2) (97, 145, 1)]
+Solution 6
+  objective value = 11
+group 0: sum = 656.00 [ (25, 29, 1) (28, 32, 1) (31, 36, 1) (34, 40, 1) (39, 47, 0) (49, 62, 1) (54, 69, 0) (72, 98, 0) (73, 100, 1) (96, 143, 0)]
+group 1: sum = 658.00 [ (1, 2, 1) (20, 23, 2) (29, 34, 2) (40, 49, 1) (46, 57, 1) (59, 77, 2) (61, 80, 1) (64, 85, 1) (82, 116, 1) (92, 135, 2)]
+group 2: sum = 655.00 [ (8, 9, 2) (11, 12, 2) (23, 26, 2) (41, 50, 2) (45, 56, 0) (57, 74, 0) (60, 79, 0) (75, 104, 0) (84, 120, 0) (87, 125, 0)]
+group 3: sum = 672.00 [ (2, 3, 2) (3, 4, 0) (26, 30, 2) (32, 38, 2) (47, 59, 2) (51, 65, 0) (74, 102, 2) (78, 109, 0) (80, 113, 2) (99, 149, 0)]
+group 4: sum = 671.00 [ (0, 1, 0) (9, 10, 0) (14, 15, 2) (18, 20, 0) (21, 24, 0) (68, 92, 2) (83, 118, 2) (86, 123, 2) (90, 131, 0) (93, 137, 0)]
+group 5: sum = 670.00 [ (12, 13, 0) (27, 31, 0) (30, 35, 0) (33, 39, 0) (42, 51, 0) (56, 72, 2) (62, 82, 2) (69, 93, 0) (77, 107, 2) (98, 147, 2)]
+group 6: sum = 669.00 [ (7, 8, 1) (13, 14, 1) (15, 17, 0) (19, 21, 1) (48, 60, 0) (63, 83, 0) (66, 88, 0) (79, 111, 1) (85, 122, 1) (97, 145, 1)]
+group 7: sum = 668.00 [ (5, 6, 2) (6, 7, 0) (24, 27, 0) (36, 43, 0) (38, 46, 2) (53, 68, 2) (65, 87, 2) (81, 114, 0) (89, 129, 2) (95, 141, 2)]
+group 8: sum = 676.00 [ (4, 5, 1) (17, 19, 2) (22, 25, 1) (35, 42, 2) (44, 54, 2) (50, 63, 2) (71, 97, 2) (76, 105, 1) (88, 127, 1) (94, 139, 1)]
+group 9: sum = 656.00 [ (10, 11, 1) (16, 18, 1) (37, 44, 1) (43, 53, 1) (52, 66, 1) (55, 71, 1) (58, 75, 1) (67, 90, 1) (70, 95, 1) (91, 133, 1)]
+Solution 7
+  objective value = 9
+group 0: sum = 674.00 [ (23, 26, 2) (24, 27, 0) (30, 35, 0) (35, 42, 2) (44, 54, 2) (50, 63, 2) (51, 65, 0) (56, 72, 2) (96, 143, 0) (98, 147, 2)]
+group 1: sum = 665.00 [ (3, 4, 0) (9, 10, 0) (20, 23, 2) (39, 47, 0) (48, 60, 0) (65, 87, 2) (69, 93, 0) (71, 97, 2) (78, 109, 0) (92, 135, 2)]
+group 2: sum = 668.00 [ (1, 2, 1) (4, 5, 1) (7, 8, 1) (18, 20, 0) (37, 44, 1) (49, 62, 1) (84, 120, 0) (87, 125, 0) (91, 133, 1) (99, 149, 0)]
+group 3: sum = 662.00 [ (2, 3, 2) (5, 6, 2) (34, 40, 1) (43, 53, 1) (52, 66, 1) (62, 82, 2) (68, 92, 2) (70, 95, 1) (77, 107, 2) (83, 118, 2)]
+group 4: sum = 665.00 [ (8, 9, 2) (10, 11, 1) (11, 12, 2) (26, 30, 2) (38, 46, 2) (41, 50, 2) (80, 113, 2) (85, 122, 1) (88, 127, 1) (97, 145, 1)]
+group 5: sum = 657.00 [ (12, 13, 0) (14, 15, 2) (17, 19, 2) (21, 24, 0) (29, 34, 2) (57, 74, 0) (59, 77, 2) (89, 129, 2) (90, 131, 0) (95, 141, 2)]
+group 6: sum = 673.00 [ (22, 25, 1) (25, 29, 1) (32, 38, 2) (40, 49, 1) (47, 59, 2) (53, 68, 2) (61, 80, 1) (73, 100, 1) (74, 102, 2) (86, 123, 2)]
+group 7: sum = 660.00 [ (6, 7, 0) (16, 18, 1) (28, 32, 1) (31, 36, 1) (46, 57, 1) (63, 83, 0) (66, 88, 0) (72, 98, 0) (75, 104, 0) (93, 137, 0)]
+group 8: sum = 667.00 [ (13, 14, 1) (15, 17, 0) (19, 21, 1) (27, 31, 0) (60, 79, 0) (64, 85, 1) (67, 90, 1) (76, 105, 1) (79, 111, 1) (81, 114, 0)]
+group 9: sum = 660.00 [ (0, 1, 0) (33, 39, 0) (36, 43, 0) (42, 51, 0) (45, 56, 0) (54, 69, 0) (55, 71, 1) (58, 75, 1) (82, 116, 1) (94, 139, 1)]
+Solution 8
+  objective value = 8
+group 0: sum = 666.00 [ (0, 1, 0) (28, 32, 1) (30, 35, 0) (36, 43, 0) (37, 44, 1) (51, 65, 0) (64, 85, 1) (73, 100, 1) (82, 116, 1) (97, 145, 1)]
+group 1: sum = 667.00 [ (9, 10, 0) (18, 20, 0) (27, 31, 0) (31, 36, 1) (40, 49, 1) (49, 62, 1) (66, 88, 0) (70, 95, 1) (88, 127, 1) (99, 149, 0)]
+group 2: sum = 660.00 [ (23, 26, 2) (24, 27, 0) (33, 39, 0) (41, 50, 2) (42, 51, 0) (54, 69, 0) (59, 77, 2) (65, 87, 2) (81, 114, 0) (84, 120, 0)]
+group 3: sum = 670.00 [ (3, 4, 0) (7, 8, 1) (10, 11, 1) (16, 18, 1) (48, 60, 0) (58, 75, 1) (60, 79, 0) (91, 133, 1) (94, 139, 1) (96, 143, 0)]
+group 4: sum = 670.00 [ (1, 2, 1) (6, 7, 0) (12, 13, 0) (13, 14, 1) (43, 53, 1) (69, 93, 0) (78, 109, 0) (79, 111, 1) (90, 131, 0) (93, 137, 0)]
+group 5: sum = 665.00 [ (14, 15, 2) (21, 24, 0) (35, 42, 2) (39, 47, 0) (44, 54, 2) (57, 74, 0) (62, 82, 2) (63, 83, 0) (71, 97, 2) (98, 147, 2)]
+group 6: sum = 673.00 [ (4, 5, 1) (8, 9, 2) (22, 25, 1) (38, 46, 2) (50, 63, 2) (56, 72, 2) (67, 90, 1) (83, 118, 2) (85, 122, 1) (86, 123, 2)]
+group 7: sum = 659.00 [ (15, 17, 0) (20, 23, 2) (26, 30, 2) (29, 34, 2) (45, 56, 0) (47, 59, 2) (72, 98, 0) (75, 104, 0) (80, 113, 2) (87, 125, 0)]
+group 8: sum = 659.00 [ (5, 6, 2) (11, 12, 2) (19, 21, 1) (25, 29, 1) (53, 68, 2) (61, 80, 1) (74, 102, 2) (76, 105, 1) (77, 107, 2) (89, 129, 2)]
+group 9: sum = 662.00 [ (2, 3, 2) (17, 19, 2) (32, 38, 2) (34, 40, 1) (46, 57, 1) (52, 66, 1) (55, 71, 1) (68, 92, 2) (92, 135, 2) (95, 141, 2)]
+Solution 9
+  objective value = 6
+group 0: sum = 670.00 [ (4, 5, 1) (12, 13, 0) (16, 18, 1) (34, 40, 1) (49, 62, 1) (58, 75, 1) (72, 98, 0) (81, 114, 0) (84, 120, 0) (87, 125, 0)]
+group 1: sum = 671.00 [ (7, 8, 1) (13, 14, 1) (17, 19, 2) (43, 53, 1) (53, 68, 2) (56, 72, 2) (59, 77, 2) (68, 92, 2) (88, 127, 1) (95, 141, 2)]
+group 2: sum = 659.00 [ (0, 1, 0) (24, 27, 0) (26, 30, 2) (33, 39, 0) (38, 46, 2) (41, 50, 2) (50, 63, 2) (86, 123, 2) (93, 137, 0) (96, 143, 0)]
+group 3: sum = 661.00 [ (8, 9, 2) (10, 11, 1) (19, 21, 1) (28, 32, 1) (29, 34, 2) (37, 44, 1) (70, 95, 1) (89, 129, 2) (94, 139, 1) (98, 147, 2)]
+group 4: sum = 663.00 [ (5, 6, 2) (20, 23, 2) (25, 29, 1) (31, 36, 1) (44, 54, 2) (62, 82, 2) (64, 85, 1) (74, 102, 2) (80, 113, 2) (91, 133, 1)]
+group 5: sum = 664.00 [ (1, 2, 1) (30, 35, 0) (46, 57, 1) (51, 65, 0) (54, 69, 0) (55, 71, 1) (63, 83, 0) (66, 88, 0) (67, 90, 1) (75, 104, 0)]
+group 6: sum = 667.00 [ (2, 3, 2) (23, 26, 2) (35, 42, 2) (42, 51, 0) (47, 59, 2) (60, 79, 0) (65, 87, 2) (69, 93, 0) (78, 109, 0) (83, 118, 2)]
+group 7: sum = 662.00 [ (3, 4, 0) (11, 12, 2) (14, 15, 2) (27, 31, 0) (32, 38, 2) (57, 74, 0) (71, 97, 2) (77, 107, 2) (92, 135, 2) (99, 149, 0)]
+group 8: sum = 664.00 [ (6, 7, 0) (36, 43, 0) (39, 47, 0) (40, 49, 1) (45, 56, 0) (48, 60, 0) (52, 66, 1) (61, 80, 1) (79, 111, 1) (97, 145, 1)]
+group 9: sum = 670.00 [ (9, 10, 0) (15, 17, 0) (18, 20, 0) (21, 24, 0) (22, 25, 1) (73, 100, 1) (76, 105, 1) (82, 116, 1) (85, 122, 1) (90, 131, 0)]
+Solution 10
+  objective value = 4
+group 0: sum = 664.00 [ (13, 14, 1) (24, 27, 0) (27, 31, 0) (36, 43, 0) (39, 47, 0) (52, 66, 1) (60, 79, 0) (76, 105, 1) (87, 125, 0) (88, 127, 1)]
+group 1: sum = 669.00 [ (0, 1, 0) (5, 6, 2) (17, 19, 2) (47, 59, 2) (50, 63, 2) (51, 65, 0) (66, 88, 0) (77, 107, 2) (83, 118, 2) (96, 143, 0)]
+group 2: sum = 664.00 [ (1, 2, 1) (2, 3, 2) (4, 5, 1) (11, 12, 2) (16, 18, 1) (59, 77, 2) (85, 122, 1) (94, 139, 1) (95, 141, 2) (97, 145, 1)]
+group 3: sum = 667.00 [ (7, 8, 1) (10, 11, 1) (22, 25, 1) (37, 44, 1) (44, 54, 2) (62, 82, 2) (71, 97, 2) (73, 100, 1) (80, 113, 2) (91, 133, 1)]
+group 4: sum = 668.00 [ (6, 7, 0) (21, 24, 0) (29, 34, 2) (32, 38, 2) (35, 42, 2) (45, 56, 0) (48, 60, 0) (89, 129, 2) (90, 131, 0) (98, 147, 2)]
+group 5: sum = 661.00 [ (14, 15, 2) (34, 40, 1) (40, 49, 1) (46, 57, 1) (49, 62, 1) (55, 71, 1) (56, 72, 2) (61, 80, 1) (68, 92, 2) (86, 123, 2)]
+group 6: sum = 661.00 [ (3, 4, 0) (19, 21, 1) (28, 32, 1) (42, 51, 0) (43, 53, 1) (58, 75, 1) (64, 85, 1) (75, 104, 0) (82, 116, 1) (84, 120, 0)]
+group 7: sum = 663.00 [ (12, 13, 0) (25, 29, 1) (31, 36, 1) (33, 39, 0) (57, 74, 0) (63, 83, 0) (67, 90, 1) (69, 93, 0) (70, 95, 1) (79, 111, 1)]
+group 8: sum = 667.00 [ (8, 9, 2) (15, 17, 0) (18, 20, 0) (20, 23, 2) (41, 50, 2) (54, 69, 0) (72, 98, 0) (78, 109, 0) (92, 135, 2) (93, 137, 0)]
+group 9: sum = 667.00 [ (9, 10, 0) (23, 26, 2) (26, 30, 2) (30, 35, 0) (38, 46, 2) (53, 68, 2) (65, 87, 2) (74, 102, 2) (81, 114, 0) (99, 149, 0)]
+Solution 11
+  objective value = 3
+group 0: sum = 668.00 [ (0, 1, 0) (1, 2, 1) (39, 47, 0) (45, 56, 0) (46, 57, 1) (61, 80, 1) (64, 85, 1) (69, 93, 0) (75, 104, 0) (96, 143, 0)]
+group 1: sum = 662.00 [ (4, 5, 1) (22, 25, 1) (28, 32, 1) (37, 44, 1) (48, 60, 0) (57, 74, 0) (60, 79, 0) (67, 90, 1) (84, 120, 0) (91, 133, 1)]
+group 2: sum = 663.00 [ (5, 6, 2) (11, 12, 2) (14, 15, 2) (16, 18, 1) (32, 38, 2) (41, 50, 2) (80, 113, 2) (88, 127, 1) (94, 139, 1) (97, 145, 1)]
+group 3: sum = 667.00 [ (8, 9, 2) (29, 34, 2) (33, 39, 0) (36, 43, 0) (42, 51, 0) (59, 77, 2) (66, 88, 0) (71, 97, 2) (72, 98, 0) (90, 131, 0)]
+group 4: sum = 663.00 [ (2, 3, 2) (10, 11, 1) (13, 14, 1) (23, 26, 2) (34, 40, 1) (62, 82, 2) (77, 107, 2) (82, 116, 1) (89, 129, 2) (92, 135, 2)]
+group 5: sum = 665.00 [ (6, 7, 0) (7, 8, 1) (9, 10, 0) (54, 69, 0) (55, 71, 1) (58, 75, 1) (70, 95, 1) (73, 100, 1) (76, 105, 1) (87, 125, 0)]
+group 6: sum = 666.00 [ (12, 13, 0) (17, 19, 2) (24, 27, 0) (26, 30, 2) (35, 42, 2) (63, 83, 0) (74, 102, 2) (78, 109, 0) (83, 118, 2) (86, 123, 2)]
+group 7: sum = 667.00 [ (31, 36, 1) (38, 46, 2) (43, 53, 1) (44, 54, 2) (47, 59, 2) (50, 63, 2) (52, 66, 1) (65, 87, 2) (68, 92, 2) (79, 111, 1)]
+group 8: sum = 666.00 [ (19, 21, 1) (21, 24, 0) (25, 29, 1) (27, 31, 0) (40, 49, 1) (49, 62, 1) (51, 65, 0) (81, 114, 0) (85, 122, 1) (99, 149, 0)]
+group 9: sum = 664.00 [ (3, 4, 0) (15, 17, 0) (18, 20, 0) (20, 23, 2) (30, 35, 0) (53, 68, 2) (56, 72, 2) (93, 137, 0) (95, 141, 2) (98, 147, 2)]
+Solution 12
+  objective value = 2
+group 0: sum = 666.00 [ (0, 1, 0) (11, 12, 2) (39, 47, 0) (45, 56, 0) (48, 60, 0) (59, 77, 2) (63, 83, 0) (69, 93, 0) (74, 102, 2) (92, 135, 2)]
+group 1: sum = 665.00 [ (1, 2, 1) (5, 6, 2) (25, 29, 1) (44, 54, 2) (46, 57, 1) (55, 71, 1) (56, 72, 2) (79, 111, 1) (85, 122, 1) (95, 141, 2)]
+group 2: sum = 665.00 [ (7, 8, 1) (26, 30, 2) (31, 36, 1) (32, 38, 2) (41, 50, 2) (61, 80, 1) (65, 87, 2) (73, 100, 1) (80, 113, 2) (86, 123, 2)]
+group 3: sum = 666.00 [ (4, 5, 1) (10, 11, 1) (18, 20, 0) (19, 21, 1) (40, 49, 1) (43, 53, 1) (67, 90, 1) (90, 131, 0) (93, 137, 0) (99, 149, 0)]
+group 4: sum = 666.00 [ (12, 13, 0) (17, 19, 2) (27, 31, 0) (35, 42, 2) (36, 43, 0) (51, 65, 0) (57, 74, 0) (77, 107, 2) (87, 125, 0) (98, 147, 2)]
+group 5: sum = 663.00 [ (15, 17, 0) (33, 39, 0) (34, 40, 1) (42, 51, 0) (49, 62, 1) (54, 69, 0) (58, 75, 1) (66, 88, 0) (70, 95, 1) (88, 127, 1)]
+group 6: sum = 666.00 [ (3, 4, 0) (6, 7, 0) (28, 32, 1) (37, 44, 1) (52, 66, 1) (64, 85, 1) (72, 98, 0) (76, 105, 1) (78, 109, 0) (82, 116, 1)]
+group 7: sum = 663.00 [ (14, 15, 2) (20, 23, 2) (24, 27, 0) (29, 34, 2) (30, 35, 0) (38, 46, 2) (71, 97, 2) (81, 114, 0) (89, 129, 2) (96, 143, 0)]
+group 8: sum = 667.00 [ (2, 3, 2) (13, 14, 1) (16, 18, 1) (22, 25, 1) (47, 59, 2) (50, 63, 2) (53, 68, 2) (91, 133, 1) (94, 139, 1) (97, 145, 1)]
+group 9: sum = 664.00 [ (8, 9, 2) (9, 10, 0) (21, 24, 0) (23, 26, 2) (60, 79, 0) (62, 82, 2) (68, 92, 2) (75, 104, 0) (83, 118, 2) (84, 120, 0)]
+Solution 13
+  objective value = 1
+group 0: sum = 666.00 [ (11, 12, 2) (17, 19, 2) (26, 30, 2) (28, 32, 1) (43, 53, 1) (47, 59, 2) (67, 90, 1) (70, 95, 1) (89, 129, 2) (98, 147, 2)]
+group 1: sum = 665.00 [ (1, 2, 1) (5, 6, 2) (19, 21, 1) (20, 23, 2) (56, 72, 2) (61, 80, 1) (68, 92, 2) (82, 116, 1) (83, 118, 2) (92, 135, 2)]
+group 2: sum = 664.00 [ (24, 27, 0) (29, 34, 2) (30, 35, 0) (32, 38, 2) (38, 46, 2) (59, 77, 2) (63, 83, 0) (65, 87, 2) (81, 114, 0) (86, 123, 2)]
+group 3: sum = 665.00 [ (0, 1, 0) (7, 8, 1) (21, 24, 0) (31, 36, 1) (34, 40, 1) (51, 65, 0) (72, 98, 0) (76, 105, 1) (94, 139, 1) (99, 149, 0)]
+group 4: sum = 666.00 [ (2, 3, 2) (3, 4, 0) (6, 7, 0) (27, 31, 0) (54, 69, 0) (71, 97, 2) (75, 104, 0) (77, 107, 2) (80, 113, 2) (90, 131, 0)]
+group 5: sum = 665.00 [ (8, 9, 2) (14, 15, 2) (35, 42, 2) (49, 62, 1) (52, 66, 1) (55, 71, 1) (58, 75, 1) (62, 82, 2) (74, 102, 2) (95, 141, 2)]
+group 6: sum = 666.00 [ (22, 25, 1) (33, 39, 0) (36, 43, 0) (37, 44, 1) (39, 47, 0) (45, 56, 0) (46, 57, 1) (73, 100, 1) (85, 122, 1) (91, 133, 1)]
+group 7: sum = 665.00 [ (13, 14, 1) (15, 17, 0) (16, 18, 1) (18, 20, 0) (25, 29, 1) (40, 49, 1) (79, 111, 1) (87, 125, 0) (93, 137, 0) (97, 145, 1)]
+group 8: sum = 665.00 [ (12, 13, 0) (23, 26, 2) (41, 50, 2) (42, 51, 0) (44, 54, 2) (50, 63, 2) (53, 68, 2) (66, 88, 0) (78, 109, 0) (96, 143, 0)]
+group 9: sum = 664.00 [ (4, 5, 1) (9, 10, 0) (10, 11, 1) (48, 60, 0) (57, 74, 0) (60, 79, 0) (64, 85, 1) (69, 93, 0) (84, 120, 0) (88, 127, 1)]
+Optimal epsilon: 1
+Statistics
+  - conflicts : 1330
+  - branches  : 15277
+  - wall time : 2.236631 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\chemical_balance_lp.py
+Number of variables = 6
+Number of constraints = 14
+Problem solved in 2.000000 milliseconds
+Optimal objective value = 624.873708
+  A = 1.542826
+  B = 2.635459
+  C = 0.000000
+  D = 0.000000
+  E = 6.432662
+N_Total: 1319.126292 out of 1944.000000
+P2O5: 1016.360517 out of 1166.400000
+K2O: 1822.500000 out of 1822.500000
+CaO: 833.126292 out of 1458.000000
+MgO: 486.000000 out of 486.000000
+Fe: 6.432662 out of 9.700000
+B: 1.286532 out of 2.400000
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\chemical_balance_sat.py
+Status = OPTIMAL
+Optimal objective value = 625.030000
+  A = 1.543000
+  B = 2.635000
+  C = 0.000000
+  D = 0.000000
+  E = 6.432000
+N_Total: 1318.970000 out of 1944.000000
+P2O5: 1016.256000 out of 1166.400000
+K2O: 1822.482000 out of 1822.500000
+CaO: 833.220000 out of 1458.000000
+MgO: 485.920000 out of 486.000000
+Fe: 6.432000 out of 9.700000
+B: 1.286400 out of 2.400000
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\flexible_job_shop_sat.py
+Horizon = 40
+Solution 0, time = 0.005860 s, objective = 9
+Solution 1, time = 0.006511 s, objective = 8
+Solution 2, time = 0.007640 s, objective = 7
+Solution 3, time = 0.008163 s, objective = 6
+Job 0:
+  task_0_0 starts at 1 (alt 1, machine 1, duration 1)
+  task_0_1 starts at 3 (alt 0, machine 0, duration 2)
+  task_0_2 starts at 5 (alt 2, machine 2, duration 1)
+Job 1:
+  task_1_0 starts at 0 (alt 0, machine 0, duration 2)
+  task_1_1 starts at 2 (alt 0, machine 0, duration 1)
+  task_1_2 starts at 3 (alt 1, machine 1, duration 1)
+Job 2:
+  task_2_0 starts at 0 (alt 1, machine 1, duration 1)
+  task_2_1 starts at 1 (alt 2, machine 2, duration 4)
+  task_2_2 starts at 5 (alt 1, machine 1, duration 1)
+Solve status: OPTIMAL
+Optimal objective value: 6
+Statistics
+  - conflicts : 3
+  - branches  : 164
+  - wall time : 0.008509 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\gate_scheduling_sat.py
+Solution
+  - makespan = 28
+  - Job 0 starts at 24 on machine 1
+  - Job 1 starts at 0 on machine 1
+  - Job 2 starts at 0 on machine 0
+  - Job 3 starts at 2 on machine 1
+  - Job 4 starts at 1 on machine 0
+  - Job 5 starts at 8 on machine 0
+  - Job 6 starts at 5 on machine 1
+  - Job 7 starts at 10 on machine 0
+  - Job 8 starts at 13 on machine 1
+  - Job 9 starts at 9 on machine 1
+  - Job 10 starts at 7 on machine 1
+  - Job 11 starts at 23 on machine 1
+  - Job 12 starts at 18 on machine 0
+  - Job 13 starts at 24 on machine 0
+  - Job 14 starts at 15 on machine 0
+Statistics
+  - conflicts : 451
+  - branches  : 824
+  - wall time : 0.022739 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\golomb8.py
+Solution #0: value = 44, failures = 0, branches = 7,time = 0 ms
+Solution #1: value = 41, failures = 8, branches = 19,time = 0 ms
+Solution #2: value = 40, failures = 9, branches = 21,time = 0 ms
+Solution #3: value = 39, failures = 50, branches = 103,time = 1 ms
+Solution #4: value = 38, failures = 58, branches = 119,time = 1 ms
+Solution #5: value = 36, failures = 197, branches = 396,time = 4 ms
+Solution #6: value = 34, failures = 255, branches = 511,time = 5 ms
+Total run : failures = 2448, branches = 4890, time = 49 ms
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\hidato_sat.py
+
+----- Solving problem 1 -----
+
+Initial game (3 x 3)
+  6  .  9
+  .  2  8
+  1  .  .
+Solution
+  6  7  9
+  5  2  8
+  1  4  3
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.000763 s
+
+----- Solving problem 2 -----
+
+Initial game (7 x 7)
+  . 44 41  .  .  .  .
+  . 43  . 28 29  .  .
+  .  1  .  .  . 33  .
+  .  2 25  4 34  . 36
+ 49 16  . 23  .  .  .
+  . 19  .  . 12  7  .
+  .  .  . 14  .  .  .
+Solution
+ 45 44 41 40 39 30 31
+ 46 43 42 28 29 38 32
+ 47  1  3 26 27 33 37
+ 48  2 25  4 34 35 36
+ 49 16 24 23  5  6  8
+ 17 19 15 22 12  7  9
+ 18 20 21 14 13 11 10
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.002020 s
+
+----- Solving problem 3 -----
+
+Initial game (5 x 5)
+  .  . 20  .  .
+  .  .  . 16 18
+ 22  . 15  .  .
+ 23  .  1 14 11
+  . 25  .  . 12
+Solution
+  6  7 20 19 17
+  5 21  8 16 18
+ 22  4 15  9 10
+ 23  3  1 14 11
+ 24 25  2 13 12
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.002025 s
+
+----- Solving problem 4 -----
+
+Initial game (5 x 5)
+  .  .  .  . 14
+  . 18 12  .  .
+  .  . 17  4  5
+  .  .  7  .  .
+  9  8 25  1  .
+Solution
+ 21 20 19 13 14
+ 22 18 12 16 15
+ 23 11 17  4  5
+ 10 24  7  6  3
+  9  8 25  1  2
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.001173 s
+
+----- Solving problem 5 -----
+
+Initial game (6 x 6)
+  . 26  .  .  . 18
+  .  . 27  .  . 19
+ 31 23  .  . 14  .
+  . 33  8  . 15  1
+  .  .  .  5  .  .
+ 35 36  . 10  .  .
+Solution
+ 25 26 29 28 20 18
+ 24 30 27 21 17 19
+ 31 23 22 13 14 16
+ 32 33  8 12 15  1
+ 34  7  9  5 11  2
+ 35 36  6 10  4  3
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.001466 s
+
+----- Solving problem 6 -----
+
+Initial game (8 x 8)
+ 64  .  .  .  .  .  .  .
+  1 63  . 59 15 57 53  .
+  .  4  . 14  .  .  .  .
+  3  . 11  . 20 19  . 50
+  .  .  .  . 22  . 48 40
+  9  .  . 32 23  .  . 41
+ 27  .  .  . 36  . 46  .
+ 28 30  . 35  .  .  .  .
+Solution
+ 64 62 61 60 58 56 55 54
+  1 63  5 59 15 57 53 52
+  2  4  6 14 16 17 18 51
+  3  7 11 13 20 19 49 50
+  8 10 12 24 22 21 48 40
+  9 26 25 32 23 47 39 41
+ 27 29 31 33 36 38 46 42
+ 28 30 34 35 37 45 44 43
+Statistics
+  - conflicts : 0
+  - branches  : 0
+  - wall time : 0.002896 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\integer_programming.py
+---- Integer programming example with CBC (natural language API) -----
+Number of variables = 2
+Number of constraints = 1
+No match for threads - ? for list of commands
+No match for 8 - ? for list of commands
+Problem solved in 5.000000 milliseconds
+Optimal objective value = 6.000000
+x1 = 6.000000
+x2 = 0.000000
+Advanced usage:
+Problem solved in 0 branch-and-bound nodes
+---- Integer programming example with CPLEX (natural language API) -----
+Number of variables = 2
+Number of constraints = 1
+Problem solved in 15.000000 milliseconds
+Optimal objective value = 6.000000
+x1 = 6.000000
+x2 = 0.000000
+Advanced usage:
+Problem solved in 0 branch-and-bound nodes
+---- Integer programming example with CBC (C++ style API) -----
+Number of variables = 2
+Number of constraints = 1
+No match for threads - ? for list of commands
+No match for 8 - ? for list of commands
+Problem solved in 4.000000 milliseconds
+Optimal objective value = 6.000000
+x1 = 6.000000
+x2 = 0.000000
+Advanced usage:
+Problem solved in 0 branch-and-bound nodes
+---- Integer programming example with CPLEX (C++ style API) -----
+Number of variables = 2
+Number of constraints = 1
+Problem solved in 7.000000 milliseconds
+Optimal objective value = 6.000000
+x1 = 6.000000
+x2 = 0.000000
+Advanced usage:
+Problem solved in 0 branch-and-bound nodes
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\jobshop_ft06_distance_sat.py
+Optimal makespan: 66
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\jobshop_ft06_sat.py
+Parameters: log_search_progress: true
+Optimization model '':
+#Variables: 82 (1 in objective)
+ - 73 in [0,197]
+ - 9 constants in {1,3,4,5,6,7,8,9,10}
+#kIntMax: 1
+#kInterval: 36
+#kLinear2: 30
+#kNoOverlap: 6
+*** starting model presolve at 0.00s
+- 0 affine relations were detected.
+- 0 variable equivalence relations were detected.
+- rule 'int_max: reduced domains' was applied 5 times.
+- rule 'interval: reduced domains' was applied 180 times.
+- rule 'linear: reduced variable domains' was applied 126 times.
+- rule 'linear: simplified rhs' was applied 156 times.
+- rule 'presolve: iteration' was applied 2 times.
+Optimization model '':
+#Variables: 82 (1 in objective)
+ - 1 in [0,150]
+ - 1 in [0,162]
+ - 1 in [0,163]
+ - 1 in [0,167]
+ - 1 in [0,171]
+ - 1 in [0,172]
+ - 2 in [1,172]
+ - 2 in [3,170]
+ - 2 in [4,175]
+ - 2 in [5,167]
+ - 2 in [5,168]
+ - 2 in [6,173]
+ - 2 in [8,158]
+ - 2 in [9,172]
+ - 2 in [9,181]
+ - 2 in [10,172]
+ - 2 in [10,181]
+ - 2 in [12,184]
+ - 2 in [13,163]
+ - 2 in [15,177]
+ - 2 in [15,182]
+ - 2 in [17,180]
+ - 2 in [17,188]
+ - 2 in [17,189]
+ - 2 in [18,180]
+ - 2 in [20,191]
+ - 2 in [21,193]
+ - 2 in [23,173]
+ - 2 in [24,196]
+ - 2 in [25,192]
+ - 1 in [25,197]
+ - 2 in [26,188]
+ - 2 in [26,189]
+ - 1 in [26,197]
+ - 2 in [27,190]
+ - 2 in [29,196]
+ - 1 in [30,197]
+ - 2 in [33,183]
+ - 1 in [34,197]
+ - 1 in [35,197]
+ - 2 in [43,193]
+ - 2 in [47,197]
+ - 9 constants in {1,3,4,5,6,7,8,9,10}
+#kIntMax: 1
+#kInterval: 36
+#kLinear2: 30
+#kNoOverlap: 6
+*** starting to load the model at 0.00s
+*** starting sequential search at 0.01s
+Initial num_bool: 1
+#Bound   0.01s best:inf   next:[47,197]
+#1       0.01s best:71    next:[47,70]     num_bool:37
+#2       0.01s best:68    next:[47,67]     num_bool:46
+#3       0.01s best:64    next:[47,63]     num_bool:52
+#4       0.01s best:63    next:[47,62]     num_bool:53
+#5       0.01s best:62    next:[47,61]     num_bool:56
+#6       0.01s best:61    next:[47,60]     num_bool:66
+#7       0.01s best:60    next:[47,59]     num_bool:76
+#8       0.01s best:59    next:[47,58]     num_bool:88
+#9       0.01s best:58    next:[47,57]     num_bool:90
+#Bound   0.01s best:58    next:[48,57]
+#10      0.01s best:57    next:[48,56]     num_bool:95
+#11      0.01s best:56    next:[48,55]     num_bool:107
+#12      0.02s best:55    next:[48,54]     num_bool:107
+#Bound   0.02s best:55    next:[50,54]
+#Bound   0.02s best:55    next:[51,54]
+#Done    0.02s
+CpSolverResponse:
+status: OPTIMAL
+objective: 55
+best_bound: 55
+booleans: 107
+conflicts: 10
+branches: 309
+propagations: 442
+integer_propagations: 6785
+walltime: 0.0177684
+usertime: 0.0177683
+deterministic_time: 6.383e-05
+primal_integral: 0.00120006
+Optimal makespan: 55
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\jobshop_with_maintenance_sat.py
+Optimal Schedule Length: 15
+Machine 0: job_0_0   job_1_0
+           [0,3]     [8,10]
+Machine 1: job_0_1   job_2_0   job_1_2
+           [3,5]     [5,9]     [11,15]
+Machine 2: job_0_2   job_1_1   job_2_1
+           [5,7]     [10,11]   [11,14]
+
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\linear_assignment_api.py
+Successful solve.
+Total cost 275 / 275
+Left node 0 assigned to right node 3 with cost 80.
+Left node 1 assigned to right node 2 with cost 55.
+Left node 2 assigned to right node 1 with cost 95.
+Left node 3 assigned to right node 0 with cost 45.
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\linear_programming.py
+Number of variables = 2
+Number of constraints = 3
+Solution:
+x = 5.999999999999998
+y = 3.9999999999999996
+Optimal objective value = 33.99999999999999
+
+Advanced usage:
+Problem solved in  2  milliseconds
+Problem solved in  2  iterations
+x: reduced cost = 8.881784197001252e-16
+y: reduced cost = 0.0
+constraint0: dual value = 2.333333333333333  activities = 13.999999999999996
+constraint1: dual value = -0.0  activities = 13.999999999999993
+constraint2: dual value = 0.6666666666666661  activities = 1.9999999999999987
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\magic_sequence_distribute.py
+[vars_0(96), vars_1(2), vars_2(1), vars_3(0), vars_4(0), vars_5(0), vars_6(0), vars_7(0), vars_8(0), vars_9(0), vars_10(0), vars_11(0), vars_12(0), vars_13(0), vars_14(0), vars_15(0), vars_16(0), vars_17(0), vars_18(0), vars_19(0), vars_20(0), vars_21(0), vars_22(0), vars_23(0), vars_24(0), vars_25(0), vars_26(0), vars_27(0), vars_28(0), vars_29(0), vars_30(0), vars_31(0), vars_32(0), vars_33(0), vars_34(0), vars_35(0), vars_36(0), vars_37(0), vars_38(0), vars_39(0), vars_40(0), vars_41(0), vars_42(0), vars_43(0), vars_44(0), vars_45(0), vars_46(0), vars_47(0), vars_48(0), vars_49(0), vars_50(0), vars_51(0), vars_52(0), vars_53(0), vars_54(0), vars_55(0), vars_56(0), vars_57(0), vars_58(0), vars_59(0), vars_60(0), vars_61(0), vars_62(0), vars_63(0), vars_64(0), vars_65(0), vars_66(0), vars_67(0), vars_68(0), vars_69(0), vars_70(0), vars_71(0), vars_72(0), vars_73(0), vars_74(0), vars_75(0), vars_76(0), vars_77(0), vars_78(0), vars_79(0), vars_80(0), vars_81(0), vars_82(0), vars_83(0), vars_84(0), vars_85(0), vars_86(0), vars_87(0), vars_88(0), vars_89(0), vars_90(0), vars_91(0), vars_92(0), vars_93(0), vars_94(0), vars_95(0), vars_96(1), vars_97(0), vars_98(0), vars_99(0)]
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\nqueens_sat.py
+Solution 0, time = 0.008998 s
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+
+Solution 1, time = 0.011999 s
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 2, time = 0.013001 s
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 3, time = 0.013999 s
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 4, time = 0.014998 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 5, time = 0.016999 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 6, time = 0.017999 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 7, time = 0.018999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 8, time = 0.025999 s
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 9, time = 0.027999 s
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 10, time = 0.028998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+
+Solution 11, time = 0.030000 s
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 12, time = 0.030998 s
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 13, time = 0.031998 s
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 14, time = 0.032998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 15, time = 0.040998 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 16, time = 0.041998 s
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+
+Solution 17, time = 0.043002 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 18, time = 0.044004 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 19, time = 0.044998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+
+Solution 20, time = 0.046999 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+
+Solution 21, time = 0.047998 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 22, time = 0.048998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+
+Solution 23, time = 0.056998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+
+Solution 24, time = 0.057998 s
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 25, time = 0.058999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+
+Solution 26, time = 0.059998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 27, time = 0.061999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 28, time = 0.062999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+
+Solution 29, time = 0.063999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 30, time = 0.070999 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+
+Solution 31, time = 0.071998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+
+Solution 32, time = 0.073998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 33, time = 0.073998 s
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+
+Solution 34, time = 0.075999 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+
+Solution 35, time = 0.076998 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 36, time = 0.077997 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 37, time = 0.085997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+
+Solution 38, time = 0.086998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 39, time = 0.088998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 40, time = 0.089998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 41, time = 0.090998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+
+Solution 42, time = 0.091998 s
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+
+Solution 43, time = 0.093998 s
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+
+Solution 44, time = 0.101999 s
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 45, time = 0.102998 s
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 46, time = 0.103998 s
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+
+Solution 47, time = 0.104998 s
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 48, time = 0.105998 s
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+
+Solution 49, time = 0.106998 s
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+
+Solution 50, time = 0.107999 s
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 51, time = 0.108999 s
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+
+Solution 52, time = 0.117002 s
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 53, time = 0.117999 s
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 54, time = 0.119000 s
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 55, time = 0.119999 s
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 56, time = 0.121997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 57, time = 0.122997 s
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+
+Solution 58, time = 0.131999 s
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+
+Solution 59, time = 0.133001 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 60, time = 0.134998 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 61, time = 0.137005 s
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+
+Solution 62, time = 0.138998 s
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 63, time = 0.147997 s
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 64, time = 0.148998 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 65, time = 0.150998 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 66, time = 0.151997 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+
+Solution 67, time = 0.152997 s
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+
+Solution 68, time = 0.153997 s
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 69, time = 0.154997 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 70, time = 0.163997 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 71, time = 0.164997 s
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+
+Solution 72, time = 0.165997 s
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+
+Solution 73, time = 0.166997 s
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+
+Solution 74, time = 0.168998 s
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+
+Solution 75, time = 0.169997 s
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ Q _ _ _ _ _
+
+Solution 76, time = 0.178997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 77, time = 0.179997 s
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+
+Solution 78, time = 0.181997 s
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+
+Solution 79, time = 0.182997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 80, time = 0.183997 s
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ Q _ _ _ _ _
+
+Solution 81, time = 0.184997 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+Solution 82, time = 0.192998 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+
+Solution 83, time = 0.194997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ _ _ _ _ _ Q
+_ Q _ _ _ _ _ _
+
+Solution 84, time = 0.195998 s
+_ _ _ _ _ Q _ _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+
+Solution 85, time = 0.197997 s
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ _ Q _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+
+Solution 86, time = 0.198997 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ _ _ Q _ _
+_ Q _ _ _ _ _ _
+
+Solution 87, time = 0.199997 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+
+Solution 88, time = 0.208033 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+
+Solution 89, time = 0.209033 s
+_ _ _ _ _ _ Q _
+_ _ _ Q _ _ _ _
+_ Q _ _ _ _ _ _
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 90, time = 0.210034 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ Q _ _ _ _
+_ _ _ _ _ _ _ Q
+Q _ _ _ _ _ _ _
+_ _ Q _ _ _ _ _
+_ _ _ _ _ Q _ _
+
+Solution 91, time = 0.212034 s
+_ _ _ _ Q _ _ _
+_ _ _ _ _ _ _ Q
+_ _ _ Q _ _ _ _
+Q _ _ _ _ _ _ _
+_ _ _ _ _ _ Q _
+_ Q _ _ _ _ _ _
+_ _ _ _ _ Q _ _
+_ _ Q _ _ _ _ _
+
+
+Statistics
+  - conflicts       : 446
+  - branches        : 757
+  - wall time       : 0.208490 s
+  - solutions found : 92
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\pyflow_example.py
+MaxFlow on a simple network.
+Total flow 10 / 10
+From source 0 to target 1: 4 / 5
+From source 0 to target 2: 4 / 8
+From source 0 to target 3: 2 / 5
+From source 0 to target 4: 0 / 3
+From source 1 to target 3: 4 / 4
+From source 2 to target 4: 4 / 5
+From source 3 to target 4: 0 / 6
+From source 3 to target 5: 6 / 6
+From source 4 to target 5: 4 / 4
+Source side min-cut: [0, 1, 2, 3, 4]
+Sink side min-cut: [5]
+MinCostFlow on 4x4 matrix.
+Total flow 275 / 275
+From source 0 to target 1: cost 75
+From source 1 to target 3: cost 65
+From source 2 to target 2: cost 90
+From source 3 to target 0: cost 45
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\reallocate_sat.py
+Data
+  - total =  712
+  - year_average =  142
+  - number of projects =  4
+  - number of years =  5
+  - input production
+       107       107       107
+                47        47        47
+        10        10        10
+                55        55        55        55
+Solution
+       112        66       143
+                77         0        64
+        30         0         0
+                 0         0        79       141
+       142       143       143       143       141
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\rcpsp_sat.py
+Solving RCPSP with 0 resources and -2 tasks
+  - horizon = 0
+Solution 0, time = 0.006997 s, objective = 0
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 1
+walltime: 0.0007583
+usertime: 0.0007583
+deterministic_time: 0
+primal_integral: 0
+
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\single_machine_scheduling_with_setup_release_due_dates_sat.py
+job 0 has a min incoming setup of 1099
+job 1 has a min incoming setup of 1180
+job 2 has a min incoming setup of 1217
+job 3 has a min incoming setup of 1067
+job 4 has a min incoming setup of 1210
+job 5 has a min incoming setup of 1137
+job 6 has a min incoming setup of 1020
+job 7 has a min incoming setup of 1033
+job 8 has a min incoming setup of 1222
+job 9 has a min incoming setup of 1042
+job 10 has a min incoming setup of 1138
+job 11 has a min incoming setup of 1024
+job 12 has a min incoming setup of 1002
+job 13 has a min incoming setup of 1108
+job 14 has a min incoming setup of 1654
+Greedy horizon = 153498
+job  0: start =     0, duration = 3645, end = 153498
+job  1: start =     0, duration = 9769, end = 153498
+job  2: start =     0, duration = 7170, end =  28569
+job  3: start =     0, duration = 4777, end = 153498
+job  4: start = 18170, duration = 4840, end =  98104
+job  5: start =     0, duration = 4153, end =  27644
+job  6: start =     0, duration = 5168, end =  55274
+job  7: start = 47624, duration = 9739, end =  57364
+job  8: start =     0, duration = 2826, end = 153498
+job  9: start = 26890, duration = 6544, end = 153498
+job 10: start =     0, duration = 11121, end =  60875
+job 11: start =     0, duration = 7233, end =  96637
+job 12: start = 23874, duration = 10922, end =  77888
+job 13: start =     0, duration = 8968, end = 153498
+job 14: start =     0, duration = 3830, end = 153498
+job 2 is after job 0
+job 2 is after job 1
+Solution 0, time = 0.022395 s, objective = 124446
+Solution 1, time = 0.023797 s, objective = 122939
+Solution 2, time = 0.025356 s, objective = 122463
+Solution 3, time = 0.028304 s, objective = 121904
+Solution 4, time = 0.029576 s, objective = 119497
+Solution 5, time = 0.030942 s, objective = 119063
+Solution 6, time = 0.033314 s, objective = 118538
+Solution 7, time = 0.037144 s, objective = 118238
+Solution 8, time = 0.039516 s, objective = 116727
+Solution 9, time = 0.042379 s, objective = 116202
+Solution 10, time = 0.043794 s, objective = 115548
+Solution 11, time = 0.045854 s, objective = 115348
+Solution 12, time = 0.046981 s, objective = 115274
+Solution 13, time = 0.062116 s, objective = 115067
+Solution 14, time = 0.065207 s, objective = 114862
+Solution 15, time = 0.074221 s, objective = 114720
+Solution 16, time = 0.097239 s, objective = 114709
+Solution 17, time = 0.098862 s, objective = 114021
+Solution 18, time = 0.100414 s, objective = 113747
+Solution 19, time = 0.124456 s, objective = 113506
+Solution 20, time = 0.135740 s, objective = 112680
+Solution 21, time = 0.139652 s, objective = 112679
+Solution 22, time = 0.181223 s, objective = 112606
+Solution 23, time = 0.194816 s, objective = 112605
+CpSolverResponse:
+status: OPTIMAL
+objective: 112605
+best_bound: 112605
+booleans: 187
+conflicts: 2284
+branches: 3607
+propagations: 75764
+integer_propagations: 121297
+walltime: 0.224369
+usertime: 0.224369
+deterministic_time: 0.0337576
+primal_integral: 704.682
+
+job 0 starts at 10856 end ends at 14501
+job 1 starts at 458 end ends at 10227
+job 2 starts at 14925 end ends at 22095
+job 3 starts at 87015 end ends at 91792
+job 4 starts at 73446 end ends at 78286
+job 5 starts at 22095 end ends at 26248
+job 6 starts at 26767 end ends at 31935
+job 7 starts at 47624 end ends at 57363
+job 8 starts at 100811 end ends at 103637
+job 9 starts at 92355 end ends at 98899
+job 10 starts at 34183 end ends at 45304
+job 11 starts at 78286 end ends at 85519
+job 12 starts at 58150 end ends at 69072
+job 13 starts at 103637 end ends at 112605
+job 14 starts at 69616 end ends at 73446
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\steel_mill_slab_sat.py
+Solving steel mill with 28 orders, 20 slabs, and 2 capacities
+1486 assignments created in 0.01 s
+Breaking symmetries
+  - creating 1 symmetry breaking constraints
+Model created
+Solution 0, time = 5.268563 s, objective = 233
+  - slab 0, load = 41, loss = 3, orders = [#1(w22, c2) #27(w19, c15) ]
+  - slab 1, load = 30, loss = 14, orders = [#13(w8, c9) #20(w8, c9) #23(w14, c13) ]
+  - slab 2, load = 29, loss = 15, orders = [#3(w5, c4) #6(w3, c4) #12(w2, c4) #26(w19, c15) ]
+  - slab 3, load = 28, loss = 16, orders = [#21(w3, c1) #22(w25, c12) ]
+  - slab 4, load = 22, loss = 22, orders = [#4(w8, c5) #15(w7, c11) #17(w7, c11) ]
+  - slab 5, load = 22, loss = 22, orders = [#25(w22, c14) ]
+  - slab 6, load = 9, loss = 8, orders = [#2(w9, c3) ]
+  - slab 7, load = 7, loss = 10, orders = [#19(w7, c11) ]
+  - slab 8, load = 7, loss = 10, orders = [#11(w2, c6) #18(w5, c10) ]
+  - slab 9, load = 7, loss = 10, orders = [#8(w7, c4) ]
+  - slab 10, load = 7, loss = 10, orders = [#9(w7, c8) ]
+  - slab 11, load = 5, loss = 12, orders = [#14(w5, c10) ]
+  - slab 12, load = 4, loss = 13, orders = [#16(w4, c7) ]
+  - slab 13, load = 4, loss = 13, orders = [#7(w4, c7) ]
+  - slab 14, load = 4, loss = 13, orders = [#0(w4, c1) ]
+  - slab 15, load = 3, loss = 14, orders = [#5(w3, c6) ]
+  - slab 16, load = 3, loss = 14, orders = [#10(w3, c6) ]
+  - slab 17, load = 3, loss = 14, orders = [#24(w3, c6) ]
+Solution 1, time = 8.529589 s, objective = 216
+  - slab 0, load = 44, loss = 0, orders = [#1(w22, c2) #25(w22, c14) ]
+  - slab 1, load = 30, loss = 14, orders = [#13(w8, c9) #20(w8, c9) #23(w14, c13) ]
+  - slab 2, load = 29, loss = 15, orders = [#3(w5, c4) #6(w3, c4) #12(w2, c4) #26(w19, c15) ]
+  - slab 3, load = 28, loss = 16, orders = [#21(w3, c1) #22(w25, c12) ]
+  - slab 4, load = 22, loss = 22, orders = [#4(w8, c5) #15(w7, c11) #17(w7, c11) ]
+  - slab 5, load = 22, loss = 22, orders = [#24(w3, c6) #27(w19, c15) ]
+  - slab 6, load = 9, loss = 8, orders = [#2(w9, c3) ]
+  - slab 7, load = 7, loss = 10, orders = [#19(w7, c11) ]
+  - slab 8, load = 7, loss = 10, orders = [#11(w2, c6) #18(w5, c10) ]
+  - slab 9, load = 7, loss = 10, orders = [#8(w7, c4) ]
+  - slab 10, load = 7, loss = 10, orders = [#9(w7, c8) ]
+  - slab 11, load = 5, loss = 12, orders = [#14(w5, c10) ]
+  - slab 12, load = 4, loss = 13, orders = [#16(w4, c7) ]
+  - slab 13, load = 4, loss = 13, orders = [#7(w4, c7) ]
+  - slab 14, load = 4, loss = 13, orders = [#0(w4, c1) ]
+  - slab 15, load = 3, loss = 14, orders = [#5(w3, c6) ]
+  - slab 16, load = 3, loss = 14, orders = [#10(w3, c6) ]
+Solution 2, time = 8.567587 s, objective = 199
+  - slab 0, load = 44, loss = 0, orders = [#1(w22, c2) #25(w22, c14) ]
+  - slab 1, load = 30, loss = 14, orders = [#13(w8, c9) #20(w8, c9) #23(w14, c13) ]
+  - slab 2, load = 29, loss = 15, orders = [#3(w5, c4) #6(w3, c4) #12(w2, c4) #26(w19, c15) ]
+  - slab 3, load = 28, loss = 16, orders = [#21(w3, c1) #22(w25, c12) ]
+  - slab 4, load = 22, loss = 22, orders = [#4(w8, c5) #15(w7, c11) #17(w7, c11) ]
+  - slab 5, load = 22, loss = 22, orders = [#24(w3, c6) #27(w19, c15) ]
+  - slab 6, load = 12, loss = 5, orders = [#2(w9, c3) #10(w3, c6) ]
+  - slab 7, load = 7, loss = 10, orders = [#19(w7, c11) ]
+  - slab 8, load = 7, loss = 10, orders = [#11(w2, c6) #18(w5, c10) ]
+  - slab 9, load = 7, loss = 10, orders = [#8(w7, c4) ]
+  - slab 10, load = 7, loss = 10, orders = [#9(w7, c8) ]
+  - slab 11, load = 5, loss = 12, orders = [#14(w5, c10) ]
+  - slab 12, load = 4, loss = 13, orders = [#16(w4, c7) ]
+  - slab 13, load = 4, loss = 13, orders = [#7(w4, c7) ]
+  - slab 14, load = 4, loss = 13, orders = [#0(w4, c1) ]
+  - slab 15, load = 3, loss = 14, orders = [#5(w3, c6) ]
+Solution 3, time = 9.222593 s, objective = 182
+  - slab 0, load = 44, loss = 0, orders = [#1(w22, c2) #25(w22, c14) ]
+  - slab 1, load = 30, loss = 14, orders = [#13(w8, c9) #20(w8, c9) #23(w14, c13) ]
+  - slab 2, load = 29, loss = 15, orders = [#3(w5, c4) #6(w3, c4) #12(w2, c4) #26(w19, c15) ]
+  - slab 3, load = 28, loss = 16, orders = [#21(w3, c1) #22(w25, c12) ]
+  - slab 4, load = 22, loss = 22, orders = [#4(w8, c5) #15(w7, c11) #17(w7, c11) ]
+  - slab 5, load = 22, loss = 22, orders = [#24(w3, c6) #27(w19, c15) ]
+  - slab 6, load = 15, loss = 2, orders = [#2(w9, c3) #5(w3, c6) #10(w3, c6) ]
+  - slab 7, load = 7, loss = 10, orders = [#19(w7, c11) ]
+  - slab 8, load = 7, loss = 10, orders = [#11(w2, c6) #18(w5, c10) ]
+  - slab 9, load = 7, loss = 10, orders = [#8(w7, c4) ]
+  - slab 10, load = 7, loss = 10, orders = [#9(w7, c8) ]
+  - slab 11, load = 5, loss = 12, orders = [#14(w5, c10) ]
+  - slab 12, load = 4, loss = 13, orders = [#16(w4, c7) ]
+  - slab 13, load = 4, loss = 13, orders = [#7(w4, c7) ]
+  - slab 14, load = 4, loss = 13, orders = [#0(w4, c1) ]
+Solution 4, time = 9.352594 s, objective = 101
+  - slab 0, load = 44, loss = 0, orders = [#22(w25, c12) #27(w19, c15) ]
+  - slab 1, load = 44, loss = 0, orders = [#1(w22, c2) #25(w22, c14) ]
+  - slab 2, load = 29, loss = 15, orders = [#3(w5, c4) #6(w3, c4) #12(w2, c4) #26(w19, c15) ]
+  - slab 3, load = 17, loss = 0, orders = [#10(w3, c6) #15(w7, c11) #17(w7, c11) ]
+  - slab 4, load = 17, loss = 0, orders = [#21(w3, c1) #23(w14, c13) ]
+  - slab 5, load = 16, loss = 1, orders = [#13(w8, c9) #20(w8, c9) ]
+  - slab 6, load = 15, loss = 2, orders = [#2(w9, c3) #5(w3, c6) #24(w3, c6) ]
+  - slab 7, load = 15, loss = 2, orders = [#4(w8, c5) #19(w7, c11) ]
+  - slab 8, load = 7, loss = 10, orders = [#11(w2, c6) #18(w5, c10) ]
+  - slab 9, load = 7, loss = 10, orders = [#8(w7, c4) ]
+  - slab 10, load = 7, loss = 10, orders = [#9(w7, c8) ]
+  - slab 11, load = 5, loss = 12, orders = [#14(w5, c10) ]
+  - slab 12, load = 4, loss = 13, orders = [#16(w4, c7) ]
+  - slab 13, load = 4, loss = 13, orders = [#7(w4, c7) ]
+  - slab 14, load = 4, loss = 13, orders = [#0(w4, c1) ]
+Solution 5, time = 9.407598 s, objective = 16
+  - slab 0, load = 44, loss = 0, orders = [#1(w22, c2) #25(w22, c14) ]
+  - slab 1, load = 44, loss = 0, orders = [#5(w3, c6) #24(w3, c6) #26(w19, c15) #27(w19, c15) ]
+  - slab 2, load = 32, loss = 12, orders = [#17(w7, c11) #22(w25, c12) ]
+  - slab 3, load = 17, loss = 0, orders = [#0(w4, c1) #3(w5, c4) #6(w3, c4) #12(w2, c4) #21(w3, c1) ]
+  - slab 4, load = 17, loss = 0, orders = [#10(w3, c6) #23(w14, c13) ]
+  - slab 5, load = 17, loss = 0, orders = [#9(w7, c8) #14(w5, c10) #18(w5, c10) ]
+  - slab 6, load = 16, loss = 1, orders = [#4(w8, c5) #7(w4, c7) #16(w4, c7) ]
+  - slab 7, load = 16, loss = 1, orders = [#13(w8, c9) #20(w8, c9) ]
+  - slab 8, load = 16, loss = 1, orders = [#11(w2, c6) #15(w7, c11) #19(w7, c11) ]
+  - slab 9, load = 16, loss = 1, orders = [#2(w9, c3) #8(w7, c4) ]
+Loss = 16, time = 9.84 s, 36959 conflicts
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\sudoku_sat.py
+[8, 6, 1, 4, 5, 9, 7, 2, 3]
+[4, 5, 2, 3, 1, 7, 6, 9, 8]
+[7, 9, 3, 6, 8, 2, 5, 1, 4]
+[2, 1, 6, 8, 3, 5, 4, 7, 9]
+[9, 8, 4, 2, 7, 6, 1, 3, 5]
+[3, 7, 5, 1, 9, 4, 8, 6, 2]
+[5, 4, 7, 9, 2, 1, 3, 8, 6]
+[1, 3, 9, 5, 6, 8, 2, 4, 7]
+[6, 2, 8, 7, 4, 3, 9, 5, 1]
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\tasks_and_workers_assignment_sat.py
+Solution 0, time = 0.002646 s, objective = 60000
+Solution 1, time = 0.003250 s, objective = 48000
+Solution 2, time = 0.004346 s, objective = 46500
+Solution 3, time = 0.004771 s, objective = 43000
+Solution 4, time = 0.005495 s, objective = 42500
+Solution 5, time = 0.006066 s, objective = 41000
+Solution 6, time = 0.006520 s, objective = 40500
+Solution 7, time = 0.007201 s, objective = 40000
+CpSolverResponse:
+status: OPTIMAL
+objective: 40000
+best_bound: 40000
+booleans: 14
+conflicts: 189
+branches: 330
+propagations: 263
+integer_propagations: 2536
+walltime: 0.010226
+usertime: 0.0102259
+deterministic_time: 0.000181635
+primal_integral: 5.0469
+
+Group 0
+  - worker 1
+  - worker 2
+  - task 0 with cost 24
+  - task 1 with cost 10
+  - task 3 with cost 2
+  - task 5 with cost 16
+  - task 6 with cost 1
+  - task 9 with cost 27
+  - sum_of_costs = 80
+  - average cost = 40.000000
+Group 1
+  - worker 0
+  - task 2 with cost 7
+  - task 4 with cost 11
+  - task 7 with cost 13
+  - task 8 with cost 9
+  - sum_of_costs = 40
+  - average cost = 40.000000
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\transit_time.py
+Route 0:
+0 -> 5: 3min
+5 -> 8: 12min
+8 -> 6: 42min
+6 -> 2: 23min
+2 -> 0: 14min
+Total time: 94min
+
+Route 1:
+0 -> 9: 2min
+9 -> 14: 8min
+14 -> 16: 22min
+16 -> 10: 44min
+10 -> 0: 16min
+Total time: 92min
+
+Route 2:
+0 -> 12: 4min
+12 -> 13: 12min
+13 -> 15: 25min
+15 -> 11: 43min
+11 -> 0: 11min
+Total time: 95min
+
+Route 3:
+0 -> 7: 2min
+7 -> 4: 44min
+4 -> 3: 21min
+3 -> 1: 13min
+1 -> 0: 11min
+Total time: 91min
+
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\vendor_scheduling_sat.py
+Solution %i:  1
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 4:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 4, 3]
+  - vendor 8:  [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 4, 3]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  7
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  7
+  - # workers on day 7:  3
+  - # workers on day 8:  3
+  - # workers on day 9:  3
+
+Solution %i:  2
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 4]
+  - vendor 4:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 8:  [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 4, 3]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  8
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  7
+  - # workers on day 7:  3
+  - # workers on day 8:  3
+  - # workers on day 9:  3
+
+Solution %i:  3
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 4]
+  - vendor 4:  [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 4]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 8:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  9
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  7
+  - # workers on day 7:  3
+  - # workers on day 8:  3
+  - # workers on day 9:  3
+
+Solution %i:  4
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 4:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 8:  [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 4, 3]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  8
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  8
+  - # workers on day 7:  4
+  - # workers on day 8:  4
+  - # workers on day 9:  4
+
+Solution %i:  5
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 4:  [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 4]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 8:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  9
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  8
+  - # workers on day 7:  4
+  - # workers on day 8:  4
+  - # workers on day 9:  4
+
+Solution %i:  6
+  min vendors: [1, 5, 1, 2, 3, 3, 2, 2, 3, 1]
+  - vendor 0:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 1:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 2:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 3:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 4:  [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 8]
+  - vendor 5:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 6:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 7:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+  - vendor 8:  [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 2, 5]
+
+  - # workers on day 0:  5
+  - # workers on day 1:  5
+  - # workers on day 2:  9
+  - # workers on day 3:  9
+  - # workers on day 4:  4
+  - # workers on day 5:  4
+  - # workers on day 6:  9
+  - # workers on day 7:  5
+  - # workers on day 8:  5
+  - # workers on day 9:  5
+
+Status = OPTIMAL
+Statistics
+  - conflicts : 0
+  - branches  : 110
+  - wall time : 0.021005 s
+  - number of solutions found: 6
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\wedding_optimal_chart_sat.py
+Solution 0, time = 0.123999 s, objective = 9
+Table 0:
+  Deb (B)
+  Martha (B)
+  Allan (B)
+  Lee (G)
+Table 1:
+  John (B)
+  Abby (B)
+  Lori (G)
+Table 2:
+  Lois (B)
+  Brad (B)
+  Mary Helen (G)
+Table 3:
+  Jayne (B)
+  Annika (G)
+  DeAnn (G)
+Table 4:
+  Travis (B)
+  Carl (G)
+  Colin (G)
+  Shirley (G)
+Solution 1, time = 0.127999 s, objective = 20
+Table 0:
+  Deb (B)
+  Allan (B)
+  Lee (G)
+Table 1:
+  Martha (B)
+  Jayne (B)
+  Abby (B)
+  Lori (G)
+Table 2:
+  John (B)
+  Lois (B)
+  Brad (B)
+  Mary Helen (G)
+Table 3:
+  Annika (G)
+  DeAnn (G)
+Table 4:
+  Travis (B)
+  Carl (G)
+  Colin (G)
+  Shirley (G)
+Solution 2, time = 0.131999 s, objective = 63
+Table 0:
+  Deb (B)
+  John (B)
+  Martha (B)
+  Allan (B)
+Table 1:
+  Jayne (B)
+  Abby (B)
+  Lori (G)
+Table 2:
+  Lois (B)
+  Brad (B)
+  Mary Helen (G)
+Table 3:
+  Annika (G)
+  Colin (G)
+  DeAnn (G)
+Table 4:
+  Travis (B)
+  Lee (G)
+  Carl (G)
+  Shirley (G)
+Solution 3, time = 0.135000 s, objective = 128
+Table 0:
+  Deb (B)
+  John (B)
+  Allan (B)
+  Brad (B)
+Table 1:
+  Mary Helen (G)
+  Lee (G)
+  Annika (G)
+  Lori (G)
+Table 2:
+  Martha (B)
+  Lois (B)
+  Jayne (B)
+  Abby (B)
+Table 3:
+  Colin (G)
+  Shirley (G)
+  DeAnn (G)
+Table 4:
+  Travis (B)
+  Carl (G)
+Solution 4, time = 0.143998 s, objective = 163
+Table 0:
+  Deb (B)
+  John (B)
+  Allan (B)
+  Lois (B)
+Table 1:
+  Abby (B)
+  Shirley (G)
+  DeAnn (G)
+Table 2:
+  Annika (G)
+  Carl (G)
+  Colin (G)
+  Lori (G)
+Table 3:
+  Martha (B)
+  Jayne (B)
+Table 4:
+  Travis (B)
+  Brad (B)
+  Mary Helen (G)
+  Lee (G)
+Solution 5, time = 0.147000 s, objective = 266
+Table 0:
+  Deb (B)
+  John (B)
+  Allan (B)
+  Lois (B)
+Table 1:
+  Annika (G)
+  Carl (G)
+  Colin (G)
+  Lori (G)
+Table 2:
+  Abby (B)
+  Mary Helen (G)
+  Lee (G)
+  DeAnn (G)
+Table 3:
+  Shirley (G)
+Table 4:
+  Martha (B)
+  Travis (B)
+  Jayne (B)
+  Brad (B)
+Solution 6, time = 0.151000 s, objective = 269
+Table 0:
+  Deb (B)
+  John (B)
+  Allan (B)
+  Lois (B)
+Table 1:
+  Annika (G)
+  Carl (G)
+  Colin (G)
+  Lori (G)
+Table 2:
+  Mary Helen (G)
+  Lee (G)
+  Shirley (G)
+  DeAnn (G)
+Table 3:
+  Martha (B)
+  Travis (B)
+  Jayne (B)
+  Brad (B)
+Table 4:
+  Abby (B)
+Solution 7, time = 0.166999 s, objective = 271
+Table 0:
+  Deb (B)
+  John (B)
+  Colin (G)
+  DeAnn (G)
+Table 1:
+  Allan (B)
+  Lois (B)
+  Jayne (B)
+  Brad (B)
+Table 2:
+  Shirley (G)
+Table 3:
+  Martha (B)
+  Travis (B)
+  Abby (B)
+  Lori (G)
+Table 4:
+  Mary Helen (G)
+  Lee (G)
+  Annika (G)
+  Carl (G)
+Solution 8, time = 0.172998 s, objective = 272
+Table 0:
+  Deb (B)
+  John (B)
+  Jayne (B)
+  Brad (B)
+Table 1:
+  Allan (B)
+  Lois (B)
+  Colin (G)
+  DeAnn (G)
+Table 2:
+  Shirley (G)
+  Lori (G)
+Table 3:
+  Mary Helen (G)
+  Lee (G)
+  Annika (G)
+  Carl (G)
+Table 4:
+  Martha (B)
+  Travis (B)
+  Abby (B)
+Solution 9, time = 0.184999 s, objective = 273
+Table 0:
+  Deb (B)
+  John (B)
+  Carl (G)
+Table 1:
+  Allan (B)
+  Lois (B)
+  Jayne (B)
+  Brad (B)
+Table 2:
+  Annika (G)
+  DeAnn (G)
+  Lori (G)
+Table 3:
+  Mary Helen (G)
+  Lee (G)
+  Colin (G)
+  Shirley (G)
+Table 4:
+  Martha (B)
+  Travis (B)
+  Abby (B)
+Solution 10, time = 0.224999 s, objective = 276
+Table 0:
+  Deb (B)
+  John (B)
+Table 1:
+  Carl (G)
+  Colin (G)
+  DeAnn (G)
+  Lori (G)
+Table 2:
+  Mary Helen (G)
+  Lee (G)
+  Annika (G)
+  Shirley (G)
+Table 3:
+  Allan (B)
+  Lois (B)
+  Jayne (B)
+  Brad (B)
+Table 4:
+  Martha (B)
+  Travis (B)
+  Abby (B)
+Statistics
+  - conflicts    : 6028
+  - branches     : 10836
+  - wall time    : 0.300039 s
+  - num solutions: 11
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\worker_schedule_sat.py
+Objective value = 215
+Statistics
+  - conflicts : 0
+  - branches  : 8
+  - wall time : 0.002344 s
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\zebra_sat.py
+The norwegian drinks water.
+The japanese owns the zebra.
+c:/GitRepo/or-tools/tools/make run SOURCE=examples/python/shift_scheduling_sat.py ARGS="--params max_time_in_seconds:10.0" \
+
+make[1]: Entering directory `c:/GitRepo/or-tools'
+set PYTHONPATH=c:\\GitRepo\\or-tools;c:\\GitRepo\\or-tools\\dependencies\\sources\\protobuf-3.10.0\\python && "C:\Users\rvc5634\Documents\Python\Python37\python.exe" examples\\python\\shift_scheduling_sat.py --params max_time_in_seconds:10.0
+Solution 0, time = 0.15 s, objective = 274
+Solution 1, time = 0.16 s, objective = 197
+Solution 2, time = 0.16 s, objective = 165
+Solution 3, time = 0.39 s, objective = 164
+Solution 4, time = 0.49 s, objective = 163
+Solution 5, time = 0.59 s, objective = 154
+Solution 6, time = 0.66 s, objective = 62
+Solution 7, time = 0.96 s, objective = 48
+Solution 8, time = 1.04 s, objective = 40
+Solution 9, time = 1.24 s, objective = 38
+
+          M T W T F S S M T W T F S S M T W T F S S
+worker 0: O M M A M A O M M A A O O A M O M A O A M
+worker 1: O M N N O M M O A M M N N O M A A O A O A
+worker 2: M A O O A A A O A O A M N N N A M A A O O
+worker 3: M A M M A O A A O A M N N O O N N A M A O
+worker 4: A A O O N N A A M O O A A M A O A O N N A
+worker 5: A O A M N N O A O N N A M O A M N N O M A
+worker 6: A O A A O N N N A M A M O A A M O M N N O
+worker 7: N N N A M O O M N N O O A A O A O M M N N
+
+Penalties:
+  work3_0_5 fulfilled, gain=2
+  work5_3_10 fulfilled, gain=2
+  weekly_sum_constraint(employee 3, shift 0, week 0): under_sum violated by 1, linear penalty=7
+  weekly_sum_constraint(employee 5, shift 0, week 2): under_sum violated by 1, linear penalty=7
+  weekly_sum_constraint(employee 6, shift 0, week 1): under_sum violated by 1, linear penalty=7
+  weekly_sum_constraint(employee 0, shift 3, week 0): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 0, shift 3, week 1): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 0, shift 3, week 2): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 1, shift 3, week 2): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 2, shift 3, week 0): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 3, shift 3, week 0): under_sum violated by 1, linear penalty=3
+  weekly_sum_constraint(employee 4, shift 3, week 1): under_sum violated by 1, linear penalty=3
+
+CpSolverResponse:
+status: OPTIMAL
+objective: 38
+best_bound: 38
+booleans: 1258
+conflicts: 5733
+branches: 35823
+propagations: 820699
+integer_propagations: 1695821
+walltime: 5.70613
+usertime: 5.70613
+deterministic_time: 16.327
+primal_integral: 372.541
+
+make[1]: Leaving directory `c:/GitRepo/or-tools'
+
+c:\GitRepo\or-tools>
