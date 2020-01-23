@@ -1,0 +1,287 @@
+c:\GitRepo\or-tools>tools\make python
+ZLIB: found
+GFLAGS: found
+GLOG: found
+PROTOBUF: found
+COINUTILS: found
+OSI: found
+CLP: found
+CGL: found
+CBC: found
+GLPK: not found
+GUROBI: not found
+SCIP: not found
+tools\win\touch.exe dependencies\check.log
+lib \
+ /OUT:lib\\ortools.lib \
+ objs/base/bitmap.obj objs/base/file.obj objs/base/logging.obj objs/base/random.obj objs/base/recordio.obj objs/base/sysinfo.obj objs/base/threadpool.obj objs/base/timer.obj objs/base/version.obj \
+ objs/port/file_nonport.obj objs/port/sysinfo_nonport.obj \
+ objs/util/bitset.obj objs/util/cached_log.obj objs/util/file_util.obj objs/util/fp_utils.obj objs/util/graph_export.obj objs/util/piecewise_linear_function.obj objs/util/proto_tools.obj objs/util/range_query_function.obj objs/util/rational_approximation.obj objs/util/sigint.obj objs/util/sorted_interval_list.obj objs/util/stats.obj objs/util/time_limit.obj objs/util/optional_boolean.pb.obj \
+ objs/data/jobshop_scheduling_parser.obj objs/data/rcpsp_parser.obj objs/data/set_covering_data.obj objs/data/set_covering_parser.obj objs/data/jobshop_scheduling.pb.obj objs/data/rcpsp.pb.obj \
+ objs/lp_data/lp_data.obj objs/lp_data/lp_data_utils.obj objs/lp_data/lp_decomposer.obj objs/lp_data/lp_print_utils.obj objs/lp_data/lp_types.obj objs/lp_data/lp_utils.obj objs/lp_data/matrix_scaler.obj objs/lp_data/matrix_utils.obj objs/lp_data/model_reader.obj objs/lp_data/mps_reader.obj objs/lp_data/proto_utils.obj objs/lp_data/sparse.obj objs/lp_data/sparse_column.obj \
+ objs/glop/basis_representation.obj objs/glop/dual_edge_norms.obj objs/glop/entering_variable.obj objs/glop/initial_basis.obj objs/glop/lp_solver.obj objs/glop/lu_factorization.obj objs/glop/markowitz.obj objs/glop/preprocessor.obj objs/glop/primal_edge_norms.obj objs/glop/reduced_costs.obj objs/glop/revised_simplex.obj objs/glop/status.obj objs/glop/update_row.obj objs/glop/variable_values.obj objs/glop/variables_info.obj objs/glop/parameters.pb.obj \
+ objs/graph/assignment.obj objs/graph/astar.obj objs/graph/bellman_ford.obj objs/graph/cliques.obj objs/graph/connected_components.obj objs/graph/dijkstra.obj objs/graph/linear_assignment.obj objs/graph/max_flow.obj objs/graph/min_cost_flow.obj objs/graph/shortestpaths.obj objs/graph/util.obj objs/graph/flow_problem.pb.obj \
+ objs/algorithms/dynamic_partition.obj objs/algorithms/dynamic_permutation.obj objs/algorithms/find_graph_symmetries.obj objs/algorithms/hungarian.obj objs/algorithms/knapsack_solver.obj objs/algorithms/knapsack_solver_for_cuts.obj objs/algorithms/sparse_permutation.obj \
+ objs/sat/all_different.obj objs/sat/boolean_problem.obj objs/sat/circuit.obj objs/sat/clause.obj objs/sat/cp_constraints.obj objs/sat/cp_model.obj objs/sat/cp_model_checker.obj objs/sat/cp_model_expand.obj objs/sat/cp_model_lns.obj objs/sat/cp_model_loader.obj objs/sat/cp_model_objective.obj objs/sat/cp_model_presolve.obj objs/sat/cp_model_search.obj objs/sat/cp_model_solver.obj objs/sat/cp_model_symmetries.obj objs/sat/cp_model_utils.obj objs/sat/cumulative.obj objs/sat/cuts.obj objs/sat/diffn.obj objs/sat/disjunctive.obj objs/sat/drat_checker.obj objs/sat/drat_proof_handler.obj objs/sat/drat_writer.obj objs/sat/encoding.obj objs/sat/implied_bounds.obj objs/sat/integer.obj objs/sat/integer_expr.obj objs/sat/integer_search.obj objs/sat/intervals.obj objs/sat/linear_constraint.obj objs/sat/linear_constraint_manager.obj objs/sat/linear_programming_constraint.obj objs/sat/linear_relaxation.obj objs/sat/lp_utils.obj objs/sat/optimization.obj objs/sat/overload_checker.obj objs/sat/pb_constraint.obj objs/sat/precedences.obj objs/sat/presolve_context.obj objs/sat/presolve_util.obj objs/sat/probing.obj objs/sat/pseudo_costs.obj objs/sat/restart.obj objs/sat/rins.obj objs/sat/sat_decision.obj objs/sat/sat_solver.obj objs/sat/simplification.obj objs/sat/subsolver.obj objs/sat/symmetry.obj objs/sat/synchronization.obj objs/sat/table.obj objs/sat/theta_tree.obj objs/sat/timetable.obj objs/sat/timetable_edgefinding.obj objs/sat/util.obj objs/sat/boolean_problem.pb.obj objs/sat/cp_model.pb.obj objs/sat/sat_parameters.pb.obj \
+ objs/bop/bop_base.obj objs/bop/bop_fs.obj objs/bop/bop_lns.obj objs/bop/bop_ls.obj objs/bop/bop_portfolio.obj objs/bop/bop_solution.obj objs/bop/bop_solver.obj objs/bop/bop_util.obj objs/bop/complete_optimizer.obj objs/bop/integral_solver.obj objs/bop/bop_parameters.pb.obj \
+ objs/linear_solver/bop_interface.obj objs/linear_solver/cbc_interface.obj objs/linear_solver/clp_interface.obj objs/linear_solver/cplex_interface.obj objs/linear_solver/glop_interface.obj objs/linear_solver/glop_utils.obj objs/linear_solver/glpk_interface.obj objs/linear_solver/gurobi_environment.obj objs/linear_solver/gurobi_interface.obj objs/linear_solver/gurobi_proto_solver.obj objs/linear_solver/linear_expr.obj objs/linear_solver/linear_solver.obj objs/linear_solver/model_exporter.obj objs/linear_solver/model_validator.obj objs/linear_solver/scip_interface.obj objs/linear_solver/scip_proto_solver.obj objs/linear_solver/xpress_interface.obj objs/linear_solver/linear_solver.pb.obj \
+ objs/constraint_solver/alldiff_cst.obj objs/constraint_solver/assignment.obj objs/constraint_solver/constraint_solver.obj objs/constraint_solver/constraints.obj objs/constraint_solver/count_cst.obj objs/constraint_solver/default_search.obj objs/constraint_solver/demon_profiler.obj objs/constraint_solver/deviation.obj objs/constraint_solver/diffn.obj objs/constraint_solver/element.obj objs/constraint_solver/expr_array.obj objs/constraint_solver/expr_cst.obj objs/constraint_solver/expressions.obj objs/constraint_solver/graph_constraints.obj objs/constraint_solver/interval.obj objs/constraint_solver/local_search.obj objs/constraint_solver/model_cache.obj objs/constraint_solver/pack.obj objs/constraint_solver/range_cst.obj objs/constraint_solver/resource.obj objs/constraint_solver/routing.obj objs/constraint_solver/routing_breaks.obj objs/constraint_solver/routing_flags.obj objs/constraint_solver/routing_flow.obj objs/constraint_solver/routing_index_manager.obj objs/constraint_solver/routing_lp_scheduling.obj objs/constraint_solver/routing_neighborhoods.obj objs/constraint_solver/routing_parameters.obj objs/constraint_solver/routing_sat.obj objs/constraint_solver/routing_search.obj objs/constraint_solver/sched_constraints.obj objs/constraint_solver/sched_expr.obj objs/constraint_solver/sched_search.obj objs/constraint_solver/search.obj objs/constraint_solver/table.obj objs/constraint_solver/timetabling.obj objs/constraint_solver/trace.obj objs/constraint_solver/utilities.obj objs/constraint_solver/visitor.obj objs/constraint_solver/assignment.pb.obj objs/constraint_solver/demon_profiler.pb.obj objs/constraint_solver/routing_enums.pb.obj objs/constraint_solver/routing_parameters.pb.obj objs/constraint_solver/search_limit.pb.obj objs/constraint_solver/solver_parameters.pb.obj \
+ psapi.lib ws2_32.lib shlwapi.lib    "C:\CorePrograms\CPLEX\cplex\lib\x64_windows_msvc14\stat_mda\cplex12100.lib" "dependencies\\install\lib\zlib.lib" "dependencies\\install\lib\gflags_static.lib" "dependencies\\install\lib\glog.lib" "dependencies\\install\lib\libprotobuf.lib" "dependencies\\install\lib\absl_*.lib" "dependencies\\install\lib\coin\libCbcSolver.lib" "dependencies\\install\lib\coin\libCbc.lib" "dependencies\\install\lib\coin\libCgl.lib" "dependencies\\install\lib\coin\libClp.lib" "dependencies\\install\lib\coin\libOsiClp.lib" "dependencies\\install\lib\coin\libOsi.lib" "dependencies\\install\lib\coin\libCoinUtils.lib" \
+
+Microsoft (R) Library Manager Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+ws2_32.lib(WS2_32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in psapi.lib(PSAPI.DLL); second definition ignored
+shlwapi.lib(SHLWAPI.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in psapi.lib(PSAPI.DLL); second definition ignored
+cplex12100.lib(cplex12100.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in psapi.lib(PSAPI.DLL); second definition ignored
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapknapsack_solver.dll \
+ objs\\swig\\knapsack_solver_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : fatal error LNK1181: cannot open input file 'C:\Users\rvc5634\Documents\Python\Python37\\libs\\python.lib'
+tools\make: *** [lib/_pywrapknapsack_solver.dll] Error 1181
+
+c:\GitRepo\or-tools>tools\make python
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapknapsack_solver.dll \
+ objs\\swig\\knapsack_solver_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : fatal error LNK1181: cannot open input file 'C:\Users\rvc5634\Documents\Python\Python37\\libs\\python.lib'
+tools\make: *** [lib/_pywrapknapsack_solver.dll] Error 1181
+
+c:\GitRepo\or-tools>tools\make python
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapknapsack_solver.dll \
+ objs\\swig\\knapsack_solver_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywrapknapsack_solver.lib and object lib\\_pywrapknapsack_solver.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywrapknapsack_solver.dll ortools\\gen\\ortools\\algorithms\\_pywrapknapsack_solver.pyd
+        1 file(s) copied.
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python -py3 -DPY3 \
+ -o ortools\\gen\\ortools\\graph\\graph_python_wrap.cc \
+ -module pywrapgraph \
+ ortools\\graph\\python\\graph.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen/ortools/graph/graph_python_wrap.cc \
+ /Foobjs\\swig\\graph_python_wrap.obj
+graph_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapgraph.dll \
+ objs\\swig\\graph_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywrapgraph.lib and object lib\\_pywrapgraph.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywrapgraph.dll ortools\\gen\\ortools\\graph\\_pywrapgraph.pyd
+        1 file(s) copied.
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ .\\ortools\\constraint_solver\\assignment.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ .\\ortools\\constraint_solver\\routing_enums.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ .\\ortools\\constraint_solver\\solver_parameters.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ .\\ortools\\constraint_solver\\routing_parameters.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ .\\ortools\\constraint_solver\\search_limit.proto
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python -nofastunpack -py3 -DPY3  \
+ -o ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc \
+ -module pywrapcp \
+ ./ortools/constraint_solver\\python\\routing.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+ortools\constraint_solver\routing.h(1908) : Warning 325: Nested struct not currently supported (NodeCount ignored)
+ortools\constraint_solver\routing.h(2641) : Warning 325: Nested struct not currently supported (StartEndValue ignored)
+ortools\constraint_solver\routing.h(3015) : Warning 325: Nested struct not currently supported (SavingsParameters ignored)
+ortools\constraint_solver\routing.h(3038) : Warning 325: Nested struct not currently supported (VehicleClassEntry ignored)
+ortools\constraint_solver\python\constraint_solver.i(335) : Warning 509: Overloaded method operations_research::Solver::GuidedLocalSearch(bool,operations_research::IntVar *const,operations_research::Solver::IndexEvaluator2,int64,std::vector< operations_research::IntVar * > const &,double) effectively ignored,
+ortools\constraint_solver\constraint_solver.h(2168) : Warning 509: as it is shadowed by operations_research::Solver::MakeGuidedLocalSearch(bool,operations_research::IntVar *const,operations_research::Solver::IndexEvaluator2,int64,std::vector< operations_research::IntVar * > const &,double).
+ortools\constraint_solver\constraint_solver.h(3210) : Warning 473: Returning a pointer or reference in a director method is not recommended.
+ortools\constraint_solver\constraint_solver.h(3545) : Warning 473: Returning a pointer or reference in a director method is not recommended.
+.\ortools\constraint_solver\python\routing.i(65) : Warning 509: Overloaded method operations_research::RoutingModel::AddMatrixDimension(std::vector< std::vector< int64 > > const &,int64,bool,std::string const &) effectively ignored,
+ortools\constraint_solver\routing.h(457) : Warning 509: as it is shadowed by operations_research::RoutingModel::AddMatrixDimension(std::vector< std::vector< int64 > >,int64,bool,std::string const &).
+tools\win\sed.exe -i -e 's/< long long >/< int64 >/g' \
+ ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc
+tools\win\sed.exe -i -e 's/< long long,long long >/< int64, int64 >/g' \
+ ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc
+tools\win\sed.exe -i -e 's/< long long,std::allocator/< int64, std::allocator/g' \
+ ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc
+tools\win\sed.exe -i -e 's/,long long,/,int64,/g' \
+ ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen\\ortools\\constraint_solver\\constraint_solver_python_wrap.cc \
+ /Foobjs\\swig\\constraint_solver_python_wrap.obj
+constraint_solver_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapcp.dll \
+ objs\\swig\\constraint_solver_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywrapcp.lib and object lib\\_pywrapcp.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywrapcp.dll ortools\\gen\\ortools\\constraint_solver\\_pywrapcp.pyd
+        1 file(s) copied.
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ ./ortools/util/optional_boolean.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ ./ortools/linear_solver/linear_solver.proto
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python -py3 -DPY3  \
+ -o ortools\\gen\\ortools\\linear_solver\\linear_solver_python_wrap.cc \
+ -module pywraplp \
+ ./ortools/linear_solver\\python\\linear_solver.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+ortools\linear_solver\linear_solver.h(861) : Warning 509: Overloaded method operations_research::operator <<(std::ostream &,operations_research::MPSolver::ResultStatus) effectively ignored,
+ortools\linear_solver\linear_solver.h(855) : Warning 509: as it is shadowed by operations_research::operator <<(std::ostream &,operations_research::MPSolver::OptimizationProblemType).
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen\\ortools\\linear_solver\\linear_solver_python_wrap.cc \
+ /Foobjs\\swig\\linear_solver_python_wrap.obj
+linear_solver_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywraplp.dll \
+ objs\\swig\\linear_solver_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywraplp.lib and object lib\\_pywraplp.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywraplp.dll ortools\\gen\\ortools\\linear_solver\\_pywraplp.pyd
+        1 file(s) copied.
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ ./ortools/sat/cp_model.proto
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ ./ortools/sat/sat_parameters.proto
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python -py3 -DPY3 \
+ -o ortools\\gen\\ortools\\sat\\sat_python_wrap.cc \
+ -module pywrapsat \
+ ./ortools/sat\\python\\sat.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+ortools\util\sorted_interval_list.h(300) : Warning 389: operator[] ignored (consider using %extend)
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen\\ortools\\sat\\sat_python_wrap.cc \
+ /Foobjs\\swig\\sat_python_wrap.obj
+sat_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywrapsat.dll \
+ objs\\swig\\sat_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywrapsat.lib and object lib\\_pywrapsat.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywrapsat.dll ortools\\gen\\ortools\\sat\\_pywrapsat.pyd
+        1 file(s) copied.
+"dependencies/install\\bin\\protoc.exe" --proto_path=. --python_out=ortools\\gen  \
+ ./ortools/data/rcpsp.proto
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python -py3 -DPY3 \
+ -o ortools\\gen\\ortools\\data\\rcpsp_python_wrap.cc \
+ -module pywraprcpsp \
+ ./ortools/data\\python\\rcpsp.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen\\ortools\\data\\rcpsp_python_wrap.cc \
+ /Foobjs\\swig\\rcpsp_python_wrap.obj
+rcpsp_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_pywraprcpsp.dll \
+ objs\\swig\\rcpsp_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_pywraprcpsp.lib and object lib\\_pywraprcpsp.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_pywraprcpsp.dll ortools\\gen\\ortools\\data\\_pywraprcpsp.pyd
+        1 file(s) copied.
+"dependencies\\install\\swigwin-4.0.1\\swig.exe" -I"dependencies/install/include" -I"dependencies/install/include" -DGFLAGS_DLL_DECL= -DGFLAGS_DLL_DECLARE_FLAG= -DGFLAGS_DLL_DEFINE_FLAG= -I"dependencies/install/include" -DGOOGLE_GLOG_DLL_DECL= -I"dependencies/install/include" -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CLP -I"dependencies/install/include" -I"dependencies/install/include/coin" -DUSE_CBC -DUSE_GLOP -DUSE_BOP -DABSL_MUST_USE_RESULT    -I"C:\CorePrograms\CPLEX\cplex/include" -DUSE_CPLEX -I. -c++ -python  -py3 -DPY3 \
+ -o ortools\\gen\\ortools\\util\\sorted_interval_list_python_wrap.cc \
+ -module sorted_interval_list \
+ .\\ortools\\util\\python\\sorted_interval_list.i
+ortools\base\integral_types.h(32) : Warning 302: Identifier 'int32' redefined (ignored),
+ortools\base\base.i(27) : Warning 302: previous definition of 'int32'.
+ortools\base\integral_types.h(37) : Warning 302: Identifier 'uint32' redefined (ignored),
+ortools\base\base.i(28) : Warning 302: previous definition of 'uint32'.
+ortools\util\sorted_interval_list.h(300) : Warning 389: operator[] ignored (consider using %extend)
+tools\win\sed.exe -i -e 's/< long long >/< int64 >/g' \
+ ortools\\gen\\ortools\\util\\sorted_interval_list_python_wrap.cc
+cl /EHsc /MD /nologo -nologo  /D__WIN32__ /DPSAPI_VERSION=1 /DNOMINMAX /DWIN32_LEAN_AND_MEAN=1 /D_CRT_SECURE_NO_WARNINGS /O2 -DNDEBUG /I. /Iortools/gen /I"dependencies\\install\\include" /I"dependencies\\install\\include" /DGFLAGS_DLL_DECL= /DGFLAGS_DLL_DECLARE_FLAG= /DGFLAGS_DLL_DEFINE_FLAG= /I"dependencies\\install\\include" /DGOOGLE_GLOG_DLL_DECL= /I"dependencies\\install\\include" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CLP /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /I"dependencies\\install\\include" /I"dependencies\\install\\include\\coin" /DUSE_CBC /DUSE_GLOP /DUSE_BOP    /I"C:\CorePrograms\CPLEX\cplex\\include" /DUSE_CPLEX  /DOR_TOOLS_MAJOR=7 /DOR_TOOLS_MINOR=4 /I"C:\Users\rvc5634\Documents\Python\Python37\\include" -DPY3 \
+ -c ortools\\gen\\ortools\\util\\sorted_interval_list_python_wrap.cc \
+ /Foobjs\\swig\\sorted_interval_list_python_wrap.obj
+sorted_interval_list_python_wrap.cc
+link /DLL /LTCG /debug \
+  \
+ /OUT:lib\\_sorted_interval_list.dll \
+ objs\\swig\\sorted_interval_list_python_wrap.obj \
+  lib\\ortools.lib \
+ psapi.lib ws2_32.lib shlwapi.lib \
+ "C:\Users\rvc5634\Documents\Python\Python37\\libs\\python37.lib" \
+
+Microsoft (R) Incremental Linker Version 14.24.28315.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lib\\_sorted_interval_list.lib and object lib\\_sorted_interval_list.exp
+LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+copy lib\\_sorted_interval_list.dll ortools\\gen\\ortools\\util\\_sorted_interval_list.pyd
+        1 file(s) copied.
